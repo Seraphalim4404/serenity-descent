@@ -46,6 +46,5 @@ bullet: {
   sapStrength: 0.3
   splashDamage: 0
   splashDamageRadius: 0
-  }
-]
+  }]
 alwaysUnlocked: true
