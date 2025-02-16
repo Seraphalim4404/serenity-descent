@@ -3,8 +3,8 @@ localizedName: "Mutation"
 description: not even units can save you.
 template: SerpuloUnitType
 speed: 1.4
-health: 200
-armor: 200
+health: 750
+armor: 666
 legCount: 3
 legLength: 125
 legSpeed: 0.25
@@ -43,7 +43,7 @@ weapons: [
     bullet: {
       type: SapBulletType
       damage: 222
-      length: 300
+      length: 194
       sapStrength: 0.3
       splashDamage: 0
       splashDamageRadius: 0
