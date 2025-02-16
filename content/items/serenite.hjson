@@ -1,7 +1,7 @@
 type: Item
-color: ffff00
+color: dccab0
 name: Serenite
-description: "Unknown Resource."
+description: "A powerful item that surges with energy."
 explosiveness: 0
 flammability: 0
 radioactivity: 0
