@@ -23,7 +23,7 @@ immunities: [
   burning,
   melting,
   wet,
-  freeze,
+  freezing,
   blast,
   spore-slowed,
   sapped,
