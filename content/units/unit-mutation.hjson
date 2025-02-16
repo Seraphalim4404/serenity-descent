@@ -10,12 +10,12 @@ legLength: 125
 legSpeed: 0.25
 legMaxLength: 1.25
 legMinLength: 0.5
-lockLegBase: false
+lockLegBase: true
 legContinuousMove: true
 rotateSpeed: 2.22
 hitSize: 32
 hovering: true
-omniMovement: false
+omniMovement: true
 allowLegStep: true
 singleTarget: true
 immunities: [
@@ -43,7 +43,7 @@ weapons: [
     bullet: {
       type: SapBulletType
       damage: 222
-      rangeOverride: 27.5
+      length: 27.5
       sapStrength: 0.3
       splashDamage: 0
       splashDamageRadius: 0
