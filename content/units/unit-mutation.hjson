@@ -13,11 +13,12 @@ legMinLength: 1
 lockLegBase: false
 legContinuousMove: true
 rotateSpeed: 7.77
-hitSize: 40
+hitSize: 32
 hovering: true
 omniMovement: true
 allowLegStep: true
 singleTarget: true
+range: 22
 immunities: [
   tarred,
   burning,
