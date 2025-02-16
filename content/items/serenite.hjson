@@ -5,7 +5,7 @@ description: "A powerful item that surges with energy."
 explosiveness: 0
 flammability: 0
 radioactivity: 0
-charge: 233
+charge: 22
 cost: 1.0
 hardness: 3.0
 hiddenOnPlanets: [erekir]
