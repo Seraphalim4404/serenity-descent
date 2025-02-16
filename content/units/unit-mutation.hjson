@@ -2,23 +2,23 @@ type: legs
 localizedName: "Mutation"
 description: not even units can save you.
 template: SerpuloUnitType
-speed: 0.2
+speed: 1.4
 health: 200
 armor: 200
 legCount: 3
 legLength: 125
-legSpeed: 0.1
-legMaxLength: 2.25
-legMinLength: 1
+legSpeed: 0.25
+legMaxLength: 1.25
+legMinLength: 0.5
 lockLegBase: false
 legContinuousMove: true
-rotateSpeed: 7.77
+rotateSpeed: 2.22
 hitSize: 32
 hovering: true
 omniMovement: true
 allowLegStep: true
 singleTarget: true
-range: 22
+rangeOverride: 27.5
 immunities: [
   tarred,
   burning,
@@ -39,7 +39,7 @@ weapons: [
     shoot: {
       firstShotDelay: 0
     }
-    shootSound: beamSmall
+    shootSound: sap
     recoil: 0
     bullet: {
       type: SapBulletType
