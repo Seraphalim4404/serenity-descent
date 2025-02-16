@@ -29,7 +29,7 @@ immunities: [
   sapped,
   electrified,
   shocked,
-  guardian,
+  boss,
   overclock
 ]
 weapons: [
