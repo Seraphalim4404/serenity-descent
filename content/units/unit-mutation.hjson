@@ -2,7 +2,7 @@ type: legs
 localizedName: "Mutation"
 description: not even units can save you.
 template: SerpuloUnitType
-speed: 1.4
+speed: 1.2
 health: 750
 armor: 666
 legCount: 3
