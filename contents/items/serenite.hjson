@@ -10,3 +10,4 @@ hiddenOnPlanets: [erekir]
 research: {
     parent: surgeAlloy
       }
+alwaysUnlocked: true
