@@ -43,7 +43,7 @@ weapons: [
     bullet: {
       type: SapBulletType
       damage: 222
-      length: 27.5
+      length: 300
       sapStrength: 0.3
       splashDamage: 0
       splashDamageRadius: 0
