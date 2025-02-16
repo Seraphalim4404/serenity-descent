@@ -15,10 +15,9 @@ legContinuousMove: true
 rotateSpeed: 2.22
 hitSize: 32
 hovering: true
-omniMovement: true
+omniMovement: false
 allowLegStep: true
 singleTarget: true
-rangeOverride: 27.5
 immunities: [
   tarred,
   burning,
@@ -44,6 +43,7 @@ weapons: [
     bullet: {
       type: SapBulletType
       damage: 222
+      length: 27.5
       sapStrength: 0.3
       splashDamage: 0
       splashDamageRadius: 0
