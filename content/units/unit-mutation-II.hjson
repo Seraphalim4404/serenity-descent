@@ -1,2 +1,4 @@
 type: legs
 localizedName: "Greg"
+description: Phase II of Unit Mutation.
+template: SerpuloUnitType
