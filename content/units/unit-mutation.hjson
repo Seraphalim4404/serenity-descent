@@ -24,7 +24,7 @@ immunities: [
   melting,
   wet,
   freezing,
-  blast,
+  blasted,
   spore-slowed,
   sapped,
   electrified,
