@@ -31,20 +31,22 @@ immunities: [
   shocked,
   guardian,
   overclock
-  ]
+]
 weapons: [
-{
-reload: 20
-shoot: {
-  firstShotDelay: 0
+  {
+    reload: 20
+    shoot: {
+      firstShotDelay: 0
     }
-shootSound: beamSmall
-recoil: 0
-bullet: {
-  type: SapBulletType
-  damage: 222
-  sapStrength: 0.3
-  splashDamage: 0
-  splashDamageRadius: 0
-  }]
+    shootSound: beamSmall
+    recoil: 0
+    bullet: {
+      type: SapBulletType
+      damage: 222
+      sapStrength: 0.3
+      splashDamage: 0
+      splashDamageRadius: 0
+    }
+  }
+]
 alwaysUnlocked: true
