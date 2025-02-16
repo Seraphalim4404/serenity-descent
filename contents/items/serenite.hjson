@@ -1,5 +1,5 @@
-type: item
-color: "ffff00"
+type: Item
+color: ffff00
 name: Serenite
 description: "Unknown Resource."
 explosiveness: 0
@@ -8,7 +8,6 @@ radioactivity: 0
 charge: 233
 cost: 1.0
 hardness: 3.0
-category: Item
 hiddenOnPlanets: [erekir]
 research: surge-alloy
 alwaysUnlocked: false
