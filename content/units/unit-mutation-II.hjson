@@ -3,8 +3,8 @@ localizedName: "Greg"
 description: Phase II of Unit Mutation.
 template: SerpuloUnitType
 speed: 0.33
-health: 22,555
-armor: 1,350
+health: 22555
+armor: 1350
 legCount: 5
 legLength: 375
 legSpeed: 0.099
