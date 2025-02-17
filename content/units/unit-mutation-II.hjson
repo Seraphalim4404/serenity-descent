@@ -6,3 +6,15 @@ speed: 0.33
 health: 22,555
 armor: 1350
 legCount: 5
+legLength: 375
+legSpeed: 0.099
+legMaxLength: 350
+legMinLength: 0.88
+lockLegBase: true
+legContinuousMove: true
+rotateSpeed: 1.35
+hitSize: 4
+hovering: true
+omniMovement: true
+allowLegStep: true
+singleTarget: true
