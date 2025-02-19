@@ -1,0 +1,17 @@
+name: chaos
+localizedName: Chaos
+damageMultiplier: 2
+reloadMultiplier: 1.5
+healthMultiplier: 0.8
+speedMultiplier: 0.45
+damage: 1.66667
+effect: {
+  type: particleEffect
+  particle: 1
+  length: 0
+  lifetime: 100
+  sizeFrom: 2
+  sizeTo: 0
+  colorFrom: ffff00
+  colorTo: ff0011
+}
