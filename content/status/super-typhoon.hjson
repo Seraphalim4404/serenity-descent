@@ -1,0 +1,5 @@
+name: super-typhoon
+localizedName: Super Typhoon
+reloadMultiplier: 4.25
+damageMultiplier: 0.85
+speedMultiplier: 0.5
