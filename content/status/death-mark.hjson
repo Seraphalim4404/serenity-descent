@@ -1,2 +1,3 @@
+name: death-mark
 localizedName: Death mark
-healthMultiplier: 0.005
+healthMultiplier: 0.01
