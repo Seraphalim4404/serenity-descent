@@ -5,7 +5,7 @@ template: SerpuloUnitType
 speed: 0.34
 health: 22555
 armor: 1350
-drawCell: 0
+drawCell: false
 legCount: 5
 legLength: 375
 legSpeed: 0.099
