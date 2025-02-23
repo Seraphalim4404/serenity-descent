@@ -8,4 +8,5 @@ armor: 50
 drawCell: false
 legCount: 8
 legLength: 450
+legSpeed: 1.2
 hitSize: 56
