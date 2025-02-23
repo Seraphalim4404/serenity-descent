@@ -7,4 +7,5 @@ health: 30000
 armor: 50
 drawCell: false
 legCount: 8
+legLength: 450
 hitSize: 56
