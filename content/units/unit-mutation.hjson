@@ -8,7 +8,7 @@ armor: 666
 drawCell: false
 legCount: 3
 legLength: 125
-legSpeed: 0.25
+legSpeed: 0.35
 legMaxLength: 1.25
 legMinLength: 0.5
 lockLegBase: true
