@@ -3,3 +3,8 @@ localizedName: Prototype E-001_h
 description: An amalgamation created to destroy everything.
 template: ErekirUnitType
 hitSize: 56
+health: 30000
+armor: 50
+speed: 2.2
+drawCell: false
+legCount: 8
