@@ -11,5 +11,25 @@ legLength: 450
 legSpeed: 1.2
 legMaxLength: 400
 legMinLength: 1.5
-hitSize: 56
 lockLegBase: false
+legContinuousMove: true
+rotateSpeed: 6.66
+hitSize: 56
+hovering: true
+omniMovement: true
+allowLegStep: true
+singleTarget: true
+immunities: [
+  tarred,
+  burning,
+  melting,
+  wet,
+  freezing,
+  blasted,
+  spore-slowed,
+  sapped,
+  electrified,
+  shocked,
+  boss,
+  overclock
+]
