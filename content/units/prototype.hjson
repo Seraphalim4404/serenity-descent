@@ -12,3 +12,4 @@ legSpeed: 1.2
 legMaxLength: 400
 legMinLength: 1.5
 hitSize: 56
+lockLegBase: false
