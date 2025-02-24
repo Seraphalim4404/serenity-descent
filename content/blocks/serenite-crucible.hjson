@@ -9,7 +9,7 @@ cost: {
   titanium/100
   metaglass/50
   silicon/50
-}
+  }
 consumes: {
   power: 3
   items: [
