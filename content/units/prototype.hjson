@@ -10,7 +10,7 @@ legCount: 8
 legLength: 275
 legSpeed: 1.2
 legMaxLength: 250
-legMinLength: 1.25
+legMinLength: 1
 lockLegBase: false
 legContinuousMove: false
 rotateSpeed: 5.55
