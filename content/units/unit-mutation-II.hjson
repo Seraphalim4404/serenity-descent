@@ -9,7 +9,7 @@ drawCell: false
 legCount: 5
 legLength: 375
 legSpeed: 0.25
-legMaxLength: 350
+legMaxLength: 3.5
 legMinLength: 0.75
 lockLegBase: true
 legContinuousMove: true
