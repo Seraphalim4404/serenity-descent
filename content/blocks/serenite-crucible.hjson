@@ -11,6 +11,6 @@ consumes: {
 craftTime: 100
 outputItems: [
   thorium/10
-  neoplasm/1
+  carbide/1
 ]
 category: crafting
