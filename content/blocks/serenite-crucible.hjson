@@ -14,3 +14,4 @@ outputItems: [
   carbide/1
 ]
 category: crafting
+alwaysUnlocked: true
