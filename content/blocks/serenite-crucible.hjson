@@ -2,23 +2,20 @@ localizedName: Serenite Crucible
 description: A crucible that crushes down Serenite Powder into pure Serenite.
 type: GenericCrafter
 size: 3
+health: 1200
+armor: 10
+buildTime: 60
+canOverdrive: true
+hasLiquids: true
 itemCapacity: 30
 liquidCapacity: 30
-cost: {
-  items: [
-  thorium/50
-  titanium/100
-  metaglass/50
-  silicon/50
-  ]
-}
 consumes: {
-  power: 3
+  power: 11.1
   items: [
   serenite/30
   ]
 }
-craftTime: 100
+craftTime: 120
 outputItems: [
   thorium/10
   carbide/1
@@ -26,3 +23,9 @@ outputItems: [
 category: crafting
 research: surge-smelter
 alwaysUnlocked: true
+requirements: [
+  surge-alloy/
+  thorium/
+  titanium/
+  silicon/
+]
