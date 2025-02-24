@@ -8,9 +8,9 @@ armor: 50
 drawCell: false
 legCount: 8
 legLength: 275
-legSpeed: 1.2
+legSpeed: 0.77
 legMaxLength: 2.5
-legMinLength: 1
+legMinLength: 0.7
 lockLegBase: false
 legContinuousMove: false
 rotateSpeed: 5.55
