@@ -1,0 +1,16 @@
+type: GenericCrafter
+size: 3
+itemCapacity: 30
+liquidCapacity: 30
+consumes: {
+  power: 3
+  items: [
+    serenite/30
+  ]
+}
+craftTime: 100
+outputItems: [
+  thorium/10
+  neoplasm/1
+]
+category: crafting
