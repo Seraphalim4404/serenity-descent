@@ -22,10 +22,10 @@ outputItems: [
 ]
 category: crafting
 research: surge-smelter
-alwaysUnlocked: true
+buildTime: 60
 requirements: [
-  surge-alloy/
-  thorium/
-  titanium/
-  silicon/
+  surge-alloy/1000
+  thorium/200
+  titanium/500
+  silicon/300
 ]
