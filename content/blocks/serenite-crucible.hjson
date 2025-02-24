@@ -4,6 +4,12 @@ type: GenericCrafter
 size: 3
 itemCapacity: 30
 liquidCapacity: 30
+cost: {
+  thorium/50
+  titanium/100
+  metaglass/50
+  silicon/50
+}
 consumes: {
   power: 3
   items: [
