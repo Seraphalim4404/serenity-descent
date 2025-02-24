@@ -7,10 +7,10 @@ health: 30000
 armor: 50
 drawCell: false
 legCount: 8
-legLength: 450
+legLength: 225
 legSpeed: 1.2
-legMaxLength: 400
-legMinLength: 1.5
+legMaxLength: 200
+legMinLength: 0.75
 lockLegBase: false
 legContinuousMove: true
 rotateSpeed: 5.55
