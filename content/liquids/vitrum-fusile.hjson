@@ -4,7 +4,7 @@ color: 3f6680
 explosiveness: 0
 flammability: 0
 heatCapacity: 1
-viscosity: 1
+viscosity: 0.99
 temperature: 1.95
 effect: melting
 permanent: true
