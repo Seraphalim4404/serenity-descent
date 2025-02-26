@@ -16,8 +16,11 @@ consumes: {
   pyratite/3
   coal/6
   ]
-  liquids:
-  slag/25
+  liquids: {
+  liquid: cryofluid
+  amount: 0.416667
+  optional: false
+  }
 }
 craftTime: 60
 outputItems: [
