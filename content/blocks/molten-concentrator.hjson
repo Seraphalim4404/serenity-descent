@@ -45,3 +45,4 @@ boosters: {
   optional: true
   booster: true
   liquidBoostIntensity: 1.5
+}
