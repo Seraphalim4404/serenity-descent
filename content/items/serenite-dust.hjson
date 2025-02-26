@@ -4,9 +4,9 @@ name: Serenite Dust
 description: An influx of small energy emanating.
 explosiveness: 0
 flammability: 0
-radioactivity: 0
-charge: 5.55
-cost: 2.0
+radioactivity: 0.25
+charge: 0.75
+cost: 4.0
 hardness: 5.88
 hiddenOnPlanets: [erekir]
 research: surge-alloy
