@@ -13,6 +13,7 @@ maxHeat: 100
 unstableSpeed: 1
 rebuildable: false
 coolantPower: 1
+coolant: water
 consumes: {
   power: 20
   items: [
@@ -23,8 +24,11 @@ consumes: {
   ]
   liquids: [
   slag/0.5
-  water/1.6666666667
   ]
+  liquids: {
+  liquid: water
+  amount: 0.83333333333
+  optional: true
 }
 craftTime: 90
 outputLiquids: [
