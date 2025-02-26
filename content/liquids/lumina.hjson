@@ -3,10 +3,11 @@ description: A viscous liquid that endlessly spreads without a stop.
 explosiveness: 0
 flammability: 0
 heatCapacity: 0.09
-viscosity: 1.25
+viscosity: 1.11
 temperature: 0.44
 effect: corroded
 moveThroughBlocks: true
+blockReactive: false
 spreadTarget: [
   water,
   oil
