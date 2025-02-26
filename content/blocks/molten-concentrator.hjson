@@ -4,7 +4,7 @@ type: GenericCrafter
 size: 5
 health: 5400
 armor: 70
-buildTime: 150
+buildTime: 120
 canOverdrive: false
 hasLiquids: true
 itemCapacity: 30
@@ -13,20 +13,21 @@ consumes: {
   power: 20
   items: [
   phase-fabric/2
+  thorium/5
   pyratite/3
-  coal/6
+  coal/7
   ]
   liquids: [
   slag/0.5
-  water/1.66667
+  water/1.6666666667
   ]
 }
-craftTime: 60
+craftTime: 90
 outputLiquids: [
-  vitrum-fusile/1.25
+  vitrum-fusile/1.5
 ]
 outputItems: [
-  blast-compound/0.5
+  blast-compound/1
 ]
 category: crafting
 research:  cryofluid-mixer
@@ -38,11 +39,3 @@ requirements: [
   metaglass/200
   lead/350
 ]
-boosters: {
-  liquid: [
-  cryofluid/0.25
-  ]
-  optional: true
-  booster: true
-  liquidBoostIntensity: 1.5
-}
