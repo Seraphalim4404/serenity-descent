@@ -5,7 +5,7 @@ size: 5
 health: 5400
 armor: 70
 buildTime: 150
-canOverdrive: true
+canOverdrive: false
 hasLiquids: true
 itemCapacity: 30
 liquidCapacity: 100
@@ -25,6 +25,9 @@ craftTime: 60
 outputLiquids: [
   vitrum-fusile/1.25
 ]
+outputItems: [
+  blastCompound/0.5
+]
 category: crafting
 research:  cryofluid-mixer
 requirements: [
@@ -35,3 +38,10 @@ requirements: [
   metaglass/200
   lead/350
 ]
+boosters: {
+  liquid: [
+  cryofluid/0.25
+  ]
+  optional: true
+  booster: true
+  liquidBoostIntensity: 1.5
