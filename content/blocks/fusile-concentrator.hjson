@@ -16,11 +16,10 @@ consumes: {
   pyratite/3
   coal/6
   ]
-  liquids: {
-  liquid: slag
-  amount: 0.25
+  liquids: [
   optional: false
-  },
+  slag/0.25
+  ]
 }
 craftTime: 60
 outputLiquids: [
