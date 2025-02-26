@@ -9,6 +9,10 @@ canOverdrive: false
 hasLiquids: true
 itemCapacity: 30
 liquidCapacity: 100
+maxHeat: 100
+unstableSpeed: 1
+rebuildable: false
+coolantPower: 1
 consumes: {
   power: 20
   items: [
