@@ -1,7 +1,7 @@
 name: Vitrum Fusile
 description: A liquid used to exterminate Lumina, hotter than slag.
 color: 3f6680
-explosiveness: 0
+explosiveness: 0.1
 flammability: 0
 heatCapacity: 1
 viscosity: 0.99
