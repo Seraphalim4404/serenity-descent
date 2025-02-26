@@ -5,4 +5,4 @@ flammability: 0
 heatCapacity: 0.88
 viscosity: 1.66
 temperature: 0.5
-effect: corrosion
+effect: corroded
