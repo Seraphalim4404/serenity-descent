@@ -19,6 +19,7 @@ consumes: {
   liquids: {
   liquid: slag
   amount: 0.416667
+  optional: false
   }
 }
 craftTime: 60
