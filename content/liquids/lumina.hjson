@@ -7,7 +7,7 @@ viscosity: 1.5
 temperature: 0.5
 
 effect: corroded
-spreadTarget: {
-  water
+spreadTarget: [
+  water,
   oil
-}
+]
