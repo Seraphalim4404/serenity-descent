@@ -10,7 +10,7 @@ hasLiquids: true
 itemCapacity: 30
 liquidCapacity: 100
 consumes: {
-  power: 20.8333
+  power: 20
   items: [
   phase-fabric/2
   pyratite/3
@@ -18,9 +18,9 @@ consumes: {
   ]
   liquids: {
   liquid: slag
-  amount: 0.416667
+  amount: 0.25
   optional: false
-  }
+  },
 }
 craftTime: 60
 outputLiquids: [
