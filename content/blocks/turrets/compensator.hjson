@@ -21,3 +21,16 @@ consumes: {
     lumina/1
     ]
   }
+shootType: {
+  type: RailBulletType
+  damage: 5000
+  armorPierce: true
+  ammoMultiplier: 10
+  pierce: true
+  pierceCap: 4
+  pierceDamageFactor: 0.5
+  pierceEffect: none
+  smokeEffect: none
+  shootEffect: none
+}
+  
