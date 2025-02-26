@@ -9,7 +9,7 @@ charge: 5.55
 cost: 1.0
 hardness: 6.0
 hiddenOnPlanets: [erekir]
-research: serenite-dust
+research: surge-alloy
 requirements: [
   surge-alloy/50
   ]
