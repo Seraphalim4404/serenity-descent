@@ -1,0 +1,9 @@
+name: Lumina
+description: A viscous slime-like substance that causes harm when not handled well,
+has to be contained and not get in-touch with other liquids.
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.88
+viscosity: 1.66
+temperature: 0.5
+effect: corrosion
