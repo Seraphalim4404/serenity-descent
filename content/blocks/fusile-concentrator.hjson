@@ -1,0 +1,35 @@
+localizedName: Fusile Concentrator
+description: A concentrator that fuses 4 materials into one liquid.
+type: GenericCrafter
+size: 5
+health: 5400
+armor: 70
+buildTime: 150
+canOverdrive: true
+hasLiquids: true
+itemCapacity: 30
+liquidCapacity: 100
+consumes: {
+  power: 11.1
+  items: [
+  phase-fabric/2
+  pyratite/3
+  coal/6
+  ]
+  liquids:
+  slag/25
+}
+craftTime: 60
+outputItems: [
+  vitrum-fusile/50
+]
+category: crafting
+research:  cryofluid-mixer
+requirements: [
+  phase-fabric/250
+  thorium/500
+  titanium/100
+  silicon/300
+  metaglass/200
+  lead/350
+]
