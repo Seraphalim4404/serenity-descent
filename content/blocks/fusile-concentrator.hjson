@@ -23,12 +23,10 @@ consumes: {
   }
 }
 craftTime: 60
-outputLiquids: {
-  liquid: vitrum-fusile
-  amount: 1
-  liquid: water
-  amount: 0.166667
-}
+outputLiquids: [
+  vitrum-fusile/1
+  water/0.166667
+]
 category: crafting
 research:  cryofluid-mixer
 requirements: [
