@@ -5,7 +5,6 @@ flammability: 0
 heatCapacity: 0.1
 viscosity: 1.5
 temperature: 0.5
-
 effect: corroded
 spreadTarget: [
   water,
