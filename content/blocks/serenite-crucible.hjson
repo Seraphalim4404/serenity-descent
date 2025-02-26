@@ -7,18 +7,17 @@ armor: 10
 buildTime: 60
 canOverdrive: true
 hasLiquids: true
-itemCapacity: 30
+itemCapacity: 100
 liquidCapacity: 30
 consumes: {
   power: 11.1
   items: [
-  serenite/30
+  serenite-dust/50
   ]
 }
-craftTime: 120
+craftTime: 240
 outputItems: [
-  thorium/10
-  carbide/1
+  serenite/1
 ]
 category: crafting
 research: surge-smelter
