@@ -2,7 +2,7 @@ name: Lumina
 description: A viscous liquid that can infect other types of liquids.
 explosiveness: 0
 flammability: 0
-heatCapacity: 0.88
+heatCapacity: 0.1
 viscosity: 1.66
 temperature: 0.5
 effect: corroded
