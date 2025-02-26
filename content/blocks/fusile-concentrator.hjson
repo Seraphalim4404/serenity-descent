@@ -17,7 +17,6 @@ consumes: {
   coal/6
   ]
   liquids: [
-  optional: false
   slag/0.25
   ]
 }
