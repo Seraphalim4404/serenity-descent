@@ -3,6 +3,7 @@ localizedname: Compensator
 description: ...
 squareSprite: false
 size: 4
+buildTime: 90
 health: 10500
 armor: 55
 reload: 180
@@ -33,4 +34,13 @@ shootType: {
   smokeEffect: none
   shootEffect: none
 }
-  
+category: turret
+research: foreshadow
+requirements: [
+  serenite/250
+  serenite-dust/1100
+  surge-alloy/1350
+  titanium/700
+  metaglass/600
+  silicon/2000
+  ]
