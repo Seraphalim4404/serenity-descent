@@ -1,2 +1,4 @@
-localizedName: Serenite Dust
-description: An influx of small energy emanating. Does not have a real purpose.
+type: Item
+color: 000fff
+name: Serenite Dust
+description: An influx of small energy emanating.
