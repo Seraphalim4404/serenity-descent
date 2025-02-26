@@ -7,5 +7,4 @@ heatCapacity: 1
 viscosity: 1
 temperature: 1.95
 effect: melting
-effect: corroded
-effect: burning
+permanent: true
