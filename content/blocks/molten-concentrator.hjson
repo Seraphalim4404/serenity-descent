@@ -1,5 +1,5 @@
-localizedName: Fusile Concentrator
-description: A concentrator that fuses 4 materials into one liquid.
+localizedName: Molten Concentrator
+description: A concentrator that fuses 4 materials into one liquid, requires Water as a coolant and outputs Blast Compound as a byproduct. 
 type: GenericCrafter
 size: 5
 health: 5400
@@ -17,13 +17,13 @@ consumes: {
   coal/6
   ]
   liquids: [
-  slag/0.25
+  slag/0.5
+  water/1.66667
   ]
 }
 craftTime: 60
 outputLiquids: [
-  vitrum-fusile/1
-  water/0.166667
+  vitrum-fusile/1.25
 ]
 category: crafting
 research:  cryofluid-mixer
