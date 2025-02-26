@@ -1,0 +1,23 @@
+type: powerTurret
+localizedname: Compensator
+description: ...
+squareSprite: false
+size: 4
+health: 10500
+armor: 55
+reload: 180
+recoil: -64
+rotateSpeed: 10
+shootSound: railgun
+shake: 3
+inaccuracy: 0
+ammoCapacity: 100
+liquidCapacity: 50
+consumes: {
+  items: [
+    serenite/10
+    ]
+  liquids: [
+    lumina/1
+    ]
+  }
