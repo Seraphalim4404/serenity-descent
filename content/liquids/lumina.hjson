@@ -8,6 +8,6 @@ temperature: 0.5
 
 effect: corroded
 spreadTarget: {
-  water,
+  water
   oil
 }
