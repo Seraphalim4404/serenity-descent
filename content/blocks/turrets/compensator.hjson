@@ -1,4 +1,4 @@
-type: laserTurret
+type: itemTurret
 localizedname: Compensator
 description: ...
 squareSprite: false
@@ -13,29 +13,28 @@ rotateSpeed: 10
 shootSound: railgun
 shake: 3
 inaccuracy: 0
-ammoCapacity: 100
-liquidCapacity: 50
+itemCapacity: 100
+liquidCapacity: 200
 consumes: {
   power: 16.666666667
-  items: [
-    serenite/10
-    ]
   liquids: [
-    lumina/1
-    ]
-  }
-shootType: {
-  type: RailBulletType
-  damage: 5000
-  armorPierce: true
-  ammoMultiplier: 10
-  pierce: true
-  pierceCap: 4
-  pierceDamageFactor: 0.5
-  pierceEffect: none
-  smokeEffect: none
-  shootEffect: none
+  lumina/1.6666666667
+  ]
 }
+shootSound: railgun
+ammoTypes: {
+  serenite: {   
+    ammoMultiplier: 10
+    damage: 2000
+    pierce: true
+    armorPiercing: true
+    pierceCap: 4
+    pierceDamageFactor: 0.5
+    pierceEffect: none
+    smokeEffect: none
+    shootEffect: none
+  }
+
 category: turret
 research: foreshadow
 requirements: [
