@@ -28,7 +28,7 @@ ammoTypes: {
     ammoMultiplier: 10
     damage: 2000
     pierce: true
-    armorPiercing: true
+    pierceArmor: true
     pierceCap: 4
     pierceDamageFactor: 0.5
     pierceEffect: none
