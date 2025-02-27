@@ -34,7 +34,7 @@ ammoTypes: {
     smokeEffect: none
     shootEffect: none
   }
-
+}
 category: turret
 research: foreshadow
 requirements: [
