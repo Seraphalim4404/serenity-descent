@@ -23,7 +23,8 @@ consumes: {
 }
 shootSound: railgun
 ammoTypes: {
-  serenite: {   
+  serenite: {
+    shootType: LaserBulletType
     ammoMultiplier: 10
     damage: 2000
     pierce: true
