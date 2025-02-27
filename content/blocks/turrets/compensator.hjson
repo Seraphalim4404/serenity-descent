@@ -1,4 +1,4 @@
-type: powerTurret
+type: laserTurret
 localizedname: Compensator
 description: ...
 squareSprite: false
@@ -8,7 +8,7 @@ health: 10500
 armor: 55
 range: 128
 reload: 180
-recoil: -64
+recoil: 64
 rotateSpeed: 10
 shootSound: railgun
 shake: 3
@@ -16,6 +16,7 @@ inaccuracy: 0
 ammoCapacity: 100
 liquidCapacity: 50
 consumes: {
+  power: 16.666666667
   items: [
     serenite/10
     ]
