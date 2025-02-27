@@ -26,7 +26,8 @@ shootType: LaserBulletType
 ammoTypes: {
   serenite: {
     ammoMultiplier: 10
-    damage: 2000
+    damage: 1350
+    lifetime: 300
     pierce: true
     pierceArmor: true
     pierceCap: 4
