@@ -4,16 +4,11 @@ type: GenericCrafter
 size: 5
 health: 5400
 armor: 70
-buildTime: 120
+buildTime: 30
 canOverdrive: false
 hasLiquids: true
 itemCapacity: 30
 liquidCapacity: 100
-maxHeat: 100
-unstableSpeed: 1
-rebuildable: false
-coolantPower: 1
-coolant: water
 consumes: {
   power: 20
   items: [
