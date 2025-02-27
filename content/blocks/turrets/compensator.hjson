@@ -33,10 +33,12 @@ ammoTypes: {
     pierceArmor: true
     pierceCap: 4
     pierceDamageFactor: 0.5
-    trailColor: ebc797
-    pierceEffect: none
+    pierceEffect: crossExplosion
     smokeEffect: none
     shootEffect: none
+    trailColor: ebc797
+    trailWidth: 8
+    trailHeight: 8
   }
 }
 category: turret
