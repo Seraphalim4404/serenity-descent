@@ -27,7 +27,8 @@ ammoTypes: {
   serenite: {
     ammoMultiplier: 10
     damage: 1350
-    lifetime: 300
+    lifetime: 30
+    speed: 5
     pierce: true
     pierceArmor: true
     pierceCap: 4
