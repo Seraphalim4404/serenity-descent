@@ -6,7 +6,7 @@ size: 4
 buildTime: 90
 health: 10500
 armor: 55
-range: 768
+range: 888
 reload: 180
 recoil: 64
 rotateSpeed: 10
@@ -22,13 +22,12 @@ consumes: {
   ]
 }
 shootSound: railgun
-shootType: LaserBulletType
 ammoTypes: {
   serenite: {
     ammoMultiplier: 10
     damage: 1350
-    lifetime: 30
-    speed: 50
+    lifetime: 15
+    speed: 150
     pierce: true
     pierceArmor: true
     pierceCap: 4
@@ -37,8 +36,8 @@ ammoTypes: {
     smokeEffect: none
     shootEffect: none
     trailColor: ebc797
-    trailWidth: 8
-    trailHeight: 8
+    trailLength: 3
+    trailWidth: 2
   }
 }
 category: turret
