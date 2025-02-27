@@ -28,11 +28,12 @@ ammoTypes: {
     ammoMultiplier: 10
     damage: 1350
     lifetime: 30
-    speed: 5
+    speed: 50
     pierce: true
     pierceArmor: true
     pierceCap: 4
     pierceDamageFactor: 0.5
+    trailColor: ebc797
     pierceEffect: none
     smokeEffect: none
     shootEffect: none
