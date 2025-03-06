@@ -2,7 +2,10 @@ type: legs
 name: ahllera
 localizedName: Server
 description: S.E.R.V.E.R
+health: 100000
+armor: 15
 hitSize: 96
 speed: 46
 drawCell: false
 legCount: 0
+rotateSpeed: 0
