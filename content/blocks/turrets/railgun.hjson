@@ -1,7 +1,6 @@
 {
   spawnUnit: speedy-projectile
 }
-speedy-projectile.hjson
 type: missile
 template: MissileUnitType
 
