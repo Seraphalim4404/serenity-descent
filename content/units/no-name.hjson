@@ -1,6 +1,23 @@
 type: flying
 localizedName: 30 seconds before impact
 description: No Name.
+flying: true
 hitSize: 8
 health: 30
 armor: 30000
+weapons: {
+  alwaysShooting: true
+  reload: 1
+  shootStatus: burning
+  shootStatusDuration: 1000
+  display: false
+  shootSound: none
+  bullet: {
+    shootEffect: none
+    smokeEffect: none
+    absorbable: false
+    hittable: false
+    instantDisappear: true
+    despawnEffect: none
+  }
+}
