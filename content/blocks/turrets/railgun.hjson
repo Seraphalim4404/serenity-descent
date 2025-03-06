@@ -1,16 +1,7 @@
-type: missile
-localizedname: Honor
-description: ...
-squareSprite: false
-size: 4
-itemCapacity: 100
-liquidCapacity: 200
-consumes: {
-  power: 16.666666667
-  liquids: [
-  lumina/1.6666666667
-  ]
+{
+  spawnUnit: speedy-projectile
 }
+speedy-projectile.hjson
 type: missile
 template: MissileUnitType
 
@@ -30,6 +21,7 @@ drawCell: false
 fogRadius: 0
 deathExplosionEffect: none
 deathSound: largeExplosion
+
 weapons: [
     {
         mirror: false
@@ -63,13 +55,4 @@ weapons: [
         }
     }
 ]
-category: turret
-research: foreshadow
-requirements: [
-  serenite/250
-  serenite-dust/1100
-  surge-alloy/1350
-  titanium/700
-  metaglass/600
-  silicon/2000
-  ]
+```
