@@ -43,6 +43,7 @@ deathSound: largeExplosion
 
 ammoType: {
   serenite: {
+        type: MissileUnitType
         mirror: false
         rotate: false
         alwaysShooting: true
