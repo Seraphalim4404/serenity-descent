@@ -21,9 +21,6 @@ consumes: {
   lumina/1.6666666667
   ]
 }
-{
-  spawnUnit: speedy-projectile
-}
 type: missile
 template: MissileUnitType
 
