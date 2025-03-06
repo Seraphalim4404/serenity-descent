@@ -41,7 +41,8 @@ fogRadius: 0
 deathExplosionEffect: none
 deathSound: largeExplosion
 
-weapons: [
+ammoType: 
+  serenite: [
     {
         mirror: false
         rotate: false
