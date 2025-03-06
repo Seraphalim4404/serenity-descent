@@ -1,0 +1,6 @@
+type: flying
+localizedName: 30 seconds before impact
+description: No Name.
+hitSize: 8
+health: 30
+armor: 30000
