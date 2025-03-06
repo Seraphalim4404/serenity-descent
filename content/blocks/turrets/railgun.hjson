@@ -23,14 +23,19 @@ consumes: {
 }
 type: missile
 template: MissileUnitType
+
 speed: 3.6
+
 health: 340
+
 range: 80
 drag: 0.12
 accel: 0.2
 lifetime: 68
+
 hitSize: 12
 rotateSpeed: 1.2
+
 drawCell: false
 fogRadius: 0
 deathExplosionEffect: none
