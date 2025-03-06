@@ -1,7 +1,6 @@
 {
   spawnUnit: speedy-projectile
 }
-type: missileTurret
 template: MissileUnitType
 
 speed: 3.6
