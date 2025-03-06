@@ -1,6 +1,7 @@
 {
   spawnUnit: speedy-projectile
 }
+type: missile
 template: MissileUnitType
 
 speed: 3.6
@@ -53,4 +54,3 @@ weapons: [
         }
     }
 ]
-```
