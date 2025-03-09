@@ -60,6 +60,7 @@ weapons: [
     rotateSpeed: 2
     shoot: {
       firstShotDelay: 120
+      chargeEffect: lightning
   }
     shootSound: laser
     recoil: 0
@@ -79,6 +80,8 @@ weapons: [
       statusDuration: 300
       shootEffect: none
       smokeEffect: none
+      despawnEffect: none
+      chargeEffect: greenLaserChargeBig
     }
   }
 ]
