@@ -62,6 +62,7 @@ weapons: [
       firstShotDelay: 120
       chargeEffect: lightning
   }
+    chargeSound: laserCharge
     shootSound: laser
     recoil: 0
     bullet: {
@@ -79,7 +80,7 @@ weapons: [
       shootEffect: none
       smokeEffect: none
       despawnEffect: none
-      chargeEffect: greenLaserChargeBig
+      chargeEffect: greenLaserCharge
     }
   }
 ]
