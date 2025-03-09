@@ -9,8 +9,8 @@ effect: {
   particle: 3
   length: 32
   lifetime: 60
-  interp: circleIn
-  interp: bounceOut
+  interp: swingIn
+  interp: pow2Out
   sizeFrom: 2
   sizeTo: 0
   colorFrom: e7bafd
