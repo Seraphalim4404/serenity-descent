@@ -79,6 +79,5 @@ weapons: [
       statusDuration: 300
       shootEffect: none
       smokeEffect: none
-      chargeEffect: [
   }
 ]
