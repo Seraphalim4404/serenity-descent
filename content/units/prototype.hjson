@@ -60,10 +60,9 @@ weapons: [
       pierceArmor: true
       pierceCap: 5
       status: corroded
-      statusDuration: 60
-      shootEffect: crossExplosion
-      shootEffectSize: 64
-      smokeEffect: none
-    }
+      statusDuration: 300
+      shootEffect: none
+      smokeEffect: cross-explosion
+    {
   }
 ]
