@@ -5,8 +5,8 @@ reloadMultiplier: 1
 healthMultiplier: 1
 speedMultiplier: 1
 effect: {
-  type: lightningEffect
-  particle: 1
+  type: particleEffect
+  particle: lightning
   length: 3
   lifetime: 30
   sizeFrom: 1
