@@ -39,7 +39,7 @@ ammoTypes: {
     pierceDamageFactor: 0.75
     pierceEffect: none
     smokeEffect: none
-    shootEffect: nons
+    shootEffect: none
     hitEffect: scatheSlash
     trailColor: ebc797
     trailLength: 11
