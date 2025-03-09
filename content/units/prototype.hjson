@@ -42,6 +42,8 @@ abilities: [
      particleSize: 13
      particles: 1
      particleColor: faa6b5
+  }
+]
 weapons: [
   {
     alwaysShooting: true
