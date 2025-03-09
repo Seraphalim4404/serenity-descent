@@ -37,6 +37,21 @@ immunities: [
 ]
 weapons: [
   {
+    alwaysShooting: true
+    reload: 1
+    shootStatus: fx-lightning
+    shootStatusDuration: 1000
+    display: true
+    shootSound: none
+    bullet: {
+      shootEffect: none
+      smokeEffect: none
+      absorbable: false
+      hittable! false
+      instantDisappear: true
+      despawnEfect: none
+    }
+  }
     x: 0
     y: 0
     mirror: false
@@ -65,6 +80,6 @@ weapons: [
       statusDuration: 300
       shootEffect: none
       smokeEffect: none
-    }
+      chargeEffect: [
   }
 ]
