@@ -41,26 +41,27 @@ weapons: [
     y: 0
     mirror: false
     reload: 240
-    fadeTime: 60
     continuous: true
+    rotate: true
     rotateSpeed: 2
     shoot: {
       firstShotDelay: 120
-    }
-    shootSound: laserbeam
+  }
+    shootSound: laser
     recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
-      damage: 50
+      fadeTime: 60
+      damage: 83.25
       length: 356
       width: 6
-      lifetime: 120
+      lifetime: 150
       pierceArmor: true
       pierceCap: 5
-      status: corroded
+      status: electrified
       statusDuration: 300
       shootEffect: none
       smokeEffect: none
