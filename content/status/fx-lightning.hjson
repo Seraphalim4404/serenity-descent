@@ -6,7 +6,7 @@ healthMultiplier: 1
 speedMultiplier: 1
 effect: {
   type: particleEffect
-  particle: lightning
+  particle: chainLightning
   length: 16
   lifetime: 120
   sizeFrom: 1
