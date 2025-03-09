@@ -13,7 +13,7 @@ legMaxLength: 3.25
 legMinLength: 0
 lockLegBase: false
 legContinuousMove: false
-rotateSpeed: 5.55
+rotateSpeed: 3
 hitSize: 56
 hovering: true
 omniMovement: true
