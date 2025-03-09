@@ -51,7 +51,6 @@ weapons: [
       instantDisappear: true
       despawnEfect: none
     }
-  }
     x: 0
     y: 0
     mirror: false
@@ -61,7 +60,7 @@ weapons: [
     rotateSpeed: 2
     shoot: {
       firstShotDelay: 120
-        }
+  }
     shootSound: laser
     recoil: 0
     bullet: {
