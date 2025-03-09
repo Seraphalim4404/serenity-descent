@@ -54,16 +54,16 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    reload: 240
+    reload: 60
     continuous: true
     rotate: true
     rotateSpeed: 2
     shoot: {
-      firstShotDelay: 120
+      firstShotDelay: 60
       chargeEffect: lightning
   }
     chargeSound: laserCharge
-    shootSound: laser
+    shootSound: beam
     recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
