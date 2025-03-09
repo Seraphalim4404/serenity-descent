@@ -39,7 +39,7 @@ weapons: [
   {
     alwaysShooting: true
     reload: 1
-    shootStatus: fx-lightning
+    shootStatus: overdrive
     shootStatusDuration: 1000
     display: true
     shootSound: none
@@ -76,8 +76,6 @@ weapons: [
       lifetime: 150
       pierceArmor: true
       pierceCap: 5
-      status: electrified
-      statusDuration: 300
       shootEffect: none
       smokeEffect: none
       despawnEffect: none
