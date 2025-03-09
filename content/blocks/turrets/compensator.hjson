@@ -25,13 +25,15 @@ consumes: {
 shootSound: railgun
 ammoTypes: {
   serenite: {
-    length: 192
+    length: 1000
     width: 16
     ammoMultiplier: 3
     damage: 1350
     lifetime: 1500
     speed: 5
-    homing: true
+    homingPower: 0.1
+    homingRange: 64
+    homingDelay: 0
     rotateSpeed: 10
     pierce: true
     pierceArmor: true
