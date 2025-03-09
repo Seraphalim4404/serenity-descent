@@ -4,13 +4,4 @@ damageMultiplier: 1
 reloadMultiplier: 1
 healthMultiplier: 1
 speedMultiplier: 1
-effect: {
-  type: particleEffect
-  particle: chainLightning
-  length: 16
-  lifetime: 120
-  sizeFrom: 1
-  sizeTo: 0
-  colorFrom: f76e6e
-  colorTo: dfd4d4
-}
+effect: lightning
