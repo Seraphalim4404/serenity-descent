@@ -39,9 +39,10 @@ abilities: [
   {
      type: SuppressionFieldAbility
      orbRadius: 17
-     particleSize: 13
-     particles: 1
+     particleSize: 3
+     particles: 3
      particleColor: faa6b5
+     effectColor: ff5d5d
   }
 ]
 weapons: [
