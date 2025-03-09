@@ -13,7 +13,7 @@ legMaxLength: 3.25
 legMinLength: 0
 lockLegBase: false
 legContinuousMove: false
-rotateSpeed: 3
+rotateSpeed: 5.55
 hitSize: 56
 hovering: true
 omniMovement: true
@@ -43,6 +43,7 @@ weapons: [
     reload: 240
     fadeTime: 60
     continuous: true
+    rotateSpeed: 2
     shoot: {
       firstShotDelay: 120
     }
