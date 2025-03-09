@@ -25,8 +25,8 @@ consumes: {
 shootSound: railgun
 ammoTypes: {
   serenite: {
-    length: 22
-    width: 16
+    length: 44
+    width: 32
     ammoMultiplier: 3
     damage: 1350
     lifetime: 15
