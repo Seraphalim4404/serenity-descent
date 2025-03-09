@@ -30,8 +30,10 @@ immunities: [
   sapped,
   electrified,
   shocked,
-  boss,
-  overclock
+  overclock,
+  fast,
+  corroded,
+  slow
 ]
 weapons: [
   {
@@ -53,4 +55,5 @@ weapons: [
       statusDuration: 60
       shootEffect: none
       smokeEffect: vapor
-      
+  }
+}
