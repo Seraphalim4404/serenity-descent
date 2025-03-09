@@ -25,8 +25,8 @@ consumes: {
 shootSound: railgun
 ammoTypes: {
   serenite: {
-    length: 11
-    width: 8
+    length: 22
+    width: 16
     ammoMultiplier: 3
     damage: 1350
     lifetime: 15
@@ -43,8 +43,8 @@ ammoTypes: {
     trailWidth: 8
   }
   surge-alloy: {
-    length: 12
-    width: 6
+    length: 24
+    width: 12
     ammoMultiplier: 2
     damage: 675
     lifetime: 15
