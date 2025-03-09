@@ -24,6 +24,7 @@ consumes: {
 shootSound: railgun
 ammoTypes: {
   serenite: {
+    hitSize: 8
     ammoMultiplier: 10
     damage: 1350
     lifetime: 15
@@ -32,13 +33,29 @@ ammoTypes: {
     pierceArmor: true
     pierceCap: 4
     pierceDamageFactor: 0.5
-    pierceEffect: crossExplosion
+    pierceEffect: none
     smokeEffect: none
     shootEffect: none
     trailColor: ebc797
-    trailLength: 3
-    trailWidth: 2
+    trailLength: 5
+    trailWidth: 4
   }
+  surge-alloy: {
+    hitSize: 8
+    ammoMultiplier: 5
+    damage: 675
+    lifetime: 15
+    speed: 500
+    pierce: true
+    pierceArmor: false
+    pierceCap: 2
+    pierceDamageFactor: 0.5
+    pierceEffect: scatheSlash
+    smokeEffect: none
+    shootEffect: none
+    trailColor: ebc767
+    trailLength: 7
+    trailWidth: 3
 }
 category: turret
 research: foreshadow
