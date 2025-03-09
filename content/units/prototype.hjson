@@ -62,7 +62,7 @@ weapons: [
       status: corroded
       statusDuration: 300
       shootEffect: none
-      smokeEffect: cross-explosion
+      smokeEffect: none
     }
   }
 ]
