@@ -47,7 +47,7 @@ weapons: [
       shootEffect: none
       smokeEffect: none
       absorbable: false
-      hittable! false
+      hittable: false
       instantDisappear: true
       despawnEfect: none
     }
