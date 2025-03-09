@@ -14,7 +14,8 @@ shootSound: railgun
 shake: 3
 inaccuracy: 0
 maxAmmo: 100
-maxLiquid: 200
+ammoPerShot: 5
+liquidCapacity: 200
 consumes: {
   power: 16.666666667
   liquids: [
@@ -25,8 +26,7 @@ shootSound: railgun
 ammoTypes: {
   serenite: {
     hitSize: 8
-    ammoPerShot: 10
-    ammoMultiplier: 10
+    ammoMultiplier: 3
     damage: 1350
     lifetime: 15
     speed: 150
@@ -43,8 +43,7 @@ ammoTypes: {
   }
   surge-alloy: {
     hitSize: 8
-    ammoPerShot: 5
-    ammoMultiplier: 5
+    ammoMultiplier: 2
     damage: 675
     lifetime: 15
     speed: 500
