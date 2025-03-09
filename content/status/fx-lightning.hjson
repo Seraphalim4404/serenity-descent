@@ -1,0 +1,15 @@
+name: lightning
+localizedName: lightning
+damageMultiplier: 1
+reloadMultiplier: 1
+healthMultiplier: 1
+speedMultiplier: 1
+effect: {
+  type: particleEffect
+  particle: 1
+  length: 3
+  lifetime: 30
+  sizeFrom: 3
+  sizeTo: 1
+  colorFrom: f76e6e
+  colorTo: dfd4d4
