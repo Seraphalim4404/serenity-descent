@@ -5,12 +5,12 @@ reloadMultiplier: 1
 healthMultiplier: 1
 speedMultiplier: 1
 effect: {
-  type: particleEffect
+  type: lightningEffect
   particle: 1
   length: 3
   lifetime: 30
-  sizeFrom: 3
-  sizeTo: 1
+  sizeFrom: 1
+  sizeTo: 0
   colorFrom: f76e6e
   colorTo: dfd4d4
 }
