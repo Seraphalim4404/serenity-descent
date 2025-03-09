@@ -42,9 +42,9 @@ weapons: [
     mirror: false
     reload: 240
     fadeTime: 60
+    continuous: true
     shoot: {
       firstShotDelay: 120
-      ChargeSound: railgun
     }
     shootSound: laserbeam
     recoil: 0
@@ -53,16 +53,17 @@ weapons: [
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
-      damage: 350
-      length: 64
-      width: 4
+      damage: 50
+      length: 356
+      width: 6
       lifetime: 120
       pierceArmor: true
       pierceCap: 5
       status: corroded
       statusDuration: 60
-      shootEffect: none
-      smokeEffect: vapor
+      shootEffect: crossExplosion
+      shootEffectSize: 64
+      smokeEffect: none
     }
   }
 ]
