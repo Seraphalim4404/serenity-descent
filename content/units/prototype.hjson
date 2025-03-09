@@ -54,12 +54,12 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    reload: 90
+    reload: 80
     continuous: true
     rotate: true
     rotateSpeed: 2
     shoot: {
-      firstShotDelay: 90
+      firstShotDelay: 80
       chargeEffect: lightning
   }
     chargeSound: lasercharge
@@ -73,7 +73,7 @@ weapons: [
       fadeTime: 60
       damage: 83.25
       length: 356
-      width: 6
+      width: 14
       lifetime: 150
       pierceArmor: true
       pierceCap: 5
