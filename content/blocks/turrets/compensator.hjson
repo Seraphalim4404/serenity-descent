@@ -25,7 +25,8 @@ consumes: {
 shootSound: railgun
 ammoTypes: {
   serenite: {
-    hitSize: 8
+    length: 11
+    width: 8
     ammoMultiplier: 3
     damage: 1350
     lifetime: 15
@@ -38,11 +39,12 @@ ammoTypes: {
     smokeEffect: none
     shootEffect: none
     trailColor: ebc797
-    trailLength: 5
-    trailWidth: 4
+    trailLength: 11
+    trailWidth: 8
   }
   surge-alloy: {
-    hitSize: 8
+    length: 12
+    width: 6
     ammoMultiplier: 2
     damage: 675
     lifetime: 15
@@ -55,8 +57,8 @@ ammoTypes: {
     smokeEffect: none
     shootEffect: none
     trailColor: ebc767
-    trailLength: 7
-    trailWidth: 3
+    trailLength: 12
+    trailWidth: 6
   }
 }
 category: turret
