@@ -7,7 +7,7 @@ speedMultiplier: 1
 effect: {
   type: particleEffect
   particle: lightning
-  length: 64
+  length: 16
   lifetime: 120
   sizeFrom: 1
   sizeTo: 0
