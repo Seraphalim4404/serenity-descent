@@ -55,5 +55,6 @@ weapons: [
       statusDuration: 60
       shootEffect: none
       smokeEffect: vapor
+    }
   }
-}
+]
