@@ -35,6 +35,13 @@ immunities: [
   corroded,
   slow
 ]
+abilities: [
+  {
+     type: SuppressionFieldAbility
+     orbRadius: 17
+     particleSize: 13
+     particles: 1
+     particleColor: faa6b5
 weapons: [
   {
     alwaysShooting: true
@@ -44,8 +51,7 @@ weapons: [
     display: true
     shootSound: none
     bullet: {
-      shootEffect: trail
-      shootEffectSize: 20
+      shootEffect: none
       smokeEffect: none
       absorbable: false
       hittable: false
