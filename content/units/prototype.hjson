@@ -63,6 +63,6 @@ weapons: [
       statusDuration: 300
       shootEffect: none
       smokeEffect: cross-explosion
-    {
+    }
   }
 ]
