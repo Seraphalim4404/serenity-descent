@@ -44,7 +44,8 @@ weapons: [
     display: true
     shootSound: none
     bullet: {
-      shootEffect: none
+      shootEffect: trail
+      shootEffectSize: 20
       smokeEffect: none
       absorbable: false
       hittable: false
