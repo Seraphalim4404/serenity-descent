@@ -34,4 +34,23 @@ immunities: [
   overclock
 ]
 weapons: [
-  
+  {
+    reload: 240
+    shoot: {
+      firstShotDelay: 120
+    }
+    shootSound: laserbeam
+    recoil: 0
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 350
+      length: 64
+      width: 4
+      lifetime: 120
+      pierceArmor: true
+      pierceCap: 5
+      status: corroded
+      statusDuration: 60
+      shootEffect: none
+      smokeEffect: vapor
+      
