@@ -9,13 +9,11 @@ effect: Impaired
 moveThroughBlocks: true
 blockReactive: true
 color: 6f6477
-effect: {
-  type: particleEffect
-  particles: 6
-  lifetime: 120
-  interp: circleIn
-  colorFrom: 5a525f
-  colorTo: 413948
-  sizeFrom: 4
-  sizeTo: 0
-}
+type: particleEffect
+particles: 6
+lifetime: 120
+interp: circleIn
+colorFrom: 5a525f
+colorTo: 413948
+sizeFrom: 4
+sizeTo: 0
