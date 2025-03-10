@@ -52,8 +52,8 @@ weapons: [
     display: true
     shootSound: none
     bullet: {
-      shootEffect: chainEmp
-      smokeEffect: none
+      shootEffect: none
+      smokeEffect: lightningCharge
       absorbable: false
       hittable: false
       instantDisappear: true
