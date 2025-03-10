@@ -1,7 +1,115 @@
 type: legs
-localizedName: Paradigm
-description: Tier V of Prototype.
+localizedName: "Prototype E-005V_h"
+description: Tier V of Prototype E-005V_h.
 template: ErekirUnitType
+speed: 4.6
+health: 18000
+armor: 450
+drawCell: false
+legCount: 8
+legLength: 375
+legSpeed: 0.77
+legMaxLength: 3.25
+legMinLength: 0
+lockLegBase: false
+legContinuousMove: false
+rotateSpeed: 5.55
 hitSize: 72
-health: 15000
-armor: 200
+hovering: true
+omniMovement: true
+allowLegStep: true
+singleTarget: true
+immunities: [
+  tarred,
+  burning,
+  melting,
+  wet,
+  freezing,
+  blasted,
+  spore-slowed,
+  sapped,
+  electrified,
+  shocked,
+  overclock,
+  corroded
+]
+abilities: [
+  {
+     type: SuppressionFieldAbility
+     orbRadius: 20
+     lightningSize: 3
+     lightning: 3
+     lightningColor: e6a2ff
+     effectColor: ff5d5d
+  }
+  {
+     type: EnergyFieldAbility
+     blinkSize: 1
+     layer: 2
+     damage: 80
+     reload: 90
+     range: 200
+     healPercent: 0.25
+     hitUnits: true
+     hitBuildings: true
+     maxTargets: 10
+     shootSound: spark
+     x: 0
+     y: 0
+     
+]
+weapons: [
+  {
+    alwaysShooting: true
+    reload: 1
+    shootStatus: burning
+    shootStatusDuration: 1000
+    display: true
+    shootSound: none
+    bullet: {
+      shootEffect: none
+      smokeEffect: lightningCharge
+      absorbable: false
+      hittable: false
+      instantDisappear: true
+      despawnEfect: none
+    }
+    alwaysShooting: false
+    x: 0
+    y: 0
+    mirror: false
+    reload: 80
+    continuous: true
+    rotate: true
+    rotateSpeed: 2
+    shoot: {
+      firstShotDelay: 80
+      chargeEffect: chainEmp
+  }
+    chargeSound: lasercharge
+    shootSound: beam
+    recoil: 0
+    bullet: {
+      type: ContinuousLaserBulletType
+      shootStatus: slow
+      shootStatusDuration: 160
+      incendAmount: 0
+      incendSpread: 0
+      incendChance: 0
+      fadeTime: 60
+      damage: 83.25
+      length: 356
+      width: 14
+      lifetime: 150
+      pierceArmor: true
+      pierceCap: 5
+      shootEffect: lightningCharge
+      smokeEffect: none
+      despawnEffect: none
+      chargeEffect: chainLightning
+      chainLightningColor: eb7c77
+      chainLightningLength: 50
+      chainLightningWidth: 20
+    }
+  }
+]
