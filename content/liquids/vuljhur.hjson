@@ -5,7 +5,7 @@ flammability: 0.01
 heatCapacity: 0.5
 viscosity: 1.5
 temperature: 1
-effect: Impaired
+effect: impaired
 moveThroughBlocks: true
 blockReactive: true
 color: 6f6477
