@@ -78,7 +78,7 @@ weapons: [
     recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
-      rotateSpeed: 1
+      rotateSpeedMultiplier: 0.5
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
