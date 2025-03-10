@@ -5,5 +5,5 @@ explosiveness: 0.15
 flammability: 0
 heatCapacity: 1
 viscosity: 1
-temperature: 1.95
+temperature: -1
 effect: melting
