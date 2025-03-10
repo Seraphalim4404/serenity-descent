@@ -44,8 +44,9 @@ abilities: [
   }
   {
      type: EnergyFieldAbility
+     status: impaired
      color: e6a2ff
-     blinkSize: 5
+     blinkSize: 3
      layer: 2
      damage: 80
      reload: 90
