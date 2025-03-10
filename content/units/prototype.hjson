@@ -31,9 +31,7 @@ immunities: [
   electrified,
   shocked,
   overclock,
-  fast,
-  corroded,
-  slow
+  corroded
 ]
 abilities: [
   {
@@ -78,7 +76,8 @@ weapons: [
     recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
-      rotateSpeedMultiplier: 0.5
+      shootStatus: slow
+      shootStatusDuration: 150
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
