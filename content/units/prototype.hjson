@@ -56,8 +56,9 @@ weapons: [
       smokeEffect: lightningCharge
       absorbable: false
       hittable: false
-      instantDisappear: true
-      despawnEfect: none
+      instantDisappear: false
+      lifetime: 1
+      despawnEfect: chainEmp
     }
     alwaysShooting: false
     x: 0
