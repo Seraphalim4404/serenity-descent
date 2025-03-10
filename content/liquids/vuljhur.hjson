@@ -9,7 +9,6 @@ effect: Impaired
 moveThroughBlocks: true
 blockReactive: true
 color: 6f6477
-type: particleEffect
 particles: 6
 lifetime: 120
 interp: circleIn
