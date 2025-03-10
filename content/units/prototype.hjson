@@ -47,7 +47,7 @@ weapons: [
   {
     alwaysShooting: true
     reload: 1
-    shootStatus: overdrive
+    shootStatus: burning
     shootStatusDuration: 1000
     display: true
     shootSound: none
@@ -69,7 +69,7 @@ weapons: [
     rotateSpeed: 2
     shoot: {
       firstShotDelay: 80
-      chargeEffect: lightning
+      chargeEffect: lightningCharge
   }
     chargeSound: lasercharge
     shootSound: beam
