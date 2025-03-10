@@ -77,7 +77,7 @@ weapons: [
     bullet: {
       type: ContinuousLaserBulletType
       shootStatus: slow
-      shootStatusDuration: 150
+      shootStatusDuration: 160
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
