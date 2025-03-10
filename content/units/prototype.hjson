@@ -93,6 +93,9 @@ weapons: [
       smokeEffect: none
       despawnEffect: chainLightning
       chargeEffect: lightningCharge
+      chainLightningColor: eb7c77
+      chainLightningLength: 50
+      chainLightningWidth: 20
     }
   }
 ]
