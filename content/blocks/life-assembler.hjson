@@ -1,2 +1,34 @@
 localizedName: Life Assembler
-description: Horrors of the world.
+description: Horrors of the World.
+type: GenericCrafter
+size: 5
+health: 6000
+armor: 44
+buildTime: 240
+canOverdrive: false
+hasLiquids: true
+itemCapacity: 20
+liquidCapacity: 100
+consumes: {
+  power: 16.6666667
+  items: [
+  phase-fabric/3
+  
+  ]
+  liquids: [
+  neoplasm/50
+}
+craftTime: 1800
+outputItems: [
+  proto-heart/1
+]
+category: crafting
+research: phase-synthesizer
+buildTime: 60
+requirements: [
+  phase-fabric/650
+  carbide/700
+  thorium/550
+  silicon/220
+  graphite/900
+]
