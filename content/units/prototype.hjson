@@ -56,9 +56,8 @@ weapons: [
       smokeEffect: lightningCharge
       absorbable: false
       hittable: false
-      instantDisappear: false
-      lifetime: 1
-      despawnEfect: chainEmp
+      instantDisappear: true
+      despawnEfect: none
     }
     alwaysShooting: false
     x: 0
@@ -70,7 +69,7 @@ weapons: [
     rotateSpeed: 2
     shoot: {
       firstShotDelay: 80
-      chargeEffect: lightningCharge
+      chargeEffect: chainEmp
   }
     chargeSound: lasercharge
     shootSound: beam
@@ -89,10 +88,10 @@ weapons: [
       lifetime: 150
       pierceArmor: true
       pierceCap: 5
-      shootEffect: chainLightning
+      shootEffect: lightningCharge
       smokeEffect: none
-      despawnEffect: chainLightning
-      chargeEffect: lightningCharge
+      despawnEffect: none
+      chargeEffect: chainLightning
       chainLightningColor: eb7c77
       chainLightningLength: 50
       chainLightningWidth: 20
