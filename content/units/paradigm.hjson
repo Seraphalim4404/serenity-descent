@@ -1,0 +1,7 @@
+type: legs
+localizedName: Paradigm
+description: Tier V of Prototype.
+template: ErekirUnitType
+hitSize: 72
+health: 15000
+armor: 200
