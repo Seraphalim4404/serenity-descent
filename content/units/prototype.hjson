@@ -78,6 +78,7 @@ weapons: [
     recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
+      rotateSpeed: 1
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
@@ -91,7 +92,7 @@ weapons: [
       shootEffect: none
       smokeEffect: none
       despawnEffect: none
-      chargeEffect: lightning
+      chargeEffect: lightningCharge
     }
   }
 ]
