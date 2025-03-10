@@ -37,14 +37,14 @@ abilities: [
   {
      type: SuppressionFieldAbility
      orbRadius: 20
-     lightningSize: 3
-     lightning: 3
-     lightningColor: e6a2ff
-     effectColor: ff5d5d
+     particleSize: 3
+     particle: 3
+     particleColor: e6a2ff
+     color: e6a2ff
   }
   {
      type: EnergyFieldAbility
-     blinkSize: 1
+     blinkSize: 5
      layer: 2
      damage: 80
      reload: 90
@@ -54,6 +54,7 @@ abilities: [
      hitBuildings: true
      maxTargets: 10
      shootSound: spark
+     color:e6a2ff
      x: 0
      y: 0
   }
@@ -106,10 +107,7 @@ weapons: [
       shootEffect: lightningCharge
       smokeEffect: none
       despawnEffect: none
-      chargeEffect: chainLightning
-      chainLightningColor: eb7c77
-      chainLightningLength: 50
-      chainLightningWidth: 20
+      chargeEffect: none
     }
   }
 ]
