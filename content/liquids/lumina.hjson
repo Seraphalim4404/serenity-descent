@@ -7,8 +7,4 @@ viscosity: 1.11
 temperature: 0.44
 effect: corroded
 moveThroughBlocks: true
-blockReactive: false
-spreadTarget: [
-  water,
-  oil
-]
+blockReactive: true
