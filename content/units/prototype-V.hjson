@@ -36,25 +36,25 @@ immunities: [
 abilities: [
   {
      type: SuppressionFieldAbility
+     color: e6a2ff
      orbRadius: 20
      particleSize: 3
      particle: 3
      particleColor: e6a2ff
-     color: e6a2ff
   }
   {
      type: EnergyFieldAbility
+     color: e6a2ff
      blinkSize: 5
      layer: 2
      damage: 80
      reload: 90
-     range: 200
+     range: 268
      healPercent: 0.25
      hitUnits: true
      hitBuildings: true
      maxTargets: 10
      shootSound: spark
-     color:e6a2ff
      x: 0
      y: 0
   }
