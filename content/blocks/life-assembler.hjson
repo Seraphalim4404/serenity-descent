@@ -28,7 +28,7 @@ outputItems: [
   proto-heart/1
 ]
 category: crafting
-research: phase-synthesizer
+research: slag-heater
 requirements: [
   phase-fabric/650
   carbide/700
@@ -36,3 +36,4 @@ requirements: [
   silicon/220
   graphite/900
 ]
+alwaysUnlocked: true
