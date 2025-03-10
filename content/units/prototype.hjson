@@ -52,7 +52,7 @@ weapons: [
     display: true
     shootSound: none
     bullet: {
-      shootEffect: none
+      shootEffect: chainEmp
       smokeEffect: none
       absorbable: false
       hittable: false
@@ -88,9 +88,9 @@ weapons: [
       lifetime: 150
       pierceArmor: true
       pierceCap: 5
-      shootEffect: none
+      shootEffect: chainLightning
       smokeEffect: none
-      despawnEffect: none
+      despawnEffect: chainLightning
       chargeEffect: lightningCharge
     }
   }
