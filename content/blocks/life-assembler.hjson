@@ -8,6 +8,7 @@ canOverdrive: false
 hasLiquids: true
 itemCapacity: 20
 liquidCapacity: 100
+heatRequirement: 25
 consumes: {
   power: 16.6666667
   items: [
