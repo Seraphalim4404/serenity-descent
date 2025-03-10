@@ -1,1 +1,6 @@
 localizedName: Impaired
+damageMultiplier: 0.9
+reloadMultiplier: 0.85
+healthMultiplier: 1.25
+speedMultiplier: 0.7
+damage: 1
