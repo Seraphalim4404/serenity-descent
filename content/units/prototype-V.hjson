@@ -63,14 +63,17 @@ abilities: [
 weapons: [
   {
     alwaysShooting: true
+    x: 0
+    y: 0
+    mirror: false
     reload: 1
-    shootStatus: burning
+    shootStatus: none
     shootStatusDuration: 1000
     display: true
     shootSound: none
     bullet: {
       shootEffect: none
-      smokeEffect: lightningCharge
+      smokeEffect: chainLightning
       absorbable: false
       hittable: false
       instantDisappear: true
@@ -120,8 +123,8 @@ weapons: [
     continuous: false
     shootSound: missileLaunch
     recoil: 0
+    type: missile
     bullet: {
-      type: missile
       template: MissileUnitType
       hitSize: 16
       health: 100
@@ -129,7 +132,6 @@ weapons: [
       speed: 2
       rotateSpeed: 1.5
       lifetime: 120
-      rotateSpeed: 0.5
       missileAccelTime: 60
       loopSound: missileTrail
       loopSoundVolume: 0.1
