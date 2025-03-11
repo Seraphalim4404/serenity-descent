@@ -130,18 +130,7 @@ weapons: [
       deathSound: largeExplosion
       trailColor: d45b61
       trailLength: 96
-      hitEffect: {
-        type: multiEffect
-        effects: [
-          type: chainLightningEffect
-          particles: 6
-          lifetime: 60
-          sizeFrom: 6
-          sizeTo: 0
-          colorFrom: ffffff
-          colorTo: 628229
-           ]
-         }
+      hitEffect: scatheSlash 
       }
    }
 ]
