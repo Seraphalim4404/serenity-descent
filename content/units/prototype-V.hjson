@@ -131,7 +131,7 @@ weapons: [
       template: MissileUnitType
       controller: missileAI
       hitSize: 64
-      length: 64
+      bulletLength: 64
       health: 100
       damage: 135
       speed: 2
