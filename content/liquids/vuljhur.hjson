@@ -8,7 +8,6 @@ temperature: 0.5
 effect: impaired
 color: 6f6477
 hidden: false
-type: multiEffect
 effects: [
     type: chainLightningEffect
     particles: 6
