@@ -117,7 +117,30 @@ weapons: [
     shootSound: missileLaunch
     recoil: 0
     bullet: {
-      type: MissileUnitType
-      hitEffect:
+      type: missile
+      template: MissileUnitType
+      health: 100
+      damage: 135
+      speed: 2
+      lifetime: 120
+      rotateSpeed: 0.5
+      missileAccelTime: 60
+      loopSound: missileTrail
+      loopSoundVolume: 0.1
+      deathSound: largeExplosion
+      trailColor: d45b61
+      trailLength: 96
+      hitEffect: {
+        type: multiEffect
+        effects: [
+          type: chainLightningEffect
+          particles: 6
+          lifetime: 60
+          sizeFrom: 6
+          sizeTo: 0
+          colorFrom: ffffff
+          colorTo: 628229
+       ]
+     }
   }
 ]
