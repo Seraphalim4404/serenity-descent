@@ -13,9 +13,9 @@ weapons: [
     recoil: 0
     hitSize: 16
     drawSize: 16
-    speed: 2.5
+    speed: 3
     rotateSpeed: 2
-    lifetime: 180
+    lifetime: 240
     missileAccelTime: 60
     loopSound: missileTrail
     loopSoundVolume: 0.1
