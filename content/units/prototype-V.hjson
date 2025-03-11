@@ -122,8 +122,8 @@ weapons: [
     continuous: true
     shootSound: missileLaunch
     recoil: 0
-    type: MissileBulletType
     bullet: {
+      type: MissileBulletType
       template: MissileUnitType
       controller: missileAI
       hitSize: 64
