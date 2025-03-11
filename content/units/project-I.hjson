@@ -33,7 +33,7 @@ immunities: [
   overclock,
   corroded
 ]
-spawnUnit: missile
+spawnUnit: missile-missile
 weapons: [
   {
     type: missile
