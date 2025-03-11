@@ -120,17 +120,17 @@ weapons: [
     x: -14
     y: 0
     mirror: true
-    reload: 180
+    reload: 150
     continuous: false
     shootSound: missileLaunch
     recoil: 0
     bullet: {
       controller: missileAI
-      hitSize: 64
-      drawSize: 64
+      hitSize: 16
+      drawSize: 16
       health: 100
       damage: 135
-      speed: 24
+      speed: 2.5
       rotateSpeed: 2
       range: 256
       lifetime: 180
