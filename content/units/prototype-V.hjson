@@ -122,16 +122,15 @@ weapons: [
     continuous: true
     shootSound: missileLaunch
     recoil: 0
+    type: missile
+    template: MissileUnitType
     bullet: {
-      type: MissileBulletType
-      template: MissileUnitType
       controller: missileAI
       hitSize: 64
       drawSize: 64
-      bulletLength: 64
       health: 100
       damage: 135
-      speed: 2
+      speed: 5
       rotateSpeed: 1.5
       range: 256
       lifetime: 120
