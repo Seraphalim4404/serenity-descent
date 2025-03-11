@@ -123,10 +123,11 @@ weapons: [
     bullet: {
       type: missile
       template: MissileUnitType
-      width: 24
+      hitSize: 16
       health: 100
       damage: 135
       speed: 2
+      rotateSpeed: 1.5
       lifetime: 120
       rotateSpeed: 0.5
       missileAccelTime: 60
