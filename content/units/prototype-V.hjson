@@ -73,10 +73,7 @@ weapons: [
     shootSound: none
     bullet: {
       shootEffect: none
-      smokeEffect: {
-        type: chainLightning
-        size: 7
-      }        
+      smokeEffect: chainLightning
       absorbable: false
       hittable: false
       instantDisappear: true
@@ -92,7 +89,6 @@ weapons: [
     continuous: true
     shoot: {
       firstShotDelay: 80
-      chargeEffect: chainEmp
   }
     chargeSound: lasercharge
     shootSound: beam
@@ -111,9 +107,9 @@ weapons: [
       lifetime: 150
       pierceArmor: true
       pierceCap: 5
-      shootEffect: lightningCharge
+      shootEffect: none
       smokeEffect: none
-      despawnEffect: none
+      despawnEffect: chainLightning
       chargeEffect: none
     }
   }
@@ -123,19 +119,21 @@ weapons: [
     y: 0
     mirror: true
     reload: 180
-    continuous: false
+    continuous: true
     shootSound: missileLaunch
     recoil: 0
-    type: missile
+    type: MissileBulletType
     bullet: {
       template: MissileUnitType
       controller: missileAI
       hitSize: 64
+      drawSize: 64
       bulletLength: 64
       health: 100
       damage: 135
       speed: 2
       rotateSpeed: 1.5
+      range: 256
       lifetime: 120
       missileAccelTime: 60
       loopSound: missileTrail
