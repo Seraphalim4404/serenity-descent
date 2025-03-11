@@ -73,7 +73,10 @@ weapons: [
     shootSound: none
     bullet: {
       shootEffect: none
-      smokeEffect: chainLightning
+      smokeEffect: {
+        type: chainLightning
+        size: 7
+      }        
       absorbable: false
       hittable: false
       instantDisappear: true
@@ -126,6 +129,7 @@ weapons: [
     type: missile
     bullet: {
       template: MissileUnitType
+      controller: missileAI
       hitSize: 16
       health: 100
       damage: 135
