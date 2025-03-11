@@ -114,27 +114,27 @@ weapons: [
     }
   }
   {
+    type: missile
+    template: MissileUnitType
     alwaysShooting: false
     x: -14
     y: 0
     mirror: true
     reload: 180
-    continuous: true
+    continuous: false
     shootSound: missileLaunch
     recoil: 0
-    type: missile
-    template: MissileUnitType
     bullet: {
       controller: missileAI
       hitSize: 64
       drawSize: 64
       health: 100
       damage: 135
-      speed: 5
-      rotateSpeed: 1.5
+      speed: 24
+      rotateSpeed: 2
       range: 256
-      lifetime: 120
-      missileAccelTime: 60
+      lifetime: 180
+      missileAccelTime: 120
       loopSound: missileTrail
       loopSoundVolume: 0.1
       deathSound: largeExplosion
