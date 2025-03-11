@@ -6,8 +6,5 @@ heatCapacity: 0.6
 viscosity: 1.5
 temperature: 0.5
 effect: impaired
-spreadTarget: water
-moveThroughBlocks: true
-blockReactive: true
 color: 6f6477
 hidden: false
