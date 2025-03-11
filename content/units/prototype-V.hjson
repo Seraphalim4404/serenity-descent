@@ -82,8 +82,6 @@ weapons: [
     mirror: false
     reload: 80
     continuous: true
-    rotate: true
-    rotateSpeed: 2
     shoot: {
       firstShotDelay: 80
       chargeEffect: chainEmp
@@ -93,7 +91,7 @@ weapons: [
     recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
-      shootStatus: slow
+      shootStatus: impaired
       shootStatusDuration: 160
       incendAmount: 0
       incendSpread: 0
@@ -110,5 +108,16 @@ weapons: [
       despawnEffect: none
       chargeEffect: none
     }
+    alwaysShooting: false
+    x: -14
+    y: 0
+    mirror: true
+    reload: 180
+    continuous: false
+    shootSound: missileLaunch
+    recoil: 0
+    bullet: {
+      type: MissileUnitType
+      hitEffect:
   }
 ]
