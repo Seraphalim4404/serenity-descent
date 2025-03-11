@@ -125,7 +125,7 @@ weapons: [
     shootSound: missileLaunch
     recoil: 0
     bullet: {
-      controller: missileAI
+      defaultController: missileAI
       hitSize: 16
       drawSize: 16
       health: 100
