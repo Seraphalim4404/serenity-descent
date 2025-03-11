@@ -34,3 +34,50 @@ immunities: [
   corroded
 ]
 spawnUnit: missile-missile
+weapons: [
+  {
+    type: missile
+    template: MissileUnitType
+    alwaysShooting: false
+    controller: MissileAI
+    x: -14
+    y: 0
+    mirror: true
+    reload: 150
+    continuous: false
+    shootSound: missileLaunch
+    recoil: 0
+    hitSize: 16
+    drawSize: 16
+    speed: 2.5
+    rotateSpeed: 2
+    lifetime: 180
+    missileAccelTime: 60
+    loopSound: missileTrail
+    loopSoundVolume: 0.1
+    deathSound: largeExplosion
+    trailColor: d45b61
+    trailLength: 96
+    hitEffect: scatheSlash
+    bullet: {
+      health: 100
+      damage: 65
+      shootOnDeath: true
+      weapons: [
+       {
+        mirror: false
+        x: 0
+        y: 0
+        shootOnDeath: true
+        killShooter: true
+        bullet: {
+          type: ExplosionBulletType
+          damage: 50
+          splashDamageRadius: 8
+          killShooter: true
+          }
+        }
+      ]
+    }
+  }
+]
