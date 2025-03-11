@@ -1,0 +1,81 @@
+type: legs
+localizedName: "test"
+description: Tier V of Prototype E-005V_h.
+template: ErekirUnitType
+speed: 4.6
+health: 18000
+armor: 450
+drawCell: false
+legCount: 8
+legLength: 375
+legSpeed: 0.77
+legMaxLength: 3.25
+legMinLength: 0
+lockLegBase: false
+legContinuousMove: false
+rotateSpeed: 5.55
+hitSize: 72
+hovering: true
+omniMovement: true
+allowLegStep: true
+singleTarget: true
+immunities: [
+  tarred,
+  burning,
+  melting,
+  wet,
+  freezing,
+  blasted,
+  spore-slowed,
+  sapped,
+  electrified,
+  shocked,
+  overclock,
+  corroded
+]
+weapons: [
+  {
+    type: missile
+    template: MissileUnitType
+    alwaysShooting: false
+    controller: MissileAI
+    x: -14
+    y: 0
+    mirror: true
+    reload: 150
+    continuous: false
+    shootSound: missileLaunch
+    recoil: 0
+    hitSize: 16
+    drawSize: 16
+    speed: 2.5
+    rotateSpeed: 2
+    lifetime: 180
+    missileAccelTime: 60
+    loopSound: missileTrail
+    loopSoundVolume: 0.1
+    deathSound: largeExplosion
+    trailColor: d45b61
+    trailLength: 96
+    hitEffect: scatheSlash
+    bullet: {
+      health: 100
+      damage: 65
+      shootOnDeath: true
+      weapons: [
+       {
+        mirror: false
+        x: 0
+        y: 0
+        shootOnDeath: true
+        killShooter: true
+        bullet: {
+          type: ExplosionBulletType
+          damage: 50
+          splashDamageRadius: 8
+          killShooter: true
+          }
+       }
+    ]
+  }
+]
