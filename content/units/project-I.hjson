@@ -33,12 +33,8 @@ immunities: [
   overclock,
   corroded
 ]
-spawnUnit: missile-missile
 weapons: [
   {
-    type: missile
-    template: MissileUnitType
-    controller: MissileAI
     x: -14
     y: 0
     mirror: true
@@ -46,33 +42,10 @@ weapons: [
     shootSound: missileLaunch
     recoil: 0
     hitSize: 16
-    drawSize: 16
     speed: 2.5
     rotateSpeed: 2
-    lifetime: 180
-    missileAccelTime: 60
-    loopSound: missileTrail
-    loopSoundVolume: 0.1
-    deathSound: largeExplosion
-    trailColor: d45b61
-    trailLength: 96
-    hitEffect: scatheSlash
     bullet: {
-      health: 100
-      damage: 65
-      shootOnDeath: true
-      weapons: [
-       {
-        shootOnDeath: true
-        killShooter: true
-        bullet: {
-          type: ExplosionBulletType
-          damage: 50
-          splashDamageRadius: 8
-          killShooter: true
-          }
-        }
-      ]
-    }
+      spawnUnit: missile-missile
+     }
   }
 ]
