@@ -82,7 +82,7 @@ weapons: [
       incendSpread: 0
       incendChance: 0
       fadeTime: 60
-      damage: 83.25
+      damage: 137.5
       length: 356
       width: 14
       lifetime: 150
