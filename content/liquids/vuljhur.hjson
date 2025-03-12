@@ -7,7 +7,7 @@ viscosity: 1.5
 temperature: 1
 effect: impaired
 color: 6f6477
-spreadThroughBlocks: true
+moveThroughBlocks: true
 hidden: false
 effects: [
     type: particleEffect
