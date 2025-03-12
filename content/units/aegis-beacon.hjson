@@ -1,0 +1,26 @@
+localizedName: Aegis Beacon
+description: A Unit Beacon that supports nearby units.
+template: ErekirUnitType
+drawCell: true
+hitSize: 32
+health: 2750
+armor: 100
+speed: 0
+rotateSpeed: 0
+immunities: [
+  burning,
+  melting,
+  wet,
+  freezing,
+  spore-slowed,
+  tarred,
+  shocked,
+  blasted,
+  electrified,
+  corroded,
+  fast,
+  slow,
+  impaired
+]
+  
+  
