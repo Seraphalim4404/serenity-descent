@@ -1,9 +1,5 @@
 weapons: [
   {
-    type: missile
-    template: MissileUnitType
-    alwaysShooting: false
-    controller: MissileAI
     x: -14
     y: 0
     mirror: true
