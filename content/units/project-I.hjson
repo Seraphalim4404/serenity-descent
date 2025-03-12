@@ -35,6 +35,9 @@ immunities: [
 ]
 weapons: [
   {
+    type: missile
+    template: MissileUnitType
+    controller: MissileAI
     x: -14
     y: 0
     mirror: true
