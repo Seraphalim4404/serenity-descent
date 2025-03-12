@@ -4,11 +4,9 @@ weapons: [
     y: 0
     mirror: true
     reload: 150
-    continuous: false
     shootSound: missileLaunch
     recoil: 0
     hitSize: 16
-    drawSize: 16
     speed: 3
     rotateSpeed: 2
     lifetime: 240
@@ -25,9 +23,6 @@ weapons: [
       shootOnDeath: true
       weapons: [
        {
-        mirror: false
-        x: 0
-        y: 0
         shootOnDeath: true
         killShooter: true
         bullet: {
