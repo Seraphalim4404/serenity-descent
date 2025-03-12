@@ -38,13 +38,11 @@ weapons: [
   {
     type: missile
     template: MissileUnitType
-    alwaysShooting: false
     controller: MissileAI
     x: -14
     y: 0
     mirror: true
     reload: 150
-    continuous: false
     shootSound: missileLaunch
     recoil: 0
     hitSize: 16
@@ -65,9 +63,6 @@ weapons: [
       shootOnDeath: true
       weapons: [
        {
-        mirror: false
-        x: 0
-        y: 0
         shootOnDeath: true
         killShooter: true
         bullet: {
