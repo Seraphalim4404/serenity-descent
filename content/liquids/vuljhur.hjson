@@ -1,10 +1,10 @@
 localizedName: Vuljhur
 description: A variant version of Lumina.
 explosiveness: 0.1
-flammability: 0.1
+flammability: 0.3
 heatCapacity: 0.6
 viscosity: 1.5
-temperature: 0.5
+temperature: 1
 effect: impaired
 color: 6f6477
 hidden: false
