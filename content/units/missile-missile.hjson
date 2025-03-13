@@ -1,4 +1,3 @@
-type: flying
 template: MissileUnitType
 controller: MissileAI
 weapons: [
