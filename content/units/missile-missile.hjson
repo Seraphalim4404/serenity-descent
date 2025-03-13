@@ -38,7 +38,7 @@ weapons: [
       splashDamage: 175
       splashDamageRadius: 23
         }
-      ]
-    }
+      }
+    ]
   }
 ]
