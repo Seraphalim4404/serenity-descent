@@ -1,6 +1,6 @@
 type: missile
 template: MissileUnitType
-controller: MissileAI
+template: MissileAI
 targetGround: true
 targetAir: true
 health: 100
