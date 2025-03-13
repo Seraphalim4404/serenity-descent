@@ -20,6 +20,7 @@ hovering: true
 omniMovement: true
 allowLegStep: true
 singleTarget: true
+predictTarget: false
 immunities: [
   tarred,
   burning,
