@@ -1,7 +1,7 @@
 type: legs
 localizedName: "Prototype E-005V_h"
 description: Tier V of Prototype E-005V_h.
-template: ErekirUnitType
+template: SerpuloUnitType
 speed: 4.6
 health: 18000
 armor: 450
@@ -90,7 +90,7 @@ weapons: [
     mirror: false
     reload: 80
     continuous: true
-    targetPredict: false
+    predictTarget: false
     shoot: {
       firstShotDelay: 80
   }
@@ -133,7 +133,7 @@ weapons: [
     missileAccelTime: 0.5
     loopSound: missileTrail
     loopSoundVolume: 0.1
-    targetPredict: false
+    predictTarget: false
     bullet: {
       spawnUnit: missile-missile
       rangeOverride: 1024
