@@ -14,9 +14,8 @@ weapons: [
   {
     shootCone: 360
     shootOnDeath: true
-    controllable: false
-    shootSound: missileLaunch
-    hitSize: 16
+    range: 8
+    shootSound: largeExplosion
     loopSound: missileTrail
     loopSoundVolume: 0.1
     deathSound: largeExplosion
