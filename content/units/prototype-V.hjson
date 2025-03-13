@@ -125,15 +125,14 @@ weapons: [
     shootSound: missileLaunch
     recoil: 0
     hitSize: 16
-    rangeOverride: 512
     speed: 3.25
     rotateSpeed: 1.5
-    lifetime: 660
-    missileAccelTime: 27.5
+    missileAccelTime: 0.5
     loopSound: missileTrail
     loopSoundVolume: 0.1
     bullet: {
       spawnUnit: missile-missile
+      rangeOverride: 512
       deathSound: largeExplosion
       trailColor: d45b61
       trailLength: 96
