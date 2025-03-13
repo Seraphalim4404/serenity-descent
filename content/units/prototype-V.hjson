@@ -133,6 +133,7 @@ weapons: [
     loopSound: missileTrail
     loopSoundVolume: 0.1
     predictTarget: false
+    targetPosition: 0
     bullet: {
       spawnUnit: missile-missile
       rangeOverride: 1024
