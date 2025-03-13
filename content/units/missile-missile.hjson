@@ -1,11 +1,10 @@
+type: misssile
+template: MissileUnitType
+controller: MissileAI
 weapons: [
   {
-    x: -14
-    y: 0
-    mirror: true
     reload: 150
     shootSound: missileLaunch
-    recoil: 0
     hitSize: 16
     speed: 3
     rotateSpeed: 2
