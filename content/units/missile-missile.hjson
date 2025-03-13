@@ -1,5 +1,6 @@
 type: missile
 template: MissileUnitType
+lifetime: 1500
 weapons: [
   {
     reload: 150
