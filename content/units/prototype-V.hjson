@@ -124,10 +124,10 @@ weapons: [
     shootSound: missileLaunch
     recoil: 0
     hitSize: 16
-    speed: 2.5
-    rotateSpeed: 2
-    lifetime: 180
-    missileAccelTime: 60
+    speed: 3.25
+    rotateSpeed: 1.5
+    lifetime: 660
+    missileAccelTime: 27.5
     loopSound: missileTrail
     loopSoundVolume: 0.1
     bullet: {
