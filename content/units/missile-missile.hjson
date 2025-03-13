@@ -1,14 +1,19 @@
 type: missile
 template: MissileUnitType
-lifetime: 1500
+health: 100
+lifetime: 660
+speed: 1
+rotateSpeed: 2.5
+missileAccelTime: 25
+maxRange: 16
+trailColor: ef7f74
 weapons: [
   {
-    reload: 150
+    shootCone: 360
+    shootOnDeath: true
+    controllable: false
     shootSound: missileLaunch
     hitSize: 16
-    speed: 1
-    rotateSpeed: 3.25
-    missileAccelTime: 35
     loopSound: missileTrail
     loopSoundVolume: 0.1
     deathSound: largeExplosion
@@ -16,23 +21,11 @@ weapons: [
     trailLength: 96
     hitEffect: scatheSlash
     bullet: {
-      health: 100
-      damage: 100
-      lifetime: 1500
-      rangeOverride: 1024
-      shootOnDeath: true
-      weapons: [
-       {
-        shootOnDeath: true
-        killShooter: true
-        bullet: {
-          type: ExplosionBulletType
-          damage: 50
-          splashDamageRadius: 8
-          killShooter: true
-          }
-        }
-      ]
+      type: ExplosionBulletType
+      killShooter: true
+      damage: 135
+      splashDamage: 50
+      splashDamageRadius: 24
     }
   }
 ]
