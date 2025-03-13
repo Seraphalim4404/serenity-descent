@@ -32,7 +32,7 @@ ammoTypes: {
     lifetime: 1500
     speed: 5
     homingPower: 0.1
-    homingRange: 64
+    homingRange: 512
     homingDelay: 0
     rotateSpeed: 10
     pierce: true
