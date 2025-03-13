@@ -7,7 +7,6 @@ weapons: [
     hitSize: 16
     speed: 3
     rotateSpeed: 3.25
-    lifetime: 660
     missileAccelTime: 35
     loopSound: missileTrail
     loopSoundVolume: 0.1
