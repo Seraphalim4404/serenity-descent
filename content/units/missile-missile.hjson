@@ -14,14 +14,14 @@ weapons: [
   {
     shootCone: 360
     shootOnDeath: true
-    range: 8
+    range: 3
     shootSound: largeExplosion
     loopSound: missileTrail
     loopSoundVolume: 0.1
     deathSound: largeExplosion
     trailColor: d45b61
     trailLength: 96
-    deathExplosionEffect: [
+    hitEffect: [
         massiveExplosion,
         scatheExplosion,
         scatheLight,
@@ -36,7 +36,13 @@ weapons: [
       type: ExplosionBulletType
       killShooter: true
       splashDamage: 175
-      splashDamageRadius: 23
+      splashDamageRadius: 24
+      fragBullets: 10
+      fragBullet: {
+        type: ShrapnelBulletType
+        damage: 100
+        speed: 1
+      }
     }
   }
 ]
