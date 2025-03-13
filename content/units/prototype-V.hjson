@@ -5,6 +5,7 @@ template: ErekirUnitType
 speed: 4.6
 health: 18000
 armor: 450
+range: 512
 drawCell: false
 legCount: 8
 legLength: 375
