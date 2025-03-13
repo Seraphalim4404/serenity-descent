@@ -136,7 +136,6 @@ weapons: [
       trailColor: d45b61
       trailLength: 96
       hitEffect: scatheSlash
-      }
     }
   }
 ]
