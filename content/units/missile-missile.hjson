@@ -2,9 +2,9 @@ type: missile
 template: MissileUnitType
 health: 100
 lifetime: 660
-speed: 1
+speed: 2.75
 rotateSpeed: 2.5
-missileAccelTime: 25
+missileAccelTime: 10
 maxRange: 16
 trailColor: ef7f74
 weapons: [
