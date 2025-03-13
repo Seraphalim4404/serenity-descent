@@ -6,7 +6,6 @@ speed: 4.6
 health: 18000
 armor: 450
 range: 1024
-targetAir: true
 drawCell: false
 legCount: 8
 legLength: 375
@@ -20,8 +19,8 @@ hitSize: 72
 hovering: true
 omniMovement: true
 allowLegStep: true
-singleTarget: true
-predictTarget: false
+singleTarget: false
+forceMultiTarget: true
 immunities: [
   tarred,
   burning,
@@ -74,7 +73,6 @@ weapons: [
     shootStatusDuration: 1000
     display: true
     shootSound: none
-    predictTarget: false
     bullet: {
       shootEffect: none
       smokeEffect: chainLightning
@@ -91,7 +89,7 @@ weapons: [
     mirror: false
     reload: 80
     continuous: true
-    predict: false
+    targetPrediction: false
     shoot: {
       firstShotDelay: 80
   }
@@ -134,8 +132,7 @@ weapons: [
     missileAccelTime: 0.5
     loopSound: missileTrail
     loopSoundVolume: 0.1
-    predict: false
-    targetPosition: 0
+    targetPrediction: false
     bullet: {
       spawnUnit: missile-missile
       rangeOverride: 1024
