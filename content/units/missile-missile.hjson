@@ -17,7 +17,8 @@ weapons: [
     hitEffect: scatheSlash
     bullet: {
       health: 100
-      damage: 65
+      damage: 100
+      rangeOverride: 1024
       shootOnDeath: true
       weapons: [
        {
