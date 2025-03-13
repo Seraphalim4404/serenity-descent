@@ -21,6 +21,7 @@ weapons: [
     deathSound: largeExplosion
     trailColor: d45b61
     trailLength: 96
+    predictTarget: false
     hitEffect: [
         massiveExplosion,
         scatheExplosion,
