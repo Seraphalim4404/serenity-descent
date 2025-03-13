@@ -74,6 +74,7 @@ weapons: [
     shootStatusDuration: 1000
     display: true
     shootSound: none
+    predictTarget: false
     bullet: {
       shootEffect: none
       smokeEffect: chainLightning
