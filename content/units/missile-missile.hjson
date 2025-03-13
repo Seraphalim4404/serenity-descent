@@ -15,7 +15,6 @@ weapons: [
     trailLength: 96
     hitEffect: scatheSlash
     bullet: {
-      range: 512
       health: 100
       damage: 65
       shootOnDeath: true
