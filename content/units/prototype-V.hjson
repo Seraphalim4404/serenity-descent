@@ -91,7 +91,7 @@ weapons: [
     mirror: false
     reload: 80
     continuous: true
-    predictTarget: false
+    predict: false
     shoot: {
       firstShotDelay: 80
   }
@@ -134,7 +134,7 @@ weapons: [
     missileAccelTime: 0.5
     loopSound: missileTrail
     loopSoundVolume: 0.1
-    predictTarget: false
+    predict: false
     targetPosition: 0
     bullet: {
       spawnUnit: missile-missile
