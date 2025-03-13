@@ -7,7 +7,6 @@ weapons: [
     hitSize: 16
     speed: 1
     rotateSpeed: 3.25
-    lifetime: 1500
     missileAccelTime: 35
     loopSound: missileTrail
     loopSoundVolume: 0.1
@@ -18,6 +17,8 @@ weapons: [
     bullet: {
       health: 100
       damage: 100
+      lifetime: 1500
+      rangeOverride: 1024
       shootOnDeath: true
       weapons: [
        {
