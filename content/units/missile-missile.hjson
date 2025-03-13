@@ -21,13 +21,22 @@ weapons: [
     deathSound: largeExplosion
     trailColor: d45b61
     trailLength: 96
-    hitEffect: scatheSlash
     bullet: {
       type: ExplosionBulletType
       killShooter: true
-      damage: 135
-      splashDamage: 50
-      splashDamageRadius: 24
+      splashDamage: 175
+      splashDamageRadius: 23
+      deathExplosionEffect: [
+        massiveExplosion,
+        scatheExplosion,
+        scatheLight,
+        {
+          type: waveEffect:
+          lifetime: 10
+          strokeFrom: 4
+          sizeFrom: 130
+        }
+      ]
     }
   }
 ]
