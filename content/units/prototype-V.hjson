@@ -124,6 +124,7 @@ weapons: [
     shootSound: missileLaunch
     recoil: 0
     hitSize: 16
+    range: 512
     speed: 3.25
     rotateSpeed: 1.5
     lifetime: 660
