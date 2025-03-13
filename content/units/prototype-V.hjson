@@ -6,6 +6,7 @@ speed: 4.6
 health: 18000
 armor: 450
 range: 1024
+targetAir: true
 drawCell: false
 legCount: 8
 legLength: 375
