@@ -1,8 +1,10 @@
 type: missile
 template: MissileUnitType
+targetGround: true
+targetAir: true
 health: 100
 lifetime: 660
-speed: 2.75
+speed: 3.5
 rotateSpeed: 2.5
 missileAccelTime: 10
 maxRange: 16
