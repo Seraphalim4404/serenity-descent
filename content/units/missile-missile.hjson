@@ -8,7 +8,7 @@ lifetime: 660
 speed: 3.5
 rotateSpeed: 2.5
 missileAccelTime: 10
-maxRange: 16
+range: 16
 trailColor: ef7f74
 weapons: [
   {
