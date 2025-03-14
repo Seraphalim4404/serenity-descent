@@ -1,11 +1,11 @@
 type: missile
 template: MissileUnitType
 controller: MissileAI
-health: 100
+health: 2200
 lifetime: 660
 speed: 3.5
 rotateSpeed: 2.5
-missileAccelTime: 10
+missileAccelTime: 5
 hitSize: 16
 range: 1
 trailColor: ef7f74
