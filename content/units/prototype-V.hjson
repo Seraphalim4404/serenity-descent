@@ -68,7 +68,7 @@ weapons: [
   {
     type: missile
     template: MissileUnitType
-    controller: MissileAI
+    controller: player
     x: -14
     y: 0
     mirror: true
