@@ -8,6 +8,17 @@ rotateSpeed: 2.5
 missileAccelTime: 10
 range: 16
 trailColor: ef7f74
+deathExplosionEffect: [
+        massiveExplosion,
+        scatheExplosion,
+        scatheLight,
+        {
+          type: waveEffect
+          lifetime: 45
+          strokeFrom: 4
+          sizeTo: 130
+        }
+      ]
 weapons: [
   {
     predictTarget: false
@@ -21,17 +32,6 @@ weapons: [
     trailColor: d45b61
     trailLength: 96
     predictTarget: false
-    hitEffect: [
-        massiveExplosion,
-        scatheExplosion,
-        scatheLight,
-        {
-          type: waveEffect
-          lifetime: 45
-          strokeFrom: 4
-          sizeTo: 130
-        }
-      ]
     bullet: {
       type: ExplosionBulletType
       killShooter: true
