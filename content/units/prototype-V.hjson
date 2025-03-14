@@ -1,6 +1,6 @@
 type: legs
 localizedName: "Prototype E-005V_h"
-description: The last tier of the Prototype.
+description: Tier V of Prototype E-001_h.
 template: ErekirUnitType
 speed: 4.6
 health: 18000
@@ -21,7 +21,6 @@ omniMovement: true
 allowLegStep: true
 singleTarget: false
 forceMultiTarget: true
-targetPredict: false
 immunities: [
   tarred,
   burning,
