@@ -1,0 +1,10 @@
+type: me h
+localizedName: Shielder
+description: A slow-paced unit that has a massive amount of damage reduction.
+template: SerpuloUnitType
+speed: 0.5
+health: 6000
+armor: 0
+range: 128
+drawCell: true
+rotateSpeed: 1.5
