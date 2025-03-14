@@ -127,9 +127,6 @@ weapons: [
     shootSound: missileLaunch
     recoil: 0
     rotateSpeed: 1.5
-    missileAccelTime: 0.1
-    loopSound: missileTrail
-    loopSoundVolume: 0.1
     predictTarget: false
     shootCone: 12
     bullet: {
