@@ -18,8 +18,8 @@ deathExplosionEffect: [
           lifetime: 45
           strokeFrom: 4
           sizeTo: 130
-        }
-      ]
+  }
+]
 weapons: [
   {
     predictTarget: false
