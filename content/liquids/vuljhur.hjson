@@ -10,6 +10,10 @@ color: 6f6477
 moveThroughBlocks: true
 hidden: false
 spreadTarget: water
+maxSpread: 0.2
+spreadConversion: 1
+spreadDamage: 7.5
+removeScaling: 0.5
 particleEffect: {
     type: MultiEffect
     effects: [
@@ -18,11 +22,12 @@ particleEffect: {
             particles: 2
             lifetime: 240
             length: 25
+            sizeInterp: slope
             sizeFrom: 0
             sizeTo: 2
             colorFrom: 867791
             colorTo: 5f516b
-            layer: 1
+            layer: 60
             spin: 12
     }
   ]
