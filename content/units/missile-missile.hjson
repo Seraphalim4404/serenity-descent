@@ -1,8 +1,6 @@
 type: missile
 template: MissileUnitType
 controller: MissileAI
-targetGround: true
-targetAir: true
 health: 100
 lifetime: 660
 speed: 3.5
@@ -10,9 +8,9 @@ rotateSpeed: 2.5
 missileAccelTime: 10
 range: 16
 trailColor: ef7f74
-predictTarget: false
 weapons: [
   {
+    predictTarget: false
     shootCone: 360
     shootOnDeath: true
     range: 3
