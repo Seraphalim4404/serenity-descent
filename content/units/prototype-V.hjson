@@ -21,7 +21,7 @@ omniMovement: true
 allowLegStep: true
 singleTarget: false
 forceMultiTarget: true
-predictTarget: false
+targetPrediction: false
 immunities: [
   tarred,
   burning,
@@ -68,7 +68,7 @@ weapons: [
   {
     type: missile
     template: MissileUnitType
-    controller: player
+    controller: missileAI
     x: -14
     y: 0
     mirror: true
