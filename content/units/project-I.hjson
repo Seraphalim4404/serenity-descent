@@ -41,7 +41,7 @@ weapons: [
     x: -14
     y: 0
     mirror: true
-    reload: 10
+    reload: 60
     shootSound: missileLaunch
     recoil: 0
     hitSize: 16
