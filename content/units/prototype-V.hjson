@@ -1,6 +1,6 @@
 type: legs
 localizedName: "Prototype E-005V_h"
-description: Tier V of Prototype E-001_h.
+description: The last tier of the Prototype.
 template: ErekirUnitType
 speed: 4.6
 health: 18000
@@ -105,7 +105,7 @@ weapons: [
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
-      fadeTime: 180
+      fadeTime: 80
       damage: 83.25
       length: 356
       width: 14
@@ -130,7 +130,7 @@ weapons: [
     recoil: 0
     speed: 3.25
     rotateSpeed: 1.5
-    missileAccelTime: 0.5
+    missileAccelTime: 0.1
     loopSound: missileTrail
     loopSoundVolume: 0.1
     predictTarget: false
