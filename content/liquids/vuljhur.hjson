@@ -10,6 +10,9 @@ color: 6f6477
 moveThroughBlocks: true
 hidden: false
 spreadTarget: water
+
+capPuddle: false
+
 maxSpread: 0.2
 spreadConversion: 1
 spreadDamage: 7.5
