@@ -41,13 +41,14 @@ weapons: [
     x: -14
     y: 0
     mirror: true
-    reload: 150
+    reload: 10
     shootSound: missileLaunch
     recoil: 0
     hitSize: 16
     speed: 2.5
     rotateSpeed: 2
     bullet: {
+      speed: 0
       spawnUnit: missile-missile
      }
   }
