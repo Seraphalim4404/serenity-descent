@@ -120,6 +120,7 @@ weapons: [
       spawnUnit: missile-missile
       deathSound: largeExplosion
       rangeOverride: 1024
+      speed: 0
       trailColor: d45b61
       trailLength: 96
       hitEffect: none
