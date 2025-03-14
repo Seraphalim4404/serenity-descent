@@ -6,7 +6,7 @@ lifetime: 660
 speed: 3.5
 rotateSpeed: 2.5
 missileAccelTime: 10
-range: 16
+range: 4
 trailColor: ef7f74
 predictTarget: false
 deathExplosionEffect: [
@@ -25,24 +25,26 @@ weapons: [
     predictTarget: false
     shootCone: 360
     shootOnDeath: true
-    range: 3
+    range: 4
     shootSound: largeExplosion
     loopSound: missileTrail
-    loopSoundVolume: 0.1
+    loopSoundVolume: 0.5
     deathSound: largeExplosion
     trailColor: d45b61
     trailLength: 96
     predictTarget: false
     bullet: {
-      type: ExplosionBulletType
+      type: missile
+      template: MissileUnitType
       killShooter: true
       splashDamage: 175
       splashDamageRadius: 24
       fragBullets: 10
       fragBullet: {
-        type: ShrapnelBulletType
-        damage: 100
+        type: MissileBulletType
+        damage: 125
         speed: 1
+        lifetime: 180
       }
     }
   }
