@@ -81,6 +81,7 @@ weapons: [
     recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
+      speed: 0
       shootStatus: impaired
       shootStatusDuration: 160
       incendAmount: 0
@@ -119,8 +120,6 @@ weapons: [
     bullet: {
       spawnUnit: missile-missile
       deathSound: largeExplosion
-      rangeOverride: 1024
-      speed: 0
       trailColor: d45b61
       trailLength: 96
       hitEffect: none
