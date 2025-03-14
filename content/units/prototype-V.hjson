@@ -65,41 +65,6 @@ abilities: [
 ]
 weapons: [
   {
-    alwaysShooting: false
-    x: 0
-    y: 0
-    mirror: false
-    reload: 80
-    continuous: true
-    predictTarget: false
-    shootCone: 5
-    shoot: {
-      firstShotDelay: 80
-  }
-    chargeSound: lasercharge
-    shootSound: beam
-    recoil: 0
-    bullet: {
-      type: ContinuousLaserBulletType
-      shootStatus: impaired
-      shootStatusDuration: 160
-      incendAmount: 0
-      incendSpread: 0
-      incendChance: 0
-      fadeTime: 60
-      damage: 83.25
-      length: 356
-      width: 14
-      lifetime: 150
-      pierceArmor: true
-      pierceCap: 5
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: chainLightning
-      chargeEffect: none
-    }
-  }
-  {
     type: missile
     template: MissileUnitType
     controller: MissileAI
