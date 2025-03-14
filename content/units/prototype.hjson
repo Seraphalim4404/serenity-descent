@@ -67,6 +67,8 @@ weapons: [
     continuous: true
     rotate: true
     rotateSpeed: 2
+    shootStatus: slow
+    shootStatusDuration: 160
     shoot: {
       firstShotDelay: 80
       chargeEffect: chainEmp
@@ -76,13 +78,11 @@ weapons: [
     recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
-      shootStatus: slow
-      shootStatusDuration: 160
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
       fadeTime: 60
-      damage: 137.5
+      damage: 225
       length: 356
       width: 14
       lifetime: 150
