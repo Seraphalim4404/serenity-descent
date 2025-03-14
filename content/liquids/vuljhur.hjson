@@ -1,7 +1,7 @@
 localizedName: Vuljhur
 description: A variant version of Lumina.
 explosiveness: 0.1
-flammability: 0.3
+flammability: 0
 heatCapacity: 0.6
 viscosity: 1.5
 temperature: 1
@@ -9,12 +9,20 @@ effect: impaired
 color: 6f6477
 moveThroughBlocks: true
 hidden: false
-effects: [
-    type: particleEffect
-    particles: 6
-    lifetime: 60
-    sizeFrom: 6
-    sizeTo: 0
-    colorFrom: 6a6277
-    colorTo: 66f647
-  ]
+spreadTarget: water
+particleEffect: {
+    type: MultiEffect
+    effects: [
+        {
+            type: ParticleEffect
+            particles: 2
+            lifetime: 240
+            length: 25
+            sizeFrom: 0
+            sizeTo: 2
+            colorFrom: 867791
+            colorTo: 5f516b
+            layer: 1
+            spin: 12
+  }
+]
