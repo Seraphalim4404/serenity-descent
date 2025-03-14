@@ -90,7 +90,7 @@ weapons: [
     mirror: false
     reload: 80
     continuous: true
-    predictTarget: true
+    predictTarget: false
     shootCone: 5
     shoot: {
       firstShotDelay: 80
@@ -105,7 +105,7 @@ weapons: [
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
-      fadeTime: 60
+      fadeTime: 180
       damage: 83.25
       length: 356
       width: 14
@@ -128,17 +128,15 @@ weapons: [
     reload: 150
     shootSound: missileLaunch
     recoil: 0
-    hitSize: 16
     speed: 3.25
     rotateSpeed: 1.5
     missileAccelTime: 0.5
     loopSound: missileTrail
     loopSoundVolume: 0.1
-    predictTarget: true
+    predictTarget: false
     shootCone: 12
     bullet: {
       spawnUnit: missile-missile
-      rangeOverride: 1024
       deathSound: largeExplosion
       trailColor: d45b61
       trailLength: 96
