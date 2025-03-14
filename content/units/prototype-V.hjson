@@ -95,7 +95,7 @@ weapons: [
     shootCone: 5
     shoot: {
       firstShotDelay: 80
-  }
+    }
     chargeSound: lasercharge
     shootSound: beam
     recoil: 0
@@ -120,16 +120,12 @@ weapons: [
     }
   }
   {
-    type: missile
-    template: MissileUnitType
-    controller: MissileAI
     x: -14
     y: 0
     mirror: true
     reload: 150
     shootSound: missileLaunch
     recoil: 0
-    speed: 3.25
     rotateSpeed: 1.5
     missileAccelTime: 0.1
     loopSound: missileTrail
@@ -145,4 +141,4 @@ weapons: [
       hitEffect: none
     }
   }
-
+]
