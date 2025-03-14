@@ -22,7 +22,7 @@ immunities: [
   slow,
   impaired
 ]
-abilities:
+abilities: [
   {
      type: EnergyFieldAbility
      status: impaired
@@ -40,5 +40,6 @@ abilities:
      x: 0
      y: 0
   }
+]
   
   
