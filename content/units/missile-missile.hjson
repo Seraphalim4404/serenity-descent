@@ -39,12 +39,12 @@ weapons: [
       killShooter: true
       splashDamage: 175
       splashDamageRadius: 24
-      fragBullets: 10
+      fragBullets: 50
       fragBullet: {
         type: MissileBulletType
-        damage: 125
-        speed: 2
-        lifetime: 180
+        damage: 350
+        speed: 1.5
+        lifetime: 660
       }
     }
   }
