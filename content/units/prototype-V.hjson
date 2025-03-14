@@ -21,7 +21,6 @@ omniMovement: true
 allowLegStep: true
 singleTarget: false
 forceMultiTarget: true
-accurateDelay: false
 immunities: [
   tarred,
   burning,
@@ -36,35 +35,6 @@ immunities: [
   overclock,
   corroded,
   muddy
-]
-weapons: [
-  {
-    type: missile
-    template: MissileUnitType
-    controller: missileAI
-    accurateDelay: false
-    x: -14
-    y: 0
-    mirror: true
-    reload: 150
-    shootSound: missileLaunch
-    recoil: 0
-    speed: 3.25
-    rotateSpeed: 1.5
-    missileAccelTime: 0.1
-    loopSound: missileTrail
-    loopSoundVolume: 0.5
-    predictTarget: false
-    shootCone: 12
-    bullet: {
-      spawnUnit: missile-missile
-      deathSound: largeExplosion
-      rangeOverride: 1024
-      trailColor: d45b61
-      trailLength: 96
-      hitEffect: none
-    }
-  }
 ]
 abilities: [
   {
@@ -91,5 +61,42 @@ abilities: [
      shootSound: spark
      x: 0
      y: 0
+  }
+]
+weapons: [
+  {
+    alwaysShooting: false
+    x: 0
+    y: 0
+    mirror: false
+    reload: 80
+    continuous: true
+    predictTarget: false
+    shootCone: 5
+    shoot: {
+      firstShotDelay: 80
+  }
+    chargeSound: lasercharge
+    shootSound: beam
+    recoil: 0
+    bullet: {
+      type: ContinuousLaserBulletType
+      shootStatus: impaired
+      shootStatusDuration: 160
+      incendAmount: 0
+      incendSpread: 0
+      incendChance: 0
+      fadeTime: 60
+      damage: 83.25
+      length: 356
+      width: 14
+      lifetime: 150
+      pierceArmor: true
+      pierceCap: 5
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: chainLightning
+      chargeEffect: none
+    }
   }
 ]
