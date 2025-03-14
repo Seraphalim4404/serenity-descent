@@ -1,6 +1,6 @@
 type: missile
 template: MissileUnitType
-controller: MissileAI
+controller: player
 health: 100
 lifetime: 660
 speed: 3.5
