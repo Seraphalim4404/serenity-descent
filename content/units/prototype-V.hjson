@@ -66,25 +66,6 @@ abilities: [
 ]
 weapons: [
   {
-    alwaysShooting: true
-    x: 0
-    y: 0
-    mirror: false
-    reload: 1
-    shootStatus: none
-    shootStatusDuration: 1000
-    display: true
-    shootSound: none
-    bullet: {
-      shootEffect: none
-      smokeEffect: chainLightning
-      absorbable: false
-      hittable: false
-      instantDisappear: true
-      despawnEfect: none
-    }
-  }
-  {
     alwaysShooting: false
     x: 0
     y: 0
@@ -143,6 +124,25 @@ weapons: [
       trailColor: d45b61
       trailLength: 96
       hitEffect: none
+    }
+  }
+  {
+  alwaysShooting: true
+    x: 0
+    y: 0
+    mirror: false
+    reload: 1
+    shootStatus: none
+    shootStatusDuration: 1000
+    display: true
+    shootSound: none
+    bullet: {
+      shootEffect: none
+      smokeEffect: chainLightning
+      absorbable: false
+      hittable: false
+      instantDisappear: true
+      despawnEfect: none
     }
   }
 ]
