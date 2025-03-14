@@ -21,6 +21,7 @@ omniMovement: true
 allowLegStep: true
 singleTarget: false
 forceMultiTarget: true
+predictTarget: false
 immunities: [
   tarred,
   burning,
