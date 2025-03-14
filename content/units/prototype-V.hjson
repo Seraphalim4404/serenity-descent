@@ -119,6 +119,7 @@ weapons: [
     shootCone: 12
     bullet: {
       spawnUnit: missile-missile
+      speed: 0
       deathSound: largeExplosion
       trailColor: d45b61
       trailLength: 96
