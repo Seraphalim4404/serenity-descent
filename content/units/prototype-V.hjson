@@ -17,7 +17,7 @@ legContinuousMove: false
 rotateSpeed: 4.5
 hitSize: 72
 hovering: true
-omniMovement: false
+omniMovement: true
 allowLegStep: true
 singleTarget: false
 forceMultiTarget: true
