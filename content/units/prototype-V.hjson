@@ -19,7 +19,6 @@ hitSize: 72
 hovering: true
 omniMovement: true
 allowLegStep: true
-predictTarget: false
 singleTarget: false
 forceMultiTarget: true
 immunities: [
@@ -124,25 +123,6 @@ weapons: [
       trailColor: d45b61
       trailLength: 96
       hitEffect: none
-    }
-  }
-  {
-  alwaysShooting: true
-    x: 0
-    y: 0
-    mirror: false
-    reload: 1
-    shootStatus: none
-    shootStatusDuration: 1000
-    display: true
-    shootSound: none
-    bullet: {
-      shootEffect: none
-      smokeEffect: chainLightning
-      absorbable: false
-      hittable: false
-      instantDisappear: true
-      despawnEfect: none
     }
   }
 ]
