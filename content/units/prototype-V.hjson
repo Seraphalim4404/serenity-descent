@@ -19,6 +19,7 @@ hitSize: 72
 hovering: true
 omniMovement: true
 allowLegStep: true
+predictTarget: false
 singleTarget: false
 forceMultiTarget: true
 immunities: [
