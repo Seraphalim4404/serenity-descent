@@ -37,6 +37,34 @@ immunities: [
   corroded,
   muddy
 ]
+weapons: [
+  {
+    type: missile
+    template: MissileUnitType
+    controller: missileAI
+    x: -14
+    y: 0
+    mirror: true
+    reload: 150
+    shootSound: missileLaunch
+    recoil: 0
+    speed: 3.25
+    rotateSpeed: 1.5
+    missileAccelTime: 0.1
+    loopSound: missileTrail
+    loopSoundVolume: 0.5
+    predictTarget: false
+    shootCone: 12
+    bullet: {
+      spawnUnit: missile-missile
+      deathSound: largeExplosion
+      rangeOverride: 1024
+      trailColor: d45b61
+      trailLength: 96
+      hitEffect: none
+    }
+  }
+]
 abilities: [
   {
      type: SuppressionFieldAbility
@@ -62,33 +90,5 @@ abilities: [
      shootSound: spark
      x: 0
      y: 0
-  }
-]
-weapons: [
-  {
-    type: missile
-    template: MissileUnitType
-    controller: player
-    x: -14
-    y: 0
-    mirror: true
-    reload: 150
-    shootSound: missileLaunch
-    recoil: 0
-    speed: 3.25
-    rotateSpeed: 1.5
-    missileAccelTime: 0.1
-    loopSound: missileTrail
-    loopSoundVolume: 0.1
-    predictTarget: false
-    shootCone: 12
-    bullet: {
-      spawnUnit: missile-missile
-      deathSound: largeExplosion
-      rangeOverride: 1024
-      trailColor: d45b61
-      trailLength: 96
-      hitEffect: none
-    }
   }
 ]
