@@ -41,7 +41,7 @@ weapons: [
     type: missile
     template: MissileUnitType
     controller: missileAI
-    accurateDelay: false
+    accurateDelay: true
     x: -14
     y: 0
     mirror: true
