@@ -10,6 +10,7 @@ rotateSpeed: 2.5
 missileAccelTime: 10
 range: 16
 trailColor: ef7f74
+predictTarget: false
 weapons: [
   {
     shootCone: 360
