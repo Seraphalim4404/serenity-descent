@@ -140,7 +140,7 @@ weapons: [
       deathSound: largeExplosion
       trailColor: d45b61
       trailLength: 96
-      hitEffect: scatheSlash
+      hitEffect: none
     }
   }
 ]
