@@ -1,0 +1,6 @@
+type: mech
+localizedName: Acheron
+description: A Unit Counterpart of the map Acheron. By Non_Strategist.
+health: 30000
+armor: 33
+speed: 0.25
