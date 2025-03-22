@@ -10,13 +10,13 @@ rotateSpeed: 1
 createScorch: false
 drawMinimap: false
 targetable: false
+deathSound: impactExplosion
 weapons: [
   {
     x: 0
     y: 0
     mirror: false
     range: 40
-    deathSound: impactExplosion
     shootSound: none
     shootCone: 360
     bullet: {
