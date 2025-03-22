@@ -33,8 +33,6 @@ weapons: [
         type: LightningBulletType
         damage: 120
         lightningLength: 32
-        status: shocked
-        statusDuration: 600
         lightningType: {
           type: bulletType
           lifetime: 60
