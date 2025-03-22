@@ -16,8 +16,7 @@ weapons: [
     y: 0
     mirror: false
     range: 40
-    shootSound: none
-    deathSound: impacted.mp3
+    shootSound: impacted
     shootCone: 360
     bullet: {
       type: ExplosionBulletType
