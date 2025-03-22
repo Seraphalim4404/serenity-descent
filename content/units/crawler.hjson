@@ -1,0 +1,31 @@
+type: mech
+localizedName: Crawler
+description: Moves toward enemy targets and self-destructs, causing a large explosion.
+template: SerpuloUnitType
+health: 2250
+armor: 0
+speed: 0.85
+hitSize: 8
+rotateSpeed: 1
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    range: 40
+    deathSound: impactExplosion
+    shootCone: 360
+    bullet: {
+      type: ExplosionBulletType
+      shootOnDeath: true
+      killShooter: true
+      splashDamage: 450
+      splashDamageRadius: 168
+      fragBullets: 10
+      fragBullet: {
+        type: LaserBoltBulletType
+        damage: 75
+      }
+    }
+  }
+]
