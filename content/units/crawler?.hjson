@@ -35,6 +35,12 @@ weapons: [
         lightningLength: 64
         status: shocked
         statusDuration: 600
+        lightningType: {
+          type: bulletType
+          lifetime: 1
+          status: shocked
+          statusDuration: 600
+        }
       }
     }
   }
