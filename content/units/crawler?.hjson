@@ -28,6 +28,8 @@ weapons: [
       fragBullet: {
         type: LaserBoltBulletType
         damage: 75
+        speed: 1.5
+        lifetime: 60
       }
     }
   }
