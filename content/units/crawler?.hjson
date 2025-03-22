@@ -10,7 +10,7 @@ rotateSpeed: 5
 createScorch: false
 drawMinimap: false
 targetable: false
-deathSound: impacted
+deathSound: impacted.mp3
 weapons: [
   {
     x: 0
