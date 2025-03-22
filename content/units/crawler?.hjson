@@ -11,6 +11,7 @@ createScorch: false
 drawMinimap: false
 targetable: false
 deathSound: impacted
+deathSoundVolume: 1
 weapons: [
   {
     x: 0
