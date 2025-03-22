@@ -32,14 +32,9 @@ weapons: [
       fragBullet: {
         type: LightningBulletType
         damage: 120
-        lightningLength: 32
-        lightningType: {
-          type: bulletType
-          lifetime: 60
-          status: shocked
-          statusDuration: 600
-        }
+        lightningLength: 20
       }
     }
   }
 ]
+        
