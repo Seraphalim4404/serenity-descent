@@ -7,6 +7,9 @@ armor: 0
 speed: 0.85
 hitSize: 8
 rotateSpeed: 1
+createScorch: false
+drawMinimap: false
+targetable: false
 weapons: [
   {
     x: 0
