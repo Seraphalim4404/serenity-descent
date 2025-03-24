@@ -20,6 +20,7 @@ weapons: [
     range: 40
     shootSound: none
     shootCone: 360
+    reload: 24
     bullet: {
       type: ExplosionBulletType
       shootOnDeath: true
@@ -33,6 +34,7 @@ weapons: [
         type: LightningBulletType
         damage: 120
         lightningLength: 20
+        color: be93ce
       }
     }
   }
