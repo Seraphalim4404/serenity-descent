@@ -34,7 +34,7 @@ weapons: [
         type: LightningBulletType
         damage: 120
         lightningLength: 20
-        color: be93ce
+        lightningColor: be93ce
       }
     }
   }
