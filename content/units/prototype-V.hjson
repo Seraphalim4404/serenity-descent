@@ -65,7 +65,6 @@ abilities: [
 ]
 weapons: [
   {
-    alwaysShooting: false
     x: 0
     y: 0
     mirror: false
