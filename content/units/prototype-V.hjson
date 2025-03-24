@@ -81,8 +81,8 @@ weapons: [
     bullet: {
       type: ContinuousLaserBulletType
       speed: 0
-      shootStatus: impaired
-      shootStatusDuration: 160
+      shootStatus: slow
+      shootStatusDuration: 180
       incendAmount: 0
       incendSpread: 0
       incendChance: 0
@@ -117,7 +117,7 @@ weapons: [
     predictTarget: false
     shootCone: 12
     bullet: {
-      spawnUnit: missile-missile
+      spawnUnit: matter
       speed: 0
       deathSound: largeExplosion
       trailColor: d45b61
