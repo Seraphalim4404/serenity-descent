@@ -10,12 +10,13 @@ rotateSpeed: 3.33
 drag: 0.4
 deathSound: impacted
 drawMinimap: false
+hidden: true
 weapons: [
   {
     name: eradication
+    top: false
     x: 22
     y: 1
-    top: false
     reload: 15
     recoil: 3
     shake: 2
