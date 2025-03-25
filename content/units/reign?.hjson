@@ -6,7 +6,7 @@ health: 1
 armor: 18
 hitSize: 30
 speed: 0.4
-rotateSpeed: 3.33
+rotateSpeed: 1.65
 abilities: [
   {
     type: SpawnDeathAbility
