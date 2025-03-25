@@ -6,8 +6,9 @@ health: 9000
 armor: 0
 hitSize: 20
 speed: 0.4
-rotateSpeed: 1.65
+rotateSpeed: 3.33
 drag: 0.4
+deathSound: impacted
 weapons: [
   {
     name: eradication
