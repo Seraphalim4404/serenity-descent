@@ -13,15 +13,6 @@ abilities: [
     unit: eradicator
     amount: 1
   }
-  {
-    type: LiquidExplodeAbility
-    liquid: slag
-    radScale: 14
-    radScaleAmount: 16
-    noiseMag: 10
-    noiseScale: 10
-    amount: 15
-  }
 ]
 weapons: [
   {
