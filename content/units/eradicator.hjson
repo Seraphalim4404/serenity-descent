@@ -6,27 +6,27 @@ health: 9000
 armor: 0
 hitSize: 20
 speed: 0.4
-rotateSpeed: 0.6
+rotateSpeed: 0.8
 weapons: [
   {
     x: 22
     y: 1
-    reload: 30
+    reload: 15
     recoil: 3
     shake: 2
     inaccuracy: 3
     shoot: {
-      shots: 3
+      shots: 4
       shotDelay: 3
     }
     ejectEffect: casing4
     shootSound: bang
     bullet: {
       type: BasicBulletType
-      length: 13
+      height: 13
       width: 22
       damage: 65
-      speed: 4
+      speed: 10
     }
   }
 ]
