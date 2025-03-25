@@ -16,7 +16,7 @@ abilities: [
 ]
 weapons: [
   {
-    sprite: reign?-weapon
+    sprite: "reign?-weapon"
     x: 21.5
     y: 1
     shootY: 11
