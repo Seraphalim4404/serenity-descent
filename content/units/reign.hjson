@@ -1,0 +1,9 @@
+weapons: [
+  {
+   reload: 30
+   shoot: {
+     shots: 3
+     shotDelay: 3
+    }
+  }
+]
