@@ -5,9 +5,8 @@ template: SerpuloUnitType
 health: 9000
 armor: 0
 hitSize: 20
-speed: 0.12
-range: 312
-rotateSpeed: 0.06
+speed: 0.4
+rotateSpeed: 0.6
 weapons: [
   {
     x: 22
@@ -17,17 +16,17 @@ weapons: [
     shake: 2
     inaccuracy: 3
     shoot: {
-      shots: 4
+      shots: 3
       shotDelay: 3
     }
     ejectEffect: casing4
     shootSound: bang
     bullet: {
       type: BasicBulletType
-      length: 22
-      width: 13
+      length: 13
+      width: 22
       damage: 65
-      speed: 2
+      speed: 4
     }
   }
 ]
