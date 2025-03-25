@@ -10,7 +10,7 @@ rotateSpeed: 3.33
 drag: 0.4
 weapons: [
   {
-    sprite: reign?-weapon
+    sprite: "reign?-weapon"
     x: 22
     y: 1
     reload: 20
@@ -28,7 +28,7 @@ weapons: [
       width: 15
       height: 20
       damage: 65
-      speed: 7.88
+      speed: 8
     }
   }
 ]
