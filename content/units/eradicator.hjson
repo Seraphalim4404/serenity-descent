@@ -13,6 +13,7 @@ weapons: [
     name: eradication
     x: 22
     y: 1
+    top: false
     reload: 15
     recoil: 3
     shake: 2
