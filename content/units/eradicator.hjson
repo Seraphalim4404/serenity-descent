@@ -6,12 +6,13 @@ health: 9000
 armor: 0
 hitSize: 20
 speed: 0.4
-rotateSpeed: 3
+rotateSpeed: 3.33
+drag:
 weapons: [
   {
     x: 22
     y: 1
-    reload: 15
+    reload: 20
     recoil: 3
     shake: 2
     inaccuracy: 3
@@ -26,7 +27,7 @@ weapons: [
       height: 13
       width: 22
       damage: 65
-      speed: 5.1
+      speed: 6.66
     }
   }
 ]
