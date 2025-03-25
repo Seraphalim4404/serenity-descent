@@ -2,7 +2,7 @@ type: mech
 localizedName: Eradicator
 description: This shouldn't be here...
 template: SerpuloUnitType
-health: 9000
+health: 18000
 armor: 0
 hitSize: 20
 speed: 0.4
@@ -31,7 +31,7 @@ weapons: [
       type: BasicBulletType
       width: 15
       height: 23
-      damage: 65
+      damage: 130
       speed: 8
       pierceArmor: true
     }
