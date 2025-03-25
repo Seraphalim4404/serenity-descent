@@ -10,7 +10,7 @@ rotateSpeed: 3.33
 drag: 0.4
 weapons: [
   {
-    sprite: "eradication"
+    name: eradication
     x: 22
     y: 1
     reload: 15
