@@ -1,6 +1,7 @@
 type: mech
 localizedName: Reign
 description: Fires a barrage of massive piercing bullets at enemy targets.
+template: SerpuloUnitType
 health: 1
 armor: 18
 hitSize: 30
@@ -23,6 +24,7 @@ weapons: [
     ejectEffect: casing4
     shootSound: bang
     bullet: {
+      type: BasicBulletType
       pierce: true
       pierceCap: 10
       width: 14
