@@ -1,0 +1,38 @@
+type: mech
+localizedName: Reign
+description: Fires a barrage of massive piercing bullets at enemy targets.
+health: 1
+armor: 18
+hitSize: 30
+speed: 0.4
+abilities: [
+  {
+    type: UnitSpawnAbility
+    unit: eradicator
+    spawnTime: 0
+  }
+]
+weapons: [
+  {
+    x: 21.5
+    y: 1
+    shootY: 11
+    reload: 9
+    recoil: 5
+    shake: 2
+    ejectEffect: casing4
+    shootSound: bang
+    bullet: {
+      pierce: true
+      pierceCap: 10
+      width: 14
+      height: 35
+      lifetime: 15
+      speed: 2
+      shootEffect: shootBig
+      hitEffect: blastExplosion
+      splashDamage: 18
+      splashDamageRadius: 13
+    }
+  }
+]
