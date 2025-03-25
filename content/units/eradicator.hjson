@@ -13,7 +13,7 @@ weapons: [
     sprite: "eradicator-weapon"
     x: 22
     y: 1
-    reload: 20
+    reload: 15
     recoil: 3
     shake: 2
     inaccuracy: 3
