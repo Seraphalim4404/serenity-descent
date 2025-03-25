@@ -9,9 +9,9 @@ speed: 0.4
 rotateSpeed: 6
 abilities: [
   {
-    type: UnitSpawnAbility
+    type: SpawnDeathAbility
     unit: eradicator
-    spawnTime: 0
+    amount: 1
   }
 ]
 weapons: [
