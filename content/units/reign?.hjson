@@ -30,7 +30,7 @@ weapons: [
       width: 14
       height: 35
       lifetime: 15
-      speed: 2
+      speed: 12
       shootEffect: shootBig
       hitEffect: blastExplosion
       splashDamage: 18
