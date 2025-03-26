@@ -7,6 +7,7 @@ armor: 18
 hitSize: 30
 speed: 0.4
 rotateSpeed: 1.65
+createWreck: true
 abilities: [
   {
     type: SpawnDeathAbility
@@ -16,7 +17,7 @@ abilities: [
 ]
 weapons: [
   {
-    name: eradication
+    name: reigned
     top: false
     x: 21.5
     y: 1
