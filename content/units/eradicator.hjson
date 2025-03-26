@@ -10,15 +10,14 @@ rotateSpeed: 3.33
 drag: 0.4
 deathSound: impacted
 drawMinimap: false
-createWreck: true
 weapons: [
   {
     name: eradicator-weapon
     display: true
     top: false
-    x: -21
+    x: -22.5
     y: 1
-    shootY: 10
+    shootY: 11
     reload: 15
     recoil: 3
     shake: 2
