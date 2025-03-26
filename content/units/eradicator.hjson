@@ -10,10 +10,11 @@ rotateSpeed: 3.33
 drag: 0.4
 deathSound: impacted
 drawMinimap: false
-hidden: true
+createWreck: true
 weapons: [
   {
     name: eradication
+    display: true
     top: false
     x: 22
     y: 1
