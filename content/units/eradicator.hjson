@@ -15,7 +15,7 @@ weapons: [
     name: eradicator-weapon
     display: true
     top: false
-    x: -22.5
+    x: -23
     y: 1
     shootY: 11
     reload: 15
@@ -30,8 +30,8 @@ weapons: [
     shootSound: bang
     bullet: {
       type: BasicBulletType
-      width: 15
-      height: 23
+      width: 16
+      height: 33
       damage: 130
       speed: 8
       pierceArmor: true
