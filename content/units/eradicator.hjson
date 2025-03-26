@@ -16,8 +16,9 @@ weapons: [
     name: eradicator-weapon
     display: true
     top: false
-    x: 22
+    x: 19.5
     y: 1
+    shootY: 10
     reload: 15
     recoil: 3
     shake: 2
