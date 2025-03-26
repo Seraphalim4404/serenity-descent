@@ -18,6 +18,7 @@ abilities: [
 weapons: [
   {
     name: reign?-weapon
+    display: true
     top: false
     x: 21.5
     y: 1
