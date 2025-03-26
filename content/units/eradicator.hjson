@@ -13,7 +13,7 @@ drawMinimap: false
 createWreck: true
 weapons: [
   {
-    name: eradication
+    name: eradicator-weapon
     display: true
     top: false
     x: 22
