@@ -17,7 +17,7 @@ abilities: [
 ]
 weapons: [
   {
-    name: reigned
+    name: reign?-weapon
     top: false
     x: 21.5
     y: 1
