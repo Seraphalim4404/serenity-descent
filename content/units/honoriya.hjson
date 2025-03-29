@@ -11,10 +11,28 @@ rotateSpeed: 0.1
 weapons: [
   {
     name: eradicator-weapon
-    mirror: true
     x: 0
-    y: 24
+    y: 40
+    mirror: false
     rotate: true
+    rotateSpeed: 0.25
+    rotationLimit: 270
+    reload: 30
+    shootSound: bang
+    bullet: {
+      type: LaserBulletType
+      damage: 160
+      hitSize: 8
+      length: 240
+    }
+  }
+  {
+    name: eradicator-weapon
+    x: 0
+    y: -40
+    mirror: false
+    rotate: true
+    baseRotation: 360
     rotateSpeed: 0.25
     rotationLimit: 270
     reload: 30
