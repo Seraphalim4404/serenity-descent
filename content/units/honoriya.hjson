@@ -10,7 +10,7 @@ speed: 0.15
 rotateSpeed: 0.1
 weapons: [
   {
-    name: absolution
+    name: eradication
     mirror: true
     x: 0
     y: 24
