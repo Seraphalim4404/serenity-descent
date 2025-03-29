@@ -3,7 +3,7 @@ template: MissileUnitType
 controller: MissileAI
 health: 30000
 lifetime: 660
-speed: 3.5
+speed: 3.01
 rotateSpeed: 2.5
 missileAccelTime: 2.5
 hitSize: 16
@@ -33,10 +33,6 @@ weapons: [
     trailColor: d45b61
     trailLength: 96
     bullet: {
-      type: missile
-      template: MissileUnitType
-      controller: missileAI
-      spawnUnit: matter
       killShooter: true
       splashDamage: 175
       splashDamageRadius: 24
