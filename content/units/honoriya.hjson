@@ -1,0 +1,26 @@
+type: naval
+localizedName: Honoriya
+description: The Warship.
+template: SerpuloUnitType
+naval: true
+health: 70000
+armor: 1235
+hitSize: 68
+speed: 0.15
+rotateSpeed: 0.1
+weapons: [
+  {
+    x: 0
+    y: 24
+    rotationLimit: 180
+    reload: 30
+    shootSound: bang
+    ejectEffect:explosionEffect
+    bullet: {
+      type: LaserBulletType
+      damage: 160
+      hitSize: 8
+      length: 240
+    }
+  }
+]
