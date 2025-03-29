@@ -36,7 +36,7 @@ weapons: [
       type: missile
       type: MissileUnitType
       controller: missileAI
-      name: matter
+      spawnUnit: matter
       killShooter: true
       splashDamage: 175
       splashDamageRadius: 24
