@@ -25,6 +25,7 @@ weapons: [
       spread: 8
       shots: 4
       shotDelay: 10
+    }
     bullet: {
       type: LaserBulletType
       damage: 160
