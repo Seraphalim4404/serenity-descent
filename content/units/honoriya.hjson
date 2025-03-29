@@ -10,9 +10,10 @@ speed: 0.15
 rotateSpeed: 0.1
 weapons: [
   {
+    name: absolution
     x: 0
     y: 24
-    rotationLimit: 180
+    rotationLimit: 270
     reload: 30
     shootSound: bang
     bullet: {
