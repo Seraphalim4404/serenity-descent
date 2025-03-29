@@ -1,0 +1,18 @@
+type: mech
+localizedName: Raid
+description: Fires powerful kinetic bullets and missiles that deals more damage to buildings.
+template: SerpuloUnitType
+health: 12500
+armor: 15
+hitSize: 44
+speed: 0.65
+rotateSpeed: 1.88
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 20
+    amount: 20
+    max: 50000
+    range: 0
+  }
+]
