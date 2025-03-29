@@ -19,6 +19,7 @@ weapons: [
     rotationLimit: 270
     reload: 30
     shootSound: bang
+    inaccuracy: 12.5
     shoot: {
       type: shootAlternate
       barrels: 4
