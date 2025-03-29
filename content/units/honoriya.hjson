@@ -13,6 +13,8 @@ weapons: [
     name: absolution
     x: 0
     y: 24
+    rotate: true
+    rotateSpeed: 0.25
     rotationLimit: 270
     reload: 30
     shootSound: bang
