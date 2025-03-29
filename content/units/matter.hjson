@@ -34,7 +34,7 @@ weapons: [
     trailLength: 96
     bullet: {
       type: missile
-      type: MissileUnitType
+      template: MissileUnitType
       controller: missileAI
       spawnUnit: matter
       killShooter: true
