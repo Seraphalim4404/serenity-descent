@@ -19,6 +19,12 @@ weapons: [
     rotationLimit: 270
     reload: 30
     shootSound: bang
+    shoot: {
+      type: shootAlternate
+      barrels: 4
+      spread: 8
+      shots: 4
+      shotDelay: 10
     bullet: {
       type: LaserBulletType
       damage: 160
