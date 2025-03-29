@@ -32,7 +32,7 @@ weapons: [
     y: -40
     mirror: false
     rotate: true
-    baseRotation: 360
+    baseRotation: 180
     rotateSpeed: 0.25
     rotationLimit: 270
     reload: 30
