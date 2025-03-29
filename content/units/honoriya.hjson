@@ -15,7 +15,6 @@ weapons: [
     rotationLimit: 180
     reload: 30
     shootSound: bang
-    ejectEffect:explosionEffect
     bullet: {
       type: LaserBulletType
       damage: 160
