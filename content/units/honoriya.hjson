@@ -10,7 +10,7 @@ speed: 0.15
 rotateSpeed: 0.1
 weapons: [
   {
-    name: eradication
+    name: eradicator-weapon
     mirror: true
     x: 0
     y: 24
