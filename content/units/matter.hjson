@@ -25,7 +25,6 @@ weapons: [
   {
     shootCone: 360
     shootOnDeath: true
-    range: 1
     shootSound: largeExplosion
     loopSound: missileTrail
     loopSoundVolume: 0.5
@@ -33,7 +32,9 @@ weapons: [
     trailColor: d45b61
     trailLength: 96
     bullet: {
+      type: ExplosionBulletType
       killShooter: true
+      shootOnDeath: true
       splashDamage: 175
       splashDamageRadius: 24
       fragBullets: 16
