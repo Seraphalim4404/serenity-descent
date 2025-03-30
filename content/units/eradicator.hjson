@@ -32,6 +32,7 @@ weapons: [
       type: BasicBulletType
       width: 16
       height: 33
+      hitSize: 56
       damage: 130
       speed: 8
       pierceArmor: true
