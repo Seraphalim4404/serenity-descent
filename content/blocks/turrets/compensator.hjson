@@ -25,7 +25,7 @@ consumes: {
 shootSound: railgun
 ammoTypes: {
   serenite: {
-    length: 1000
+    height: 22
     width: 16
     ammoMultiplier: 3
     damage: 1350
@@ -45,10 +45,10 @@ ammoTypes: {
     hitEffect: scatheSlash
     trailColor: ebc797
     trailLength: 11
-    trailWidth: 8
+    trailWidth: 2
   }
   surge-alloy: {
-    length: 256
+    height: 32
     width: 16
     ammoMultiplier: 2
     damage: 675
