@@ -29,12 +29,8 @@ ammoTypes: {
     width: 16
     ammoMultiplier: 3
     damage: 1350
-    lifetime: 1500
+    lifetime: 600
     speed: 5
-    homingPower: 0.1
-    homingRange: 512
-    homingDelay: 0
-    rotateSpeed: 10
     pierce: true
     pierceArmor: true
     pierceCap: 4
