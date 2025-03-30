@@ -4,7 +4,7 @@ description: The Warship.
 template: SerpuloUnitType
 naval: true
 health: 70000
-armor: 1235
+armor: 1300
 hitSize: 68
 speed: 0.15
 rotateSpeed: 0.1
@@ -15,23 +15,25 @@ weapons: [
     y: 40
     mirror: false
     rotate: true
-    rotateSpeed: 0.25
-    rotationLimit: 270
-    reload: 30
+    rotateSpeed: 0.5
+    rotationLimit: 240
+    reload: 60
     shootSound: bang
-    inaccuracy: 12.5
+    inaccuracy: 3
     shoot: {
       type: shootAlternate
       barrels: 4
       spread: 8
       shots: 4
-      shotDelay: 10
+      shotDelay: 2
     }
     bullet: {
-      type: LaserBulletType
-      damage: 160
-      hitSize: 8
-      length: 240
+      type: ArtilleryBulletType
+      splashDamage: 130
+      splashDamageRadius: 6
+      height: 6
+      width: 6
+      speed: 2.25
     }
   }
   {
@@ -43,13 +45,23 @@ weapons: [
     baseRotation: 180
     rotateSpeed: 0.25
     rotationLimit: 270
-    reload: 30
+    reload: 60
     shootSound: bang
+    inaccuracy: 3
+    shoot: {
+      type: shootAlternate
+      barrels: 4
+      spread: 8
+      shots: 4
+      shotDelay: 2
+    }
     bullet: {
-      type: LaserBulletType
-      damage: 160
-      hitSize: 8
-      length: 240
+      type: ArtilleryBulletType
+      splashDamage: 130
+      splashDamageRadius: 6
+      height: 6
+      width: 6
+      speed: 2.25
     }
   }
 ]
