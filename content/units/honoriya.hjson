@@ -29,6 +29,7 @@ weapons: [
     }
     bullet: {
       type: ArtilleryBulletType
+      damage: 130
       splashDamage: 130
       splashDamageRadius: 42
       height: 6
@@ -59,6 +60,7 @@ weapons: [
     }
     bullet: {
       type: ArtilleryBulletType
+      damage: 130
       splashDamage: 130
       splashDamageRadius: 42
       height: 6
