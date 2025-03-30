@@ -27,7 +27,8 @@ ammoTypes: {
   serenite: {
     height: 22
     width: 16
-    ammoMultiplier: 3
+    hitSize: 64
+    ammoMultiplier: 5
     damage: 1350
     lifetime: 600
     speed: 5
