@@ -33,7 +33,7 @@ weapons: [
       splashDamageRadius: 42
       height: 6
       width: 6
-      hitSize: 16
+      hitSize: 40
       speed: 2.25
       lifetime: 300
     }
@@ -63,7 +63,7 @@ weapons: [
       splashDamageRadius: 42
       height: 6
       width: 6
-      hitSize: 16
+      hitSize: 40
       speed: 2.25
       lifetime: 300
     }
