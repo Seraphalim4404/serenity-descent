@@ -1,7 +1,5 @@
 type: Item
 color: 790303
-name: Proto Heart
-description: The heart of the Prototype.
 explosiveness: 0
 flammability: 0
 radioactivity: 0

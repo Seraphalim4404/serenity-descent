@@ -1,6 +1,4 @@
 type: legs
-localizedName: "Prototype E-005V_h"
-description: Tier V of Prototype E-001_h.
 template: ErekirUnitType
 speed: 4.6
 health: 18000

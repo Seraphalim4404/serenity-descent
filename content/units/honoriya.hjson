@@ -1,6 +1,4 @@
 type: naval
-localizedName: Honoriya
-description: The Warship.
 template: SerpuloUnitType
 naval: true
 health: 45000

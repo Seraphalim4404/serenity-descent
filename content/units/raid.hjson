@@ -1,6 +1,4 @@
 type: mech
-localizedName: Raid
-description: Fires powerful kinetic bullets and missiles that deals more damage to buildings.
 template: SerpuloUnitType
 health: 12500
 armor: 15

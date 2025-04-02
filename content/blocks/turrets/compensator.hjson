@@ -1,6 +1,4 @@
 type: itemTurret
-localizedname: Compensator
-description: ...
 squareSprite: false
 size: 4
 buildTime: 90

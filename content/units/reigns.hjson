@@ -1,6 +1,4 @@
 type: mech
-localizedName: Reign
-description: Fires a barrage of massive piercing bullets at enemy targets.
 template: SerpuloUnitType
 health: 1
 armor: 18

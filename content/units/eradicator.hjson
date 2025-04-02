@@ -1,6 +1,4 @@
 type: mech
-localizedName: Eradicator
-description: This shouldn't be here...
 template: SerpuloUnitType
 health: 18000
 armor: 20

@@ -1,7 +1,5 @@
 type: Item
 color: dccab0
-name: Serenite
-description: "A powerful item that surges with energy."
 explosiveness: 0
 flammability: 0
 radioactivity: 0

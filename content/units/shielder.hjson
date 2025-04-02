@@ -1,6 +1,4 @@
 type: mech
-localizedName: Shielder
-description: A slow-paced unit that has a massive amount of damage reduction.
 template: SerpuloUnitType
 speed: 0.5
 health: 6000

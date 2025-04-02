@@ -1,7 +1,5 @@
 type: Item
 color: 000fff
-name: Serenite Dust
-description: An influx of small energy emanating.
 explosiveness: 0
 flammability: 0
 radioactivity: 0.25
