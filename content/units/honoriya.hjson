@@ -3,11 +3,11 @@ localizedName: Honoriya
 description: The Warship.
 template: SerpuloUnitType
 naval: true
-health: 70000
-armor: 1300
+health: 45000
+armor: 950
 hitSize: 68
-speed: 0.15
-rotateSpeed: 0.1
+speed: 0.21
+rotateSpeed: 0.14
 weapons: [
   {
     name: eradicator-weapon
@@ -19,7 +19,9 @@ weapons: [
     rotationLimit: 240
     reload: 60
     shootSound: bang
-    inaccuracy: 3
+    inaccuracy: 5
+    controllable: false
+    autoTarget: true
     shoot: {
       type: shootAlternate
       barrels: 4
@@ -29,8 +31,8 @@ weapons: [
     }
     bullet: {
       type: ArtilleryBulletType
-      damage: 130
-      splashDamage: 130
+      damage: 400
+      splashDamage: 250
       splashDamageRadius: 42
       height: 6
       width: 6
@@ -50,7 +52,9 @@ weapons: [
     rotationLimit: 270
     reload: 60
     shootSound: bang
-    inaccuracy: 3
+    inaccuracy: 5
+    controllable: false
+    autoTarget: true
     shoot: {
       type: shootAlternate
       barrels: 4
@@ -60,8 +64,8 @@ weapons: [
     }
     bullet: {
       type: ArtilleryBulletType
-      damage: 130
-      splashDamage: 130
+      damage: 400
+      splashDamage: 250
       splashDamageRadius: 42
       height: 6
       width: 6
