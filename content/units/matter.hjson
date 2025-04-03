@@ -35,6 +35,7 @@ weapons: [
       type: ExplosionBulletType
       killShooter: true
       shootOnDeath: true
+      damage: 175
       splashDamage: 175
       splashDamageRadius: 24
       fragBullets: 16
