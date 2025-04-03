@@ -19,7 +19,7 @@ abilities: [
 weapons: [
   {
     mirror: false
-    x: 13
+    x: 18
     y: 0
     reload: 15
     inaccuracy: 5
@@ -27,6 +27,7 @@ weapons: [
     rotateSpeed: 1.88
     rotationLimit: 10
     shootSound: bang
+    shootCone: 10
     shoot: {
       type: shootAlternate
       barrels: 2
@@ -42,12 +43,33 @@ weapons: [
       hitSize: 12
       lifetime: 40
       speed: 24.08
-      buildingDamageMultiplier: 4
+      buildingDamageMultiplier: 3
       trailEffect: disperseTrail
       trailColor: ffaaac
-      trailWidth: 7
-      trailLength: 9
-      trailChance: 0.2
+      trailChance: 0.7
+    }
+  }
+  {
+    mirror: false
+    x: 18
+    y: 0
+    reload: 180
+    inaccuracy: 10
+    rotate: true
+    rotateSpeed: 1.88
+    rotationLimit: 10
+    shootSound: missileSound
+    shootCone: 360
+    shoot: {
+      shots: 3
+      shotDelay: 20
+    }
+    bullet: {
+      spawnUnit: raid-missile
+      speed: 0
+      trailEffect: chainLightning
+      trailLength: 30
+      color: ffaaac
     }
   }
 ]
