@@ -1,8 +1,7 @@
 name: sd
 displayName: Serenity's Descent
 author: Seraphim4404 (aka Nava)
-description:
-  "Serenity's Mod, used for the map Serenity's Descent and for more contents. Can be applied to campaign."
+description: "Serenity's Mod, used for the map Serenity's Descent and for more contents. Can be applied to campaign."
 subtitle: "A catastrophe of a mod."
 version: 0.1
 minGameVersion: 146
