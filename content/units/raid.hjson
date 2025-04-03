@@ -45,11 +45,16 @@ weapons: [
       speed: 24.08
       buildingDamageMultiplier: 3
       trailEffect: disperseTrail
-      trailColor: ffaaac
+      followParent: true
+      rotWithParent: true
+      color: ffffff
       trailChance: 0.7
     }
   }
   {
+    type: missile
+    template: MissileUnitType
+    controller: MissileAI
     mirror: false
     x: 18
     y: 0
@@ -67,8 +72,6 @@ weapons: [
     bullet: {
       spawnUnit: raid-missile
       speed: 0
-      trailEffect: chainLightning
-      color: ffaaac
     }
   }
 ]
