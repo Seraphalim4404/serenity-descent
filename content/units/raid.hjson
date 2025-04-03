@@ -54,11 +54,11 @@ weapons: [
   {
     type: missile
     template: MissileUnitType
-    controller: MissileAI
+    controller: missileAI
     mirror: false
-    x: 18
+    x: -18
     y: 0
-    reload: 180
+    reload: 300
     inaccuracy: 10
     rotate: true
     rotateSpeed: 1.88
