@@ -1,0 +1,30 @@
+type: missile
+template: MissileUnitType
+controller: MissileAI
+health: 325
+lifetime: 240
+speed: 6.06
+rotateSpeed: 1.5
+missileAccelTime: 0.6
+hitSize: 8
+predictTarget: false
+deathExplosionEffect: bigShockwave
+weapons: [
+  {
+    shootCone: 360
+    shootOnDeath: true
+    shootSound: largeExplosion
+    loopSound: missileTrail
+    loopSoundVolume: 0.5
+    deathSound: largeExplosion
+    bullet: {
+      type: ExplosionBulletType
+      killShooter: true
+      shootOnDeath: true
+      damage: 100
+      splashDamage: 100
+      splashDamageRadius: 36
+    }
+  }
+]
+
