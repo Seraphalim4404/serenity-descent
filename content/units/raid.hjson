@@ -40,10 +40,10 @@ weapons: [
       height: 36
       lifetime: 90
       speed: 24.08
+      trailEffect: lightning
       trailColor: ffaaac
-      trailWidth: 14
+      trailWidth: 7
       trailLength: 18
-      trailEffect: chainLightning
       trailChance: 0.5
     }
   }
