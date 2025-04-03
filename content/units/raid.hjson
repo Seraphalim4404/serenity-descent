@@ -41,11 +41,11 @@ weapons: [
       hitSize: 12
       lifetime: 60
       speed: 24.08
-      trailEffect: lightning
+      trailEffect: disperseTrail
       trailColor: ffaaac
       trailWidth: 7
-      trailLength: 18
-      trailChance: 0.5
+      trailLength: 9
+      trailChance: 0.2
     }
   }
 ]
