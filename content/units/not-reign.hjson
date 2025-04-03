@@ -17,7 +17,7 @@ abilities: [
 ]
 weapons: [
   {
-    name: reign?-weapon
+    name: not-reign-weapon
     display: true
     top: false
     x: 21.5
