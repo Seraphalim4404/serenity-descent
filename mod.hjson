@@ -1,7 +1,8 @@
 name: sd
 displayName: Serenity's Descent
 author: Seraphim4404
+subtitle: War.
 description:
   "Serenity's Mod, used for the map Serenity's Descent and for more contents. Can be applied to campaign."
-version: 0.1
+version: 0.2
 minGameVersion: 146
