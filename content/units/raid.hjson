@@ -58,7 +58,7 @@ weapons: [
     rotate: true
     rotateSpeed: 1.88
     rotationLimit: 10
-    shootSound: missileSound
+    shootSound: missileLaunch
     shootCone: 360
     shoot: {
       shots: 3
@@ -68,7 +68,6 @@ weapons: [
       spawnUnit: raid-missile
       speed: 0
       trailEffect: chainLightning
-      trailLength: 30
       color: ffaaac
     }
   }
