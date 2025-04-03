@@ -3,7 +3,7 @@ localizedName: Honoriya
 description: The Warship.
 template: SerpuloUnitType
 naval: true
-health: 45000
+health: 48550
 armor: 950
 hitSize: 68
 speed: 0.21
