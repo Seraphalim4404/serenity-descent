@@ -22,7 +22,6 @@ weapons: [
       killShooter: true
       shootOnDeath: true
       damage: 100
-      buildingDamageMultiplier: 6
       splashDamage: 100
       splashDamageRadius: 36
     }
