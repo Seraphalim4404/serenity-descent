@@ -2,8 +2,8 @@ type: mech
 localizedName: Raid
 description: Fires powerful kinetic bullets and missiles that deals more damage to buildings.
 template: SerpuloUnitType
-health: 12500
-armor: 15
+health: 6250
+armor: 25
 hitSize: 44
 speed: 0.65
 rotateSpeed: 1.88
@@ -16,3 +16,36 @@ abilities: [
     range: 0
   }
 ]
+weapons: [
+  {
+    mirror: false
+    x: 13
+    y: 0
+    reload: 15
+    inaccuracy: 7.5
+    rotate: true
+    rotateSpeed: 1.88
+    rotationLimit: 10
+    shoot: {
+      type: shootAlternate
+      barrels: 2
+      sprrad: 8
+      shots: 4
+      shotDelay: 0
+    }
+    bullet: {
+      type: BasicBulletType
+      damage: 52
+      width: 14
+      height: 36
+      lifetime: 90
+      speed: 24.08
+      trailColor: ffaaac
+      trailWidth: 14
+      trailLength: 18
+      trailEffect: chainLightning
+      trailChance: 0.5
+    }
+  }
+]
+      
