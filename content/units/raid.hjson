@@ -22,14 +22,14 @@ weapons: [
     x: 13
     y: 0
     reload: 15
-    inaccuracy: 7.5
+    inaccuracy: 5
     rotate: true
     rotateSpeed: 1.88
     rotationLimit: 10
     shoot: {
       type: shootAlternate
       barrels: 2
-      sprrad: 8
+      spread: 8
       shots: 4
       shotDelay: 0
     }
