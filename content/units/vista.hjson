@@ -10,7 +10,7 @@ rotateSpeed: 1.125
 abilities: [
   {
     type: ArmorPlateAbility
-    healthMultiplier: 3
+    healthMultiplier: 2
     color: ffffff
   }
 ]
@@ -30,6 +30,7 @@ weapons: [
     bullet: {
       type: RailBulletType
       length: 1160
+      width: 3
       damage: 1350
       reflectable: true
       pierceArmor: true
