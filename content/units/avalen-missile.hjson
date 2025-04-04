@@ -17,6 +17,8 @@ abilities: [
     cooldown: 60
     radius: 4
     sides: 4
+  }
+]
 weapons: [
   {
     shootCone: 360
