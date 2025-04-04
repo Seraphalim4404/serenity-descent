@@ -18,19 +18,15 @@ weapons: [
   {
     mirror: false
     x: 0
-    y: 12
+    y: 0
     reload: 240
     inaccuracy: 0
     rotate: true
     rotateSpeed: 0.8
     rotationLimit: 20
-    shootSound: shootBig
-    shootCone: 10
-    shoot: {
-      spread: 8
-      shots: 4
-      shotDelay: 0
-    }
+    shootSound: plasmaboom
+    shootCone: 0
+    recoil: 16
     bullet: {
       type: RailBulletType
       length: 1160
