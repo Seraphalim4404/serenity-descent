@@ -9,6 +9,14 @@ missileAccelTime: 0.6
 hitSize: 8
 predictTarget: false
 deathExplosionEffect: bigShockwave
+abilities: [
+  {
+    type: ForceFieldAbility
+    max: 225
+    regen: 225
+    cooldown: 60
+    radius: 4
+    sides: 4
 weapons: [
   {
     shootCone: 360
