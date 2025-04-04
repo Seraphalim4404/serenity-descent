@@ -15,7 +15,7 @@ abilities: [
     max: 225
     regen: 225
     cooldown: 60
-    radius: 4
+    radius: 12
     sides: 4
   }
 ]
