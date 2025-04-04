@@ -10,7 +10,7 @@ rotateSpeed: 1.125
 abilities: [
   {
     type: ArmorPlateAbility
-    healthMultiplier: 2
+    healthMultiplier: 0.75
     color: ffffff
   }
 ]
