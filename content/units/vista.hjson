@@ -31,10 +31,12 @@ weapons: [
       type: RailBulletType
       length: 1160
       damage: 1350
+      reflectable: true
       pierceArmor: true
       pierce: 5
       pierceDamageFactor: 0.8
       buildingDamageMultiplier: 2
+      color: ffffff
     }
   }
 ]
