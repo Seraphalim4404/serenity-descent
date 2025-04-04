@@ -26,7 +26,7 @@ weapons: [
     rotate: true
     rotateSpeed: 1.88
     rotationLimit: 10
-    shootSound: bang
+    shootSound: shootBig
     shootCone: 10
     shoot: {
       type: shootAlternate
@@ -43,10 +43,11 @@ weapons: [
       hitSize: 12
       lifetime: 120
       speed: 14.03
+      velocityRnd: 0.25
       buildingDamageMultiplier: 3
       trailEffect: disperseTrail
       trailRotation: true
-      trailChance: 0.35
+      trailChance: 0.44
     }
   }
   {
