@@ -1,5 +1,5 @@
 type: mech
-localizedName: Raid
+localizedName: Avalen
 description: Fires powerful kinetic bullets and missiles that deals more damage to buildings.
 template: SerpuloUnitType
 health: 6250
@@ -68,7 +68,7 @@ weapons: [
       shotDelay: 20
     }
     bullet: {
-      spawnUnit: raid-missile
+      spawnUnit: avalen-missile
       speed: 0
       buildingDamageMultiplier: 6
     }
