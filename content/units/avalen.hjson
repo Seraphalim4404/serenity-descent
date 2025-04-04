@@ -41,7 +41,7 @@ weapons: [
       width: 14
       height: 36
       hitSize: 12
-      lifetime: 120
+      lifetime: 75
       speed: 14.03
       velocityRnd: 0.25
       buildingDamageMultiplier: 3
