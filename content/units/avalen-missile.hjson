@@ -33,6 +33,7 @@ weapons: [
       shootOnDeath: true
       splashDamage: 100
       splashDamageRadius: 44
+      buildingDamageMultiplier: 5
     }
   }
 ]
