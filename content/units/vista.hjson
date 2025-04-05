@@ -36,6 +36,7 @@ weapons: [
       pierce: 5
       pierceDamageFactor: 0.8
       buildingDamageMultiplier: 2
+      trailEffect: chainLightning
       color: ffffff
     }
   }
