@@ -28,10 +28,13 @@ weapons: [
     shootCone: 0
     recoil: 16
     bullet: {
-      type: RailBulletType
-      length: 800
+      type: BasicBulletType
+      length: 32
+      width: 16
+      hitSize: 8
       damage: 1350
-      reflectable: true
+      speed: 26
+      lifetime: 1
       pierceArmor: true
       pierce: 5
       pierceDamageFactor: 0.8
