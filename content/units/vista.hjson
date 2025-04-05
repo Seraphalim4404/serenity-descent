@@ -36,7 +36,9 @@ weapons: [
       pierce: 5
       pierceDamageFactor: 0.8
       buildingDamageMultiplier: 2
-      trailEffect: lightning
+      trailColor: ffffff
+      trailLength: 32
+      trailWidth: 2
       color: ffffff
     }
   }
