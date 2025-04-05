@@ -34,7 +34,7 @@ weapons: [
       hitSize: 8
       damage: 1350
       speed: 26
-      lifetime: 1
+      lifetime: 60
       pierceArmor: true
       pierce: 5
       pierceDamageFactor: 0.8
