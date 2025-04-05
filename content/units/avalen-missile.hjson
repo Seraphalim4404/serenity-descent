@@ -31,9 +31,8 @@ weapons: [
       type: ExplosionBulletType
       killShooter: true
       shootOnDeath: true
-      buildingDamageMultiplier: 4
       splashDamage: 100
-      splashDamageRadius: 36
+      splashDamageRadius: 44
     }
   }
 ]
