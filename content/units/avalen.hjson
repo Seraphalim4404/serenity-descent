@@ -71,7 +71,6 @@ weapons: [
     bullet: {
       spawnUnit: avalen-missile
       speed: 0
-      buildingDamageMultiplier: 5
     }
   }
 ]
