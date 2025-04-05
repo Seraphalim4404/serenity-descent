@@ -44,7 +44,7 @@ weapons: [
       lifetime: 75
       speed: 14.03
       velocityRnd: 0.25
-      buildingDamageMultiplier: 3
+      buildingDamageMultiplier: 2
       trailEffect: disperseTrail
       trailRotation: true
       trailChance: 0.44
@@ -71,7 +71,7 @@ weapons: [
     bullet: {
       spawnUnit: avalen-missile
       speed: 0
-      buildingDamageMultiplier: 6
+      buildingDamageMultiplier: 5
     }
   }
 ]
