@@ -1,0 +1,7 @@
+generator: "planetGenerator"
+solarSystem: sun
+parent: sun
+orbitRadius: 103.5
+minZoom: 0.1
+drawOrbit: true
+startSector: 1
