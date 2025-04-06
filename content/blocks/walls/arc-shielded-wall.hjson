@@ -9,6 +9,7 @@ width: 64
 length: 80
 cooldownNormal: 30800
 cooldownBrokenBase: 30800
+solid: false
 hasPower: true
 conductivePower: true
 rotate: true
