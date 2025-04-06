@@ -11,7 +11,7 @@ cooldownNormal: 30800
 cooldownBrokenBase: 30800
 hasPower: true
 conductivePower: true
-rotate: tru
+rotate: true
 lockRotation: false
 requirements: [
   serenite/144
