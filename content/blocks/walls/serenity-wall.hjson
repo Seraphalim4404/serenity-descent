@@ -5,7 +5,7 @@ size: 2
 health: 4048
 armor: 5
 consumes: {
-  power: 0.0166666667
+  power: 0.0001
 }
 powerCapacity: 1
 conductivePower: true
