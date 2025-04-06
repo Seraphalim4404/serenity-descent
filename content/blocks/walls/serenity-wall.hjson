@@ -4,8 +4,9 @@ description: A stronger version of Surge Wall, coated with Serenite. Conducts po
 size: 2
 health: 4048
 armor: 5
-consumes: {
-  power: 0.0001
+power: {
+  usage: 0
+  capacity: 1
 }
 powerCapacity: 1
 conductivePower: true
