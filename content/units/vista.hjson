@@ -36,7 +36,7 @@ weapons: [
       speed: 26
       lifetime: 60
       pierceArmor: true
-      pierce: 5
+      pierceCap: 10
       pierceDamageFactor: 0.8
       buildingDamageMultiplier: 2
       trailColor: ff0000
