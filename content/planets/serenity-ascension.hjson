@@ -1,4 +1,4 @@
-generator: "planetGenerator"
+generator: "PlanetGenerator"
 solarSystem: sun
 parent: sun
 orbitRadius: 103.5
