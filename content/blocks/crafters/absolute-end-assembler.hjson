@@ -26,10 +26,10 @@ consumes: [
   titanium/7
   silicon/1
   lead/3
-  }
+    }
   liquids: {
   slag/1
-  }
+    }
 ]
 outputItems: [
   ellener-rod/1
