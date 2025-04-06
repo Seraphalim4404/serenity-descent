@@ -25,7 +25,6 @@ consumes: {
   slag/1
   ]
 }
-craftTime: 900
 outputItems: [
   ellener-rod/1
 ]
