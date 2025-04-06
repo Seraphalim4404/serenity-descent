@@ -5,8 +5,8 @@ description: "A powerful item that surges with energy."
 explosiveness: 0
 flammability: 0
 radioactivity: 0
-charge: 5.55
-cost: 1.0
+charge: 1.5
+cost: 2
 hardness: 0.0
 hiddenOnPlanets: [erekir]
 research: serenite-dust
