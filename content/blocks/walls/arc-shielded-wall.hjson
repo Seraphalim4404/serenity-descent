@@ -18,8 +18,11 @@ abilities: [
 ]
 hasPower: true
 conductivePower: true
+rotate: true
+lockRotation: false
 requirements: [
   serenite/48
   surge-alloy/36
   titanium/24
 ]
+category: defense
