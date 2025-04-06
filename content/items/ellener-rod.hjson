@@ -1,0 +1,15 @@
+
+type: Item
+color: 808080
+name: Ellener's Rod
+description: "An extremely tough material that originates from Ellen's work."
+explosiveness: 0.1
+flammability: 0
+radioactivity: 0.2
+charge: 0.12
+cost: 5
+hardness: 0.0
+research: surge-alloy
+requirements: [
+  surge-alloy/120
+  ]
