@@ -2,9 +2,9 @@ localizedName: Serenity's Ascension
 generator: PlanetGenerator
 solarSystem: sun
 parent: sun
-orbitRadius: 103.5
+orbitRadius: 74.5
 minZoom: 0.1
 drawOrbit: true
 startSector: 1
-accessible: true
+accessible: false
 alwaysUnlocked: true
