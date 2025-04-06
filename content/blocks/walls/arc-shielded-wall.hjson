@@ -18,7 +18,7 @@ consumes: {
   power: 1
 }
 requirements: [
-  serenite/60
+  serenite/48
   surge-alloy/48
 ]
 category: defense
