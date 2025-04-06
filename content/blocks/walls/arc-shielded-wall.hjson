@@ -5,17 +5,17 @@ size: 4
 health: 5200
 armor: 20
 shieldHealth: 1800
-width: 16
-length: 80
-cooldownNormal: 1.75
-cooldownBrokenBase: 0.35
+width: 32
+length: 120
+cooldownNormal: 1
+cooldownBrokenBase: 0.1
 padSize: 30
 hasPower: true
 conductivePower: true
 rotate: true
 lockRotation: false
 consumes: {
-  power: 1
+  power: 0.5
 }
 requirements: [
   serenite/48
