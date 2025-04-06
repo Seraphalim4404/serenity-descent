@@ -10,13 +10,13 @@ length: 80
 cooldownNormal: 1.75
 cooldownBrokenBase: 0.35
 padSize: 30
-consumes: {
-  power: 1
-}
 hasPower: true
 conductivePower: true
 rotate: true
 lockRotation: false
+consumes: {
+  power: 1
+}
 requirements: [
   serenite/48
   surge-alloy/36
