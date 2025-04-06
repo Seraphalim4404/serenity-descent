@@ -29,11 +29,11 @@ weapons: [
     recoil: 16
     bullet: {
       type: RailBulletType
-      length: 32
+      length: 800
       width: 16
       hitSize: 8
       damage: 1350
-      speed: 26
+      speed: 0
       lifetime: 60
       pierceArmor: true
       pierceCap: 10
