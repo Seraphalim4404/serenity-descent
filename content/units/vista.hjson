@@ -28,7 +28,7 @@ weapons: [
     shootCone: 0
     recoil: 16
     bullet: {
-      type: BasicBulletType
+      type: RailBulletType
       length: 32
       width: 16
       hitSize: 8
@@ -39,9 +39,7 @@ weapons: [
       pierceCap: 10
       pierceDamageFactor: 0.8
       buildingDamageMultiplier: 2
-      trailColor: ff0000
-      trailLength: 32
-      trailEffect: disperseTrail
+      trailEffect: shootBig
       color: ffffff
     }
   }
