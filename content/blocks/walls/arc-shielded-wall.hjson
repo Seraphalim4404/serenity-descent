@@ -5,11 +5,11 @@ size: 3
 health: 5200
 armor: 20
 shieldHealth: 1800
-width: 32
-length: 120
-cooldownNormal: 1.5
-cooldownBrokenBase: 3
-padSize: 50
+width: 64
+length: 96
+cooldownNormal: 3
+cooldownBrokenBase: 2.5
+padSize: 10
 hasPower: true
 conductivePower: true
 rotate: true
