@@ -1,0 +1,38 @@
+localizedName: Molten Concentrator
+description: A concentrator that fuses 5 materials into one liquid, requires Water as a coolant.
+type: GenericCrafter
+size: 5
+health: 5400
+armor: 70
+buildTime: 30
+canOverdrive: false
+hasLiquids: true
+itemCapacity: 30
+liquidCapacity: 100
+consumes: {
+  power: 20
+  items: [
+  phase-fabric/2
+  thorium/1
+  pyratite/3
+  coal/2
+  ]
+  liquids: [
+  slag/0.5
+  water/0.83333333333
+  ]
+}
+craftTime: 90
+outputLiquids: [
+  vitrum-fusile/1.5
+]
+category: crafting
+research:  cryofluid-mixer
+requirements: [
+  phase-fabric/250
+  thorium/500
+  titanium/100
+  silicon/300
+  metaglass/200
+  lead/350
+]
