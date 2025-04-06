@@ -1,0 +1,39 @@
+localizedName: Life Assembler
+description: Horrors of the World.
+type: GenericCrafter
+size: 5
+health: 6000
+armor: 44
+canOverdrive: false
+hasLiquids: true
+itemCapacity: 20
+liquidCapacity: 100
+heatRequirement: 25
+consumes: {
+  power: 16.6666667
+  items: [
+  phase-fabric/2
+  beryllium/1
+  tungsten/1
+  ]
+  liquids: [
+  neoplasm/1
+  arkycite/0.5
+  hydrogen/0.1
+  water/1.666666667
+  ]
+}
+craftTime: 1800
+outputItems: [
+  proto-heart/1
+]
+category: crafting
+research: slag-heater
+requirements: [
+  phase-fabric/650
+  carbide/970
+  thorium/550
+  silicon/220
+  graphite/900
+]
+alwaysUnlocked: true
