@@ -9,10 +9,9 @@ width: 64
 length: 80
 cooldownNormal: 30800
 cooldownBrokenBase: 30800
-solid: true
 hasPower: true
 conductivePower: true
-rotate: true
+rotate: tru
 lockRotation: false
 requirements: [
   serenite/144
