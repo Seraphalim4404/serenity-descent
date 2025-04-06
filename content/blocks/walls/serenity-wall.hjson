@@ -1,9 +1,12 @@
 type: wall
 localizedName: Serenity Wall
-description: A stronger version of Surge Wall, coated with Serenite.
+description: A stronger version of Surge Wall, coated with Serenite. Conducts power.
 size: 2
 health: 4048
 armor: 10
+conductivePower: true
+lightningChance: 0.13
+lightningDamage: 50
 requirements: [
   serenite/24
   surge-alloy/24
