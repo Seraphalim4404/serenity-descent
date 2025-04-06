@@ -5,8 +5,8 @@ size: 4
 health: 5200
 armor: 20
 shieldHealth: 10000
-width: 40
-length: 64
+width: 56
+length: 80
 cooldownNormal: 10000
 cooldownBrokenBase: 10000
 padSize: 35
@@ -15,11 +15,10 @@ conductivePower: true
 rotate: true
 lockRotation: false
 consumes: {
-  power: 0.5
+  power: 1
 }
 requirements: [
-  serenite/48
-  surge-alloy/36
-  titanium/24
+  serenite/60
+  surge-alloy/48
 ]
 category: defense
