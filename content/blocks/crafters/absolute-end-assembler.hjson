@@ -24,7 +24,6 @@ consumes: {
   liquids: [
   slag/1
   ]
-}
 outputItems: [
   ellener-rod/1
 ]
