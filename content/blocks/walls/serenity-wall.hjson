@@ -3,7 +3,7 @@ localizedName: Serenity Wall
 description: A stronger version of Surge Wall, coated with Serenite. Conducts power.
 size: 2
 health: 4048
-armor: 10
+armor: 5
 conductivePower: true
 lightningChance: 0.13
 lightningDamage: 50
