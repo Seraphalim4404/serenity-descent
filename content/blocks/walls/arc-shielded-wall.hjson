@@ -9,7 +9,7 @@ width: 64
 length: 96
 cooldownNormal: 3
 cooldownBrokenBase: 2.5
-padSize: 10
+padSize: 35
 hasPower: true
 conductivePower: true
 rotate: true
