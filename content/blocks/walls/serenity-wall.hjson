@@ -5,8 +5,9 @@ size: 2
 health: 4048
 armor: 5
 consumes: {
-  power: 0
+  power: 0.0166666667
 }
+powerCapacity: 1
 conductivePower: true
 lightningChance: 0.13
 lightningDamage: 50
