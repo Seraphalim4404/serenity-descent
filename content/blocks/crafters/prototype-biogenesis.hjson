@@ -1,6 +1,6 @@
-localizedName: Life Assembler
+localizedName: Prototype Biogenesis
 description: Horrors of the World.
-type: GenericCrafter
+type: HeatCrafter
 size: 5
 health: 6000
 armor: 44
@@ -8,7 +8,8 @@ canOverdrive: false
 hasLiquids: true
 itemCapacity: 20
 liquidCapacity: 100
-heatRequirement: 25
+heatRequirement: 20
+maxEfficiency: 2
 consumes: {
   power: 16.6666667
   items: [
