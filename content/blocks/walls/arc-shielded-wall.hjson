@@ -4,19 +4,18 @@ description: Improved version of Shielded Wall. Does not deflect bullets upon im
 size: 4
 health: 5200
 armor: 20
-shieldHealth: 25000
+shieldHealth: 30800
 width: 64
 length: 80
 cooldownNormal: 0
-cooldownBrokenBase: 0
-padSize: -1
+cooldownBrokenBase: 
 hasPower: true
 conductivePower: true
 rotate: true
 lockRotation: false
 requirements: [
-  serenite/96
+  serenite/144
   surge-alloy/96
-  ellener-rod/8
+  ellener-rod/16
 ]
 category: defense
