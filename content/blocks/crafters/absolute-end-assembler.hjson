@@ -1,10 +1,10 @@
 type: GenericCrafter
-localizedName: [#cea2f4]Absolute End Assembler
+localizedName: "[#cea2f4]Absolute End Assembler"
 description: 
       '''
   An assembler that is capable of producing Ellen's Rod.
   
-  [accent[]]This is a weaker version compared to what Ellen has.[[]]
+  [accent]This is a weaker version compared to what Ellen has.
 
 '''
 
@@ -16,9 +16,9 @@ hasLiquids: true
 itemCapacity: 30
 liquidCapacity: 120
 craftTime: 900
-consumes: [
+consumes: {
   power: 16.6666667
-  items: {
+  items: [
   serenite/4
   surge-alloy/6
   phase-fabric/2
@@ -26,11 +26,11 @@ consumes: [
   titanium/7
   silicon/1
   lead/3
-    }
-  liquids: {
+  ]
+  liquids: [
   slag/1
-    }
-]
+  ]
+}
 outputItems: [
   ellener-rod/1
 ]
