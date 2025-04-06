@@ -19,6 +19,7 @@ consumes: {
 }
 requirements: [
   serenite/96
-  surge-alloy/60
+  surge-alloy/96
+  ellener-rod/4
 ]
 category: defense
