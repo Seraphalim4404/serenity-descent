@@ -1,7 +1,7 @@
 type: Item
 color: dccab0
 name: Serenite
-description: "A powerful item that surges with energy."
+description: "A powerful item that surges with energy, used for building armored buildings and ammos. [accent]This is not a blaze rod."
 explosiveness: 0
 flammability: 0
 radioactivity: 0
