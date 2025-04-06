@@ -8,7 +8,6 @@ description:
 
 '''
 
-{}
 size: 5
 health: 5440
 armor: 25
@@ -31,7 +30,7 @@ consumes: {
   liquids: [
   slag/1
   ]
-}
+{}}
 outputItems: [
   ellener-rod/1
 ]
