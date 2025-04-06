@@ -15,7 +15,6 @@ canOverdrive: false
 hasLiquids: true
 itemCapacity: 30
 liquidCapacity: 120
-craftTime: 900
 consumes: {
   power: 16.6666667
   items: [
@@ -31,6 +30,7 @@ consumes: {
   slag/1
   ]
 }
+craftTime: 900
 outputItems: [
   ellener-rod/1
 ]
