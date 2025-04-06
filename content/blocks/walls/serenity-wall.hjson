@@ -5,7 +5,7 @@ size: 2
 health: 4048
 armor: 5
 power: {
-  usage: 0
+  usage: 1
   capacity: 1
 }
 powerCapacity: 1
