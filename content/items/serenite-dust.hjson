@@ -5,8 +5,8 @@ description: An influx of small energy emanating.
 explosiveness: 0
 flammability: 0
 radioactivity: 0.25
-charge: 0.75
-cost: 0.8
+charge: 0.55
+cost: 1
 hardness: 5.75
 hiddenOnPlanets: [erekir]
 research: surge-alloy
