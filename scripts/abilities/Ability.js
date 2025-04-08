@@ -32,7 +32,7 @@ function name(Ability) {
 
     function name(addStats(Table.t)){
         if(Core.bundle.has(getBundle() + ".description")){
-            t.add(Core.bundle.get(getBundle() + ".description")).wrap().width(descriptionWidth);
+            t.createElement(Core.bundle.get(getBundle() + ".description")).wrap().width(descriptionWidth);
             t.row();
         }
     }
