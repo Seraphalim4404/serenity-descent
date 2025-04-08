@@ -18,7 +18,7 @@ import mindustry.world.meta.*;
 
 import static vars.*;
 
-function name(FieldAuraAbility) extend Ability{
+function name(FieldAuraAbility) extends Ability{
     speedMultiplier = 1.5;
     damageMultiplier = 2;
 }
