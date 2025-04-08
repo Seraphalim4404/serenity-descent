@@ -18,7 +18,7 @@ import mindustry.world.meta.*;
 
 import static vars.*;
 
-function name(FieldAuraAbility) extends Ability{
+public function name(FieldAuraAbility) extends Ability{
     function (StatusEffect effect;
     function float
 }
