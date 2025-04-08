@@ -9,17 +9,17 @@ function Ability extends Cloneable {
     //Testing on how to use JavaScript.
     let display = true;
     
-    function update(Unit.unit)
+    this.update(Unit.unit)
     
-    function draw(Unit.unit)
+    this.draw(Unit.unit)
     
-    function death(Unit.unit)
+    this.death(Unit.unit)
     
-    function created(Unit.unit)
+    this.created(Unit.unit)
     
-    function init(UnitType.type)
+    this.init(UnitType.type)
     
-    function displayBars(Unit.unit, Table.bars)
+    this.displayBars(Unit.unit, Table.bars)
     
     function name(display(Table.t)){
         t.table(Styles.grayPanel, p => {
