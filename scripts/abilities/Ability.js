@@ -9,7 +9,7 @@ function name(Ability) {
     //Testing on how to use JavaScript.
     let display = true;
 
-    this.update(Unit.unit){}
+    this.update(Unit.unit)
 
     this.draw(Unit.unit)
 
