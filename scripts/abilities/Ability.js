@@ -5,7 +5,7 @@ import arc.scene.ui.layout.*;
 import mindustry.gen.*;
 import mindustry.ui.*;
 
-function name(Ability) {
+function name(Ability = "ability") {
     //Testing on how to use JavaScript.
     let display = true;
     
