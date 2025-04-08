@@ -5,9 +5,9 @@ import arc.scene.ui.layout.*;
 import mindustry.gen.*;
 import mindustry.ui.*;
 
-class Ability {
+class Ability extends {
     //Testing on how to use JavaScript.
-    let display = true;
+    let.display = true;
     
     this.update(Unit.unit)
     
