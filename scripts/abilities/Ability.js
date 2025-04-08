@@ -21,7 +21,7 @@ function name(Ability) {
 
     this.displayBars(Unit.unit, Table.bars)
 
-    function name(display(Table.t))
+    function name(display(Table.t)){
         t.table(Styles.grayPanel, p => {
           p.createElement(("[accent]" + localized()).padBottom(4).center().top().expandX();
           p.row();
@@ -29,3 +29,4 @@ function name(Ability) {
           addStats(p);
         })?.pad(5).margin(10).growX().top().uniformX();
     }
+}
