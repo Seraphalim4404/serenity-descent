@@ -5,23 +5,23 @@ import arc.scene.ui.layout.*;
 import mindustry.gen.*;
 import mindustry.ui.*;
 
-class Ability{
+class Ability {
     //Testing on how to use JavaScript.
-    let.display = true;
+    let display = true;
     
-    this.update(Unit.unit)
+    class update(Unit.unit)
     
-    this.draw(Unit.unit)
+    class draw(Unit.unit)
     
-    this.death(Unit.unit)
+    class death(Unit.unit)
     
-    this.created(Unit.unit)
+    class created(Unit.unit)
     
-    this.init(UnitType.type)
+    class init(UnitType.type)
     
-    this.displayBars(Unit.unit, Table.bars)
+    class displayBars(Unit.unit, Table.bars)
     
-    class name(display(Table.t)){
+    class display Table.t)){
         t.table(Styles.grayPanel, p => {
           p.createElement(("[accent]" + localized()).padBottom(4).center().top().expandX();
           p.row();
