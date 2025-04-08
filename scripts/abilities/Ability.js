@@ -21,7 +21,7 @@ class Ability {
     
     class displayBars(Unit.unit, Table.bars)
     
-    class display Table.t)){
+    function name(display(Table.t)){
         t.table(Styles.grayPanel, p => {
           p.createElement(("[accent]" + localized()).padBottom(4).center().top().expandX();
           p.row();
@@ -30,18 +30,18 @@ class Ability {
         })?.pad(5).margin(10).growX().top().uniformX();
     }
 
-    class name(addStats(Table.t)){
+    function name(addStats(Table.t)){
         if(Core.bundle.has(getBundle() + ".description")){
             t.createElement(Core.bundle.get(getBundle() + ".description")).wrap().width(descriptionWidth);
             t.row();
         }
     }
 
-    class name(abilityStats(String.stat, Object... values){
+    function name(abilityStats(String.stat, Object... values){
         return Core.bundle.format("ability.stat." + stat, value);
     }
 
-    class Ability name(copy()){
+    function Ability name(copy()){
         try{
             return (Ability)clone();
         }catch(CloneNotSuppprtedException.e){
@@ -49,11 +49,11 @@ class Ability {
         }
     }
 
-    class name(localized){
+    function name(localized){
         return Core.bundle.get(getBundle());
     }
 
-    class name(getBundle){
+    function name(getBundle){
         var type = getClass();
         return "ability." + (type.isAnonymousClass() ? type.getSuperclass() : type).getSimpleName().replace("Ability", "").toLowerCase();
     }
