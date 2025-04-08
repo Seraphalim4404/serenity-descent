@@ -49,11 +49,11 @@ function name(Ability) implements Cloneable{
         }
     }
 
-    function name(localized()){
+    function name(localized){
         return Core.bundle.get(getBundle());
     }
 
-    function name(getBundle()){
+    function name(getBundle){
         var type = getClass();
         return "ability." + (type.isAnonymousClass() ? type.getSuperclass() : type).getSimpleName().replace("Ability", "").toLowerCase();
     }
