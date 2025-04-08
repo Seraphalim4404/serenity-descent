@@ -19,6 +19,6 @@ import mindustry.world.meta.*;
 import static vars.*;
 
 function name(FieldAuraAbility) extends Ability{
-    float speedMultiplier = 1.5;
-    float damageMultiplier = 2;
+    float speedMultiplier = 1.5f;
+    float damageMultiplier = 2f;
 }
