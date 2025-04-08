@@ -5,7 +5,7 @@ import arc.scene.ui.layout.*;
 import mindustry.gen.*;
 import mindustry.ui.*;
 
-class Ability extends Cloneable {
+class Ability {
     //Testing on how to use JavaScript.
     let display = true;
     
