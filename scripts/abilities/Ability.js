@@ -1,4 +1,4 @@
-export scripts.abilities;
+import scripts.abilities;
 
 import arc.*;
 import arc.scene.ui.layout.*;
