@@ -5,21 +5,21 @@ import arc.scene.ui.layout.*;
 import mindustry.gen.*;
 import mindustry.ui.*;
 
-class Ability {
+class Ability extends Cloneable {
     //Testing on how to use JavaScript.
     let display = true;
     
-    class update(Unit.unit)
+    this.update(Unit.unit)
     
-    class draw(Unit.unit)
+    this.draw(Unit.unit)
     
-    class death(Unit.unit)
+    this.death(Unit.unit)
     
-    class created(Unit.unit)
+    this.created(Unit.unit)
     
-    class init(UnitType.type)
+    this.init(UnitType.type)
     
-    class displayBars(Unit.unit, Table.bars)
+    this.displayBars(Unit.unit, Table.bars)
     
     function name(display(Table.t)){
         t.table(Styles.grayPanel, p => {
