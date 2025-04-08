@@ -24,8 +24,21 @@ immunities: [
 ]
 abilities: [
   {
-     type: FieldAuraAbility
-     speedMultiplier: 4
+     type: EnergyFieldAbility
+     status: impaired
+     color: e6a2ff
+     blinkSize: 3
+     layer: 2
+     damage: 80
+     reload: 90
+     range: 268
+     healPercent: 0.25
+     hitUnits: true
+     hitBuildings: true
+     maxTargets: 10
+     shootSound: spark
+     x: 0
+     y: p
   }
 ]
   
