@@ -19,6 +19,6 @@ import mindustry.world.meta.*;
 import static vars.*;
 
 function name(FieldAuraAbility) extends Ability{
-    speedMultiplier = 1.5;
-    damageMultiplier = 2;
+    function (StatusEffect effect;
+    function float
 }
