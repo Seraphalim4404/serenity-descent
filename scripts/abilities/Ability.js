@@ -1,4 +1,4 @@
-export mindustry.entities.abilities;
+export script.abilities;
 
 import arc.*;
 import arc.scene.ui.layout.*;
