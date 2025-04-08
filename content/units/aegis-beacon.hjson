@@ -24,7 +24,7 @@ immunities: [
 ]
 abilities: [
   {
-     type: EnergyFieldAbility
+     type: FieldAuraAbility
      status: impaired
      color: e6a2ff
      blinkSize: 3
