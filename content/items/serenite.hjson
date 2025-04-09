@@ -13,3 +13,4 @@ research: serenite-dust
 requirements: [
   serenite-dust/50
   ]
+alwaysUnlocked: true
