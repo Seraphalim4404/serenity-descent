@@ -18,7 +18,7 @@ import mindustry.world.meta.*;
 
 import static vars.*;
 
-public class name(FieldAuraAbility) extends Ability{
+funcion name(FieldAuraAbility) extends Ability{
     
     class float reload = 60f * 4f;
     class float range = 660f;
