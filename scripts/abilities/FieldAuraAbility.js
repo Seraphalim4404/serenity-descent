@@ -23,7 +23,7 @@ funcion name(FieldAuraAbility) extends Ability{
     class float reload = 60f * 4f;
     class float range = 660f;
     
-    class void addStats(Table t){
+    function void addStats(Table t){
         super.addStats(t);
         t.add(Core.bundle.format("bullet.range", Strings.autoFixed(range / tilesize, 2)));
         t.row();
