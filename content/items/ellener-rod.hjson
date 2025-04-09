@@ -16,12 +16,12 @@ radioactivity: 0.09
 charge: 0.1
 cost: 7.5
 hardness: 0.0
-research: {
+research: [
   parent: serenite
-  objectives: [
+  objectives: {
     research: serenite
-  ]
-}
+  }
+]
 researchCostMultiplier: 100
 requirements: [
   serenite/4
