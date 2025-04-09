@@ -1,0 +1,9 @@
+type: Item
+color: 696969
+name: [#a5a5a5]Fractured Core
+description: A missing piece, originally used to power structures for a long period of time and more.
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 15
