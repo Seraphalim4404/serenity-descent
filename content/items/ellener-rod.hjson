@@ -18,9 +18,9 @@ cost: 7.5
 hardness: 0.0
 research: {
   parent: serenite
-  objectives: {
+  objectives: [
     research: serenite
-  }
+  ]
 }
 researchCostMultiplier: 100
 requirements: [
