@@ -1,4 +1,4 @@
-import scripts.abilities;
+export scripts.abilities.ability;
 
 import arc.*;
 import arc.audio.*;
