@@ -1,6 +1,6 @@
 type: Item
 color: e9e9bb
-name: [#ece78d]Serenite
+name: "[#ece78d]Serenite"
 description: "A powerful item that surges with energy, used for building armored structures and ammos. [accent]This is not a blaze rod."
 explosiveness: 0
 flammability: 0
