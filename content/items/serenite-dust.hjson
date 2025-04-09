@@ -13,3 +13,4 @@ research: surge-alloy
 requirements: [
   surge-alloy/50
   ]
+alwaysUnlocked: true
