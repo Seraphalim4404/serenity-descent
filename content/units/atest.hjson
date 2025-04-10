@@ -15,7 +15,7 @@ weapons: [
       type: shootAlternate
       barrels: 2
       spread: 8
-      shots: 60
+      shots: 120
       shotDelay: 0.01
     }
     bullet: {
@@ -24,8 +24,8 @@ weapons: [
       height: 12
       width: 4
       damage: 20
-      speed: 10
-      lifetime: 120
+      speed: 5
+      lifetime: 90
       knockback: 160
     } 
   }
