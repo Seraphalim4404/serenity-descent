@@ -21,19 +21,17 @@ consumes: {
   ]
 }
 shootSound: shootBig
-ammoTypes: {
-  serenite: {
-    type: LightningBulletType
-    lightningLength: 24
-    lightningColor: e2e596
-    ammoMultiplier: 10
-    damage: 2000
-    pierceArmor: true
-    pierceEffect: none
-    smokeEffect: none
-    shootEffect: none
-    hitEffect: none
-  }
+shootType: {
+  type: LightningBulletType
+  lightningLength: 24
+  lightningColor: e2e596
+  ammoMultiplier: 10
+  damage: 2000
+  pierceArmor: true
+  pierceEffect: none
+  smokeEffect: none
+  shootEffect: none
+  hitEffect: none
 }
 category: turret
 research: foreshadow
