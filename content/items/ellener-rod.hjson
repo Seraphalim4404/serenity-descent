@@ -14,7 +14,7 @@ explosiveness: 0.06
 flammability: 0
 radioactivity: 0.09
 charge: 0.1
-cost: 7.5
+cost: 30
 hardness: 0.0
 research: {
   parent: serenite
