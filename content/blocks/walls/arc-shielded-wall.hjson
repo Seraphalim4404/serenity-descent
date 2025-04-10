@@ -4,11 +4,11 @@ description: Improved version of Shielded Wall. Does not deflect bullets upon im
 size: 4
 health: 5200
 armor: 20
-shieldHealth: 30800
+shieldHealth: 42800
 width: 64
 length: 80
-cooldownNormal: 30800
-cooldownBrokenBase: 30800
+cooldownNormal: 0
+cooldownBrokenBase: 0
 hasPower: true
 conductivePower: true
 rotate: true
