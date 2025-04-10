@@ -1,7 +1,7 @@
 type: powerTurret
 localizedName: Lightning Tower
 description: ???
-size: 4
+size: 3
 health: 5000
 armor: 50
 range: 128
@@ -22,11 +22,15 @@ consumes: {
 }
 shootSound: shootBig
 shootType: {
+  shoot: {
+    shots: 50
+    shotDelay: 0
+  }
   type: LightningBulletType
   lightningLength: 24
   lightningColor: e2e596
   ammoMultiplier: 10
-  damage: 2000
+  damage: 150
   pierceArmor: true
   pierceEffect: none
   smokeEffect: none
