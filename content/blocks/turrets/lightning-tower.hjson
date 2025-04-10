@@ -34,6 +34,7 @@ shootType: {
     smokeEffect: none
     shootEffect: none
     hitEffect: none
+  }
 }
 category: turret
 research: foreshadow
