@@ -9,7 +9,6 @@ reload: 250
 recoil: 0
 rotateSpeed: 0
 shootCone: 360
-shootSound: shootBig
 shake: 3
 inaccuracy: 360
 maxAmmo: 100
@@ -17,35 +16,29 @@ ammoPerShot: 5
 liquidCapacity: 200
 consumes: {
   power: 16.666666667
-  liquids: [
-  lumina/1.6666666667
+  items: [
+  serenite/10
   ]
 }
-shootSound: railgun
+shootSound: shootBig
 ammoTypes: {
   serenite: {
-    height: 22
-    width: 16
-    hitSize: 64
-    ammoMultiplier: 5
-    damage: 1350
-    lifetime: 600
-    speed: 5
-    pierce: true
+    type: LightningBulletType
+    lightningLength: 24
+    lightningColor: e2e596
+    ammoMultiplier: 10
+    damage: 2000
     pierceArmor: true
-    pierceCap: 4
-    pierceDamageFactor: 0.75
     pierceEffect: none
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-    updateEffect: {
-      type: particleEffect
-      lifetime: 35
-      particles: 1
-      length: 0
-      sizeFrom: 10
-      sizeTo: 0
-      colorFrom: ffffff
-      colorTo: ffffff
   }
+}
+category: turret
+research: foreshadow
+requirements: [
+  ellener-rod/16
+  serenite/1500
+  titanium/600
+  copper/750
