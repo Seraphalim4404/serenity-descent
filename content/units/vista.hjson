@@ -1,6 +1,4 @@
 type: mech
-name: Vista
-description: Shoots powerful kinetic bullets, can also protect itself while shooting.
 template: SerpuloUnitType
 health: 12500
 armor: 20
