@@ -22,7 +22,7 @@ weapons: [
     x: 18
     y: 0
     reload: 15
-    inaccuracy: 5
+    inaccuracy: 3.5
     rotate: true
     rotateSpeed: 1.88
     rotationLimit: 10
@@ -57,7 +57,7 @@ weapons: [
     mirror: false
     x: -18
     y: 0
-    reload: 300
+    reload: 660
     inaccuracy: 10
     rotate: true
     rotateSpeed: 1.88
