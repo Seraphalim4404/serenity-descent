@@ -14,6 +14,7 @@ weapons: [
     shoot: {
       type: shootAlternate
       barrels: 2
+      spread: 8
       shots: 60
       shotDelay: 0.01
     }
