@@ -1,6 +1,7 @@
 type: mech
 localizedName: A Test
 description: none
+health: 16000
 weapons: [
   {
     mirror: false
@@ -14,7 +15,7 @@ weapons: [
       type: shootAlternate
       barrels: 2
       shots: 60
-      shotDelay: 1
+      shotDelay: 0.01
     }
     bullet: {
       type: BasicBulletType
@@ -22,12 +23,9 @@ weapons: [
       height: 12
       width: 4
       damage: 20
-      speed: 3
-      lifetime: 60
+      speed: 10
+      lifetime: 120
       knockback: 160
-      trailColor: ffffff
-      trailLength: 9
-      trailWidth: 3
     } 
   }
 ]
