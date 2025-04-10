@@ -29,7 +29,7 @@ shootType: {
     lightningLength: 24
     lightningColor: e2e596
     ammoMultiplier: 10
-    damage: 150
+    damage: 1200
     pierceArmor: true
     pierceEffect: none
     smokeEffect: none
