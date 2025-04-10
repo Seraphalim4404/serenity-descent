@@ -9,6 +9,7 @@ weapons: [
     reload: 240
     rotate: true
     rotateSpeed: 2
+    inaccuracy: 60
     shoot: {
       type: shootAlternate
       barrels: 2
