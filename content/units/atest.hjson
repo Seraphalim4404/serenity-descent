@@ -1,0 +1,32 @@
+type: mech
+localizedName: A Test
+description: none
+weapons: [
+  {
+    mirror: false
+    x: 0
+    y: 0
+    reload:
+    rotate: true
+    rotateSpeed: 2
+    shoot: {
+      type: shootAlternate
+      barrels: 2
+      shots: 60
+      shotDelay: 1
+    }
+    bullet: {
+      type: BasicBulletType
+      hitSize: 8
+      height: 12
+      width: 4
+      damage: 20
+      speed: 3
+      lifetime: 60
+      knockback: 160
+      trailColor: ffffff
+      trailLength: 9
+      trailWidth: 3
+    } 
+  }
+]
