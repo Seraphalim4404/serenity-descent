@@ -6,7 +6,7 @@ weapons: [
     mirror: false
     x: 0
     y: 0
-    reload:
+    reload: 240
     rotate: true
     rotateSpeed: 2
     shoot: {
