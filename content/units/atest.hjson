@@ -25,7 +25,7 @@ weapons: [
       hitSize: 8
       height: 12
       width: 4
-      damage: 20
+      damage: 75
       speed: 5
       lifetime: 90
       knockback: 160
