@@ -22,6 +22,7 @@ consumes: {
 }
 shootSound: shootBig
 shootType: {
+  instantDisappear: true
   fragBullets: 35
   fragBullet: {
     type: LightningBulletType
