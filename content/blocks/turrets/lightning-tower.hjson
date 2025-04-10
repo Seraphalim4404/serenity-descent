@@ -1,0 +1,51 @@
+type: powerTurret
+localizedName: Lightning Tower
+description: ???
+size: 4
+health: 5000
+armor: 50
+range: 128
+reload: 250
+recoil: 0
+rotateSpeed: 0
+shootCone: 360
+shootSound: shootBig
+shake: 3
+inaccuracy: 360
+maxAmmo: 100
+ammoPerShot: 5
+liquidCapacity: 200
+consumes: {
+  power: 16.666666667
+  liquids: [
+  lumina/1.6666666667
+  ]
+}
+shootSound: railgun
+ammoTypes: {
+  serenite: {
+    height: 22
+    width: 16
+    hitSize: 64
+    ammoMultiplier: 5
+    damage: 1350
+    lifetime: 600
+    speed: 5
+    pierce: true
+    pierceArmor: true
+    pierceCap: 4
+    pierceDamageFactor: 0.75
+    pierceEffect: none
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
+    updateEffect: {
+      type: particleEffect
+      lifetime: 35
+      particles: 1
+      length: 0
+      sizeFrom: 10
+      sizeTo: 0
+      colorFrom: ffffff
+      colorTo: ffffff
+  }
