@@ -3,7 +3,6 @@ localizedname: Compensator
 description: ...
 squareSprite: false
 size: 4
-buildTime: 90
 health: 10500
 armor: 55
 range: 888
