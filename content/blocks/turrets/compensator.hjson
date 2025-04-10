@@ -39,10 +39,16 @@ ammoTypes: {
     pierceEffect: none
     smokeEffect: none
     shootEffect: none
-    hitEffect: scatheSlash
-    trailColor: ebc797
-    trailLength: 11
-    trailWidth: 2
+    hitEffect: none
+    updateEffect: {
+      type: particleEffect
+      lifetime: 35
+      particles: 1
+      length: 0
+      sizeFrom: 10
+      sizeTo: 0
+      colorFrom: ffffff
+      colorTo: ffffff
   }
   surge-alloy: {
     height: 32
