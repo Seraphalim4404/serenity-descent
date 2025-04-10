@@ -24,6 +24,7 @@ consumes: {
 shootSound: railgun
 ammoTypes: {
   serenite: {
+    type: RailBulletType
     height: 22
     width: 16
     hitSize: 64
@@ -48,6 +49,7 @@ ammoTypes: {
       sizeTo: 0
       colorFrom: ffffff
       colorTo: ffffff
+    }
   }
   surge-alloy: {
     height: 32
@@ -77,4 +79,4 @@ requirements: [
   titanium/700
   metaglass/600
   silicon/2000
-  ]
+]
