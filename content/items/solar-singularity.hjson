@@ -1,0 +1,8 @@
+type: Item
+color: faedb1
+radioactivity: 0.8
+cost: 0
+research: fractured-core
+requirements: [
+  fractured-core/10
+]

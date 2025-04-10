@@ -1,5 +1,3 @@
-localizedName: Molten Concentrator
-description: A concentrator that fuses 5 materials into one liquid, requires Water as a coolant.
 type: GenericCrafter
 size: 5
 health: 5400

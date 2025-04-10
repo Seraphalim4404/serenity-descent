@@ -1,6 +1,4 @@
 type: legs
-localizedName: Lunatic Crystal
-description: A crawler mutated from the Crystals.
 template: SerpuloUnitType
 health: 111
 armor: 25

@@ -17,10 +17,7 @@ abilities: [
 weapons: [
   {
     mirror: false
-    x: 0
-    y: 0
     reload: 240
-    inaccuracy: 0
     rotate: true
     rotateSpeed: 0.8
     rotationLimit: 20

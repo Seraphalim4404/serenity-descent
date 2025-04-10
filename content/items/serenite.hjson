@@ -1,15 +1,10 @@
 type: Item
-color: dccab0
-name: Serenite
-description: "A powerful item that surges with energy, used for building armored structures and ammos. [accent]This is not a blaze rod."
-explosiveness: 0
-flammability: 0
-radioactivity: 0
+color: e9e9bb
 charge: 1.5
 cost: 2.2
-hardness: 0.0
 hiddenOnPlanets: [erekir]
 research: serenite-dust
 requirements: [
   serenite-dust/50
   ]
+alwaysUnlocked: true

@@ -1,13 +1,4 @@
 type: GenericCrafter
-localizedName: "[#cea2f4]Absolute End Assembler"
-description: 
-      '''
-  An assembler that is capable of producing Ellen's Rod. Requires large amounts of power.
-  
-  [gray]This is a weaker version compared to what Ellen has.
-
-'''
-
 size: 5
 health: 5440
 armor: 25

@@ -1,6 +1,4 @@
 type: legs
-localizedName: "Prototype E-005V_h"
-description: Tier V of Prototype E-001_h.
 template: ErekirUnitType
 speed: 4.6
 health: 18000
@@ -59,14 +57,10 @@ abilities: [
      hitBuildings: true
      maxTargets: 10
      shootSound: spark
-     x: 0
-     y: 0
   }
 ]
 weapons: [
   {
-    x: 0
-    y: 0
     mirror: false
     reload: 80
     continuous: true
@@ -77,7 +71,6 @@ weapons: [
   }
     chargeSound: lasercharge
     shootSound: beam
-    recoil: 0
     bullet: {
       type: ContinuousLaserBulletType
       speed: 0
@@ -104,11 +97,9 @@ weapons: [
     template: MissileUnitType
     controller: missileAI
     x: -14
-    y: 0
     mirror: true
     reload: 150
     shootSound: missileLaunch
-    recoil: 0
     speed: 3.25
     rotateSpeed: 1.5
     missileAccelTime: 0.1

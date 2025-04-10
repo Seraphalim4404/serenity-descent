@@ -1,0 +1,30 @@
+type: mech
+health: 1000000
+weapons: [
+  {
+    mirror: false
+    reload: 240
+    rotate: true
+    rotateSpeed: 2
+    inaccuracy: 45
+    alternate: false
+    recoil: 64
+    shoot: {
+      type: shootAlternate
+      barrels: 2
+      spread: 8
+      shots: 150
+      shotDelay: 0.01
+    }
+    bullet: {
+      type: BasicBulletType
+      hitSize: 8
+      height: 12
+      width: 4
+      damage: 75
+      speed: 5
+      lifetime: 90
+      knockback: 160
+    } 
+  }
+]

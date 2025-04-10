@@ -1,6 +1,4 @@
 type: itemTurret
-localizedname: Compensator
-description: ...
 squareSprite: false
 size: 4
 buildTime: 90
@@ -12,7 +10,6 @@ recoil: 64
 rotateSpeed: 10
 shootSound: railgun
 shake: 3
-inaccuracy: 0
 maxAmmo: 100
 ammoPerShot: 5
 liquidCapacity: 200
