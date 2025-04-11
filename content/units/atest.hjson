@@ -18,7 +18,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      drag: -0.005
+      drag: -0.05
       hitSize: 8
       height: 12
       width: 4
