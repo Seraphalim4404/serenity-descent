@@ -43,7 +43,7 @@ weapons: [
       velocityRnd: 0.25
       buildingDamageMultiplier: 2
       trailEffect: colorSpark
-      trailColor: fee394
+      color: fee394
       trailRotation: true
       trailChance: 0.44
     }
