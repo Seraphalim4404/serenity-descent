@@ -45,7 +45,7 @@ weapons: [
       trailEffect: disperseTrail
       trailRotation: true
       trailChance: 0.44
-      lineEffect: chainLightning
+      smokeFfect: chainLightning
     }
   }
   {
