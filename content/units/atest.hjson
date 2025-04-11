@@ -23,7 +23,7 @@ weapons: [
       height: 12
       width: 4
       damage: 75
-      speed: 2.5
+      speed: 0.5
       lifetime: 120
       knockback: 160
     } 
