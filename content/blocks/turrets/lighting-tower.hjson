@@ -1,0 +1,45 @@
+type: powerTurret
+size: 3
+health: 5000
+armor: 50
+range: 128
+reload: 250
+recoil: 0
+rotateSpeed: 0
+shootCone: 360
+shake: 3
+inaccuracy: 360
+maxAmmo: 100
+ammoPerShot: 5
+liquidCapacity: 200
+consumes: {
+  power: 16.666666667
+  items: [
+  serenite/10
+  ]
+}
+shootSound: shootBig
+shootType: {
+  instantDisappear: true
+  fragBullets: 35
+  fragBullet: {
+    type: LightningBulletType
+    lightningLength: 24
+    lightningColor: e2e596
+    ammoMultiplier: 10
+    damage: 1200
+    pierceArmor: true
+    pierceEffect: none
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
+  }
+}
+category: turret
+research: foreshadow
+requirements: [
+  ellener-rod/16
+  serenite/1500
+  titanium/600
+  copper/750
+]
