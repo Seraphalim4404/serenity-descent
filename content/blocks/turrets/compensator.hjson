@@ -25,6 +25,7 @@ ammoTypes: {
     ammoMultiplier: 5
     damage: 1350
     pierce: true
+    pierceBuildings: true
     pierceArmor: true
     pierceCap: 4
     pierceDamageFactor: 0.75
