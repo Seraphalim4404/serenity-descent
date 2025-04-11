@@ -22,9 +22,6 @@ shootSound: railgun
 ammoTypes: {
   serenite: {
     type: RailBulletType
-    height: 22
-    width: 16
-    hitSize: 16
     ammoMultiplier: 5
     damage: 1350
     pierce: true
