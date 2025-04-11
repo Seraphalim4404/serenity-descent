@@ -42,7 +42,7 @@ weapons: [
       speed: 14.03
       velocityRnd: 0.25
       buildingDamageMultiplier: 2
-      trailEffect: colorSpark
+      trailEffect: disperseTrail
       color: fee394
       trailRotation: true
       trailChance: 0.44
