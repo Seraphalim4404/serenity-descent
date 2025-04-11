@@ -24,11 +24,9 @@ ammoTypes: {
     type: RailBulletType
     height: 22
     width: 16
-    hitSize: 64
+    hitSize: 16
     ammoMultiplier: 5
     damage: 1350
-    lifetime: 600
-    speed: 5
     pierce: true
     pierceArmor: true
     pierceCap: 4
