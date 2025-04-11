@@ -17,3 +17,4 @@ requirements: [
   silicon/1
   lead/3
   ]
+alwaysUnlocked: true
