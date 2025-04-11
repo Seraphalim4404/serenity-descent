@@ -1,5 +1,3 @@
-localizedName: Aegis Beacon
-description: A Unit Beacon that supports nearby units.
 template: ErekirUnitType
 drawCell: true
 hitSize: 32
@@ -37,8 +35,6 @@ abilities: [
      hitBuildings: true
      maxTargets: 10
      shootSound: spark
-     x: 0
-     y: 0
   }
 ]
   

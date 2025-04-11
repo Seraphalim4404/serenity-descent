@@ -1,13 +1,7 @@
 type: Item
 color: faedb1
-name: "[#ffe16c]Solar Singularity"
-description: "A singularity that can only be harnessed during day time. Used for making Solar Core."
-explosiveness: 0
-flammability: 0
 radioactivity: 0.8
-charge: 0
 cost: 0
-hardness: 0
 research: fractured-core
 requirements: [
   fractured-core/10

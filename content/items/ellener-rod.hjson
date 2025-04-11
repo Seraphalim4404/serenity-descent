@@ -1,20 +1,9 @@
 type: Item
 color: 949494
-localizedName: "[#cea2f4]Ellener's Rod"
-description: 
-      '''
-  An item that is used to build advanced structures and units.
-  
-  [gray]This item is a weaker version compared to what Ellen has.
-
-'''
-
 explosiveness: 0.06
-flammability: 0
 radioactivity: 0.09
 charge: 0.1
 cost: 30
-hardness: 0.0
 research: {
   parent: serenite
 }

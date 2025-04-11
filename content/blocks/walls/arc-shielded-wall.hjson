@@ -1,6 +1,4 @@
 type: DirectionalForceProjector
-localizedName: Arc Shielded Wall
-description: Improved version of Shielded Wall. Does not deflect bullets upon impact. Deploys a one-time use arc shield that absorbs most projectiles when power is provided. Conducts power.
 size: 4
 health: 5200
 armor: 20

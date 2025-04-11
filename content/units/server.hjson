@@ -1,7 +1,4 @@
 type: legs
-name: ahllera
-localizedName: Server
-description: S.E.R.V.E.R
 health: 100000
 armor: 15
 hitSize: 96

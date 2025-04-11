@@ -1,12 +1,8 @@
 type: mech
-localizedName: A Test
-description: none
 health: 1000000
 weapons: [
   {
     mirror: false
-    x: 0
-    y: 0
     reload: 240
     rotate: true
     rotateSpeed: 2
