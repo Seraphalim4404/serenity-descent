@@ -1,6 +1,5 @@
 type: mech
 health: 1000000
-recoil: 32
 weapons: [
   {
     mirror: false
@@ -19,7 +18,7 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      drag: -0.5
+      drag: -0.05
       hitSize: 8
       height: 12
       width: 4
