@@ -1,0 +1,7 @@
+type: Item
+color: 6b8e9d
+explosiveness: 0.03
+radioactivity: 0.01
+cost: 2
+hardness: 3
+alwaysUnlocked: true
