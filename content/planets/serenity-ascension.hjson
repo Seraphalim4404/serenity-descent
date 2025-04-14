@@ -2,8 +2,12 @@ generator: PlanetGenerator
 solarSystem: sun
 parent: sun
 orbitRadius: 74.5
-minZoom: 0.1
+minZoom: 0.5
 drawOrbit: true
 startSector: 1
-accessible: false
+
+bloom: true
+lightColor: bad7da
+atmosphereColor:
+accessible: true
 alwaysUnlocked: true
