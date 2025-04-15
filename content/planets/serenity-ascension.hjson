@@ -8,7 +8,7 @@ drawOrbit: true
 startSector: 1
 sectorSize: 4
 
-bloom: true
+bloom: false
 lightColor: bad7da
 
 mesh: [
