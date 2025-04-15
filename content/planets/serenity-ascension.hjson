@@ -1,7 +1,8 @@
 generator: PlanetGenerator
 solarSystem: sun
 parent: sun
-orbitRadius: 74.5
+orbitRadius: 23.3
+//74.5
 minZoom: 0.5
 drawOrbit: true
 startSector: 1
