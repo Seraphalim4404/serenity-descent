@@ -1,0 +1,7 @@
+generator: planetGenerator
+localizedName: Proxima
+solarSystem: proxima
+parent: none
+visible: true
+color: bad7da
+bloom: true
