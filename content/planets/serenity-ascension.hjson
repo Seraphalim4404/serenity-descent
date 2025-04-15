@@ -1,6 +1,6 @@
 generator: PlanetGenerator
-solarSystem: sun
-parent: sun
+solarSystem: proxima
+parent: proxima
 orbitRadius: 23.3
 // 74.5
 minZoom: 0.5
