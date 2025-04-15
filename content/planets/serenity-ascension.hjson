@@ -5,7 +5,7 @@ orbitRadius: 74.5
 minZoom: 0.5
 drawOrbit: true
 startSector: 1
-sectorSize: 1
+sectorSize: 0.5
 
 bloom: true
 lightColor: bad7da
