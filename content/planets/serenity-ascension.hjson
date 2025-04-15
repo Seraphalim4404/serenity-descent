@@ -9,7 +9,7 @@ startSector: 1
 sectorSize: 4
 
 bloom: false
-lightColor: bad7da
+lightColor: 78acb1
 
 mesh: [
 	{
