@@ -1,0 +1,38 @@
+type: ItemTurret
+size: 3
+health: 12500
+armor: 20
+reload: 2.5
+rotateSpeed: 6
+shake: 1
+maxAmmo: 1000
+ammoPerShot: 1
+liquidCapacity: 1000
+consumes: {
+  power: 40
+}
+ammoTypes: {
+  titanium: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 16
+    width: 8
+    damage: 46
+    lifetime: 420
+    speed: 5.75
+    pierce: true
+    pierceCap: 2
+    pierceArmor: true
+    pierceDamageFactor: 0.5
+    trailColor: b4cd30
+    trailLength: 32
+    trailWidth: 8
+  }
+}
+category: turret
+requirements: [
+  ellener-rod/16
+  serenite/3300
+  thorium/2000
+  titanium/5300
+]
