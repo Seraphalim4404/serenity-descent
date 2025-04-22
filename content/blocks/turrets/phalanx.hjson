@@ -1,8 +1,8 @@
 type: ItemTurret
 size: 3
 health: 12500
-armor: 20
-reload: 2.5
+armor: 2
+reload: 0.4
 rotateSpeed: 6
 shake: 1
 range: 1800
