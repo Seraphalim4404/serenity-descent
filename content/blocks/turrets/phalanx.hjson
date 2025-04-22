@@ -15,18 +15,18 @@ ammoTypes: {
   titanium: {
     type: BasicBulletType
     hitSize: 12
-    height: 16
-    width: 8
+    height: 32
+    width: 16
     damage: 46
-    lifetime: 420
-    speed: 5.75
+    lifetime: 360
+    speed: 8
     pierce: true
     pierceCap: 2
     pierceArmor: true
     pierceDamageFactor: 0.5
-    trailColor: b4cd30
+    trailColor: b4c3d0
     trailLength: 32
-    trailWidth: 8
+    trailWidth: 4
   }
 }
 category: turret
