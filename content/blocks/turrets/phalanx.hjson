@@ -20,6 +20,7 @@ ammoTypes: {
     damage: 46
     lifetime: 360
     speed: 8
+    inaccuracy: 1.5
     pierce: true
     pierceCap: 2
     pierceArmor: true
