@@ -5,7 +5,7 @@ armor: 20
 reload: 2.5
 rotateSpeed: 6
 shake: 1
-range: 1024
+range: 3072
 maxAmmo: 1000
 ammoPerShot: 1
 liquidCapacity: 1000
@@ -19,7 +19,7 @@ ammoTypes: {
     height: 32
     width: 16
     damage: 46
-    lifetime: 240
+    lifetime: 180
     speed: 10
     inaccuracy: 1.5
     pierce: true
