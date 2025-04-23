@@ -1,7 +1,7 @@
 type: ItemTurret
-size: 3
+size: 6
 health: 12500
-armor: 2
+armor: 20
 reload: 0.4
 rotateSpeed: 6
 shake: 1
@@ -10,7 +10,7 @@ maxAmmo: 1000
 ammoPerShot: 1
 liquidCapacity: 1000
 consumes: {
-  power: 40
+  power: 240
 }
 ammoTypes: {
   titanium: {
@@ -27,7 +27,7 @@ ammoTypes: {
     pierceArmor: true
     pierceDamageFactor: 0.5
     trailColor: b4c3d0
-    trailLength: 16
+    trailLength: 6
     trailWidth: 4
   }
 }
