@@ -1,7 +1,7 @@
 type: ItemTurret
 size: 6
-health: 16666
-armor: 17
+health: 26666
+armor: 18
 reload: 0.6
 rotateSpeed: 5.5
 shake: 1
@@ -19,14 +19,14 @@ ammoTypes: {
     hitSize: 16
     height: 36
     width: 20
-    damage: 134
-    lifetime: 140
+    damage: 188
+    lifetime: 120
     speed: 12
     inaccuracy: 0.19
     pierce: true
-    pierceCap: 3
+    pierceCap: 2
     pierceArmor: true
-    pierceDamageFactor: 0.6
+    pierceDamageFactor: 0.7
     trailColor: b786c8
     trailLength: 7
     trailWidth: 6
@@ -36,7 +36,7 @@ category: turret
 requirements: [
   ellener-rod/8
   serenite/6500
-  thorium/2830
-  silicon/9900
-  lycite/5300
+  thorium/9440
+  silicon/4500
+  lycite/8340
 ]
