@@ -35,7 +35,7 @@ ammoTypes: {
 category: turret
 requirements: [
   ellener-rod/16
-  serenite/3300
-  thorium/2000
+  serenite/2000
+  thorium/3100
   titanium/5300
 ]
