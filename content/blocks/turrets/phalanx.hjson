@@ -5,12 +5,13 @@ armor: 20
 reload: 0.4
 rotateSpeed: 6
 shake: 1
-range: 1800
+range: 1600
 maxAmmo: 1000
 ammoPerShot: 1
+inaccuracy: 1.5
 liquidCapacity: 1000
 consumes: {
-  power: 240
+  power: 370
 }
 ammoTypes: {
   titanium: {
@@ -18,9 +19,9 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 46
+    damage: 86
     lifetime: 180
-    speed: 10
+    speed: 9.75
     inaccuracy: 1.5
     pierce: true
     pierceCap: 2
