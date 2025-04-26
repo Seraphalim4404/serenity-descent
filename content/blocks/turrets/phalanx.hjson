@@ -8,7 +8,7 @@ shake: 1
 range: 1600
 maxAmmo: 1000
 ammoPerShot: 1
-inaccuracy: 0.6
+inaccuracy: 0.33
 liquidCapacity: 1000
 consumes: {
   power: 370
@@ -19,10 +19,10 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 86
+    damage: 92
     lifetime: 180
     speed: 9.75
-    inaccuracy: 0.6
+    inaccuracy: 0.33
     pierce: true
     pierceCap: 2
     pierceArmor: true
