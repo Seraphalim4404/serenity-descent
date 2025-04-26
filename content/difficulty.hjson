@@ -1,0 +1,5 @@
+annihilation: [
+  enemySpawnMultiplier: 2
+  waveTimeMultiplier: 0.3
+  enemyHealthMultiplier: 3
+]
