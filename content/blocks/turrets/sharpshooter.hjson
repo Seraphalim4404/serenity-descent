@@ -1,6 +1,6 @@
 type: ItemTurret
 size: 6
-health: 26666
+health: 20000
 armor: 18
 reload: 0.6
 rotateSpeed: 5.5
@@ -36,8 +36,8 @@ ammoTypes: {
 category: turret
 requirements: [
   ellener-rod/8
-  serenite/6500
-  thorium/9440
-  silicon/4500
-  lycite/8340
+  serenite/2350
+  thorium/5500
+  silicon/4340
+  lycite/7600
 ]
