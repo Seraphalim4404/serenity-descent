@@ -1,0 +1,42 @@
+type: ItemTurret
+size: 6
+health: 16666
+armor: 17
+reload: 0.6
+rotateSpeed: 5.5
+shake: 1
+range: 1276
+maxAmmo: 1000
+ammoPerShot: 1
+inaccuracy: 0.19
+liquidCapacity: 1000
+consumes: {
+  power: 550
+}
+ammoTypes: {
+  thorium: {
+    type: BasicBulletType
+    hitSize: 16
+    height: 36
+    width: 20
+    damage: 134
+    lifetime: 140
+    speed: 12
+    inaccuracy: 0.19
+    pierce: true
+    pierceCap: 3
+    pierceArmor: true
+    pierceDamageFactor: 0.6
+    trailColor: b786c8
+    trailLength: 7
+    trailWidth: 6
+  }
+}
+category: turret
+requirements: [
+  ellener-rod/8
+  serenite/6500
+  thorium/2830
+  silicon/9900
+  lycite/5300
+]
