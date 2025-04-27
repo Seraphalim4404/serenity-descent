@@ -34,6 +34,8 @@ ammoTypes: {
     pierceArmor: false
     pierceDamageFactor: 0.7
     ammoMultiplier: 1
+    status: shutdown
+    statusDuration: 200
     trailColor: abb4ce
     trailLength: 8
     trailWidth: 3
