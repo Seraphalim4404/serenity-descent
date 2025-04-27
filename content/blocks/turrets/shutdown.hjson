@@ -13,13 +13,13 @@ liquidCapacity: 1000
 consumes: {
   power: 550
 }
+shoot: {
+  shots: 40
+  shotDelay: 0
+}
 ammoTypes: {
   thorium: {
     type: BasicBulletType
-    shoot: {
-      shots: 45
-      shotDelay: 0
-    }
     hitSize: 12
     height: 16
     width: 8
