@@ -19,9 +19,9 @@ shoot: {
 }
 shootSound: shotgun
 ammoTypes: {
-  moonlit-core: {
+  moonlit-singularity: {
     type: BasicBulletType
-    knockback: 14
+    knockback: 16
     drag: 0.05
     hitSize: 14
     height: 12
@@ -31,9 +31,9 @@ ammoTypes: {
     speed: 8
     inaccuracy: 30
     pierce: true
-    pierceCap: 3
+    pierceCap: 5
     pierceArmor: false
-    pierceDamageFactor: 0.7
+    pierceDamageFactor: 0.8
     ammoMultiplier: 1
     status: paralyze
     statusDuration: 90
