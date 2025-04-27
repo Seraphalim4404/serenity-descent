@@ -9,7 +9,7 @@ range: 146
 maxAmmo: 10
 ammoPerShot: 1
 inaccuracy: 22.5
-liquidCapacity: 1000
+liquidCapacity: 30
 consumes: {
   power: 550
 }
@@ -29,13 +29,13 @@ ammoTypes: {
     speed: 2
     inaccuracy: 22.5
     pierce: true
-    pierceCap: 2
-    pierceArmor: true
+    pierceCap: 3
+    pierceArmor: false
     pierceDamageFactor: 0.7
     ammoMultiplier: 1
-    trailColor: b786c8
-    trailLength: 7
-    trailWidth: 6
+    trailColor: abb4ce
+    trailLength: 4
+    trailWidth: 2
   }
 }
 category: turret
