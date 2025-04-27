@@ -22,9 +22,9 @@ ammoTypes: {
   thorium: {
     type: BasicBulletType
     drag: 0.05
-    hitSize: 12
-    height: 16
-    width: 8
+    hitSize: 14
+    height: 7
+    width: 26
     damage: 40
     lifetime: 60
     speed: 8
@@ -35,8 +35,8 @@ ammoTypes: {
     pierceDamageFactor: 0.7
     ammoMultiplier: 1
     trailColor: abb4ce
-    trailLength: 4
-    trailWidth: 2
+    trailLength: 8
+    trailWidth: 3
   }
 }
 category: turret
