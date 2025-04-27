@@ -21,10 +21,10 @@ shootSound: shotgun
 ammoTypes: {
   thorium: {
     type: BasicBulletType
-    knockback: 7
+    knockback: 14
     drag: 0.05
     hitSize: 14
-    height: 7
+    height: 12
     width: 26
     damage: 40
     lifetime: 60
@@ -36,7 +36,7 @@ ammoTypes: {
     pierceDamageFactor: 0.7
     ammoMultiplier: 1
     status: paralyze
-    statusDuration: 80
+    statusDuration: 90
     trailColor: abb4ce
     trailLength: 8
     trailWidth: 3
