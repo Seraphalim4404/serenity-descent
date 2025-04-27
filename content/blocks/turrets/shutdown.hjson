@@ -21,22 +21,22 @@ shootSound: shotgun
 ammoTypes: {
   moonlit-singularity: {
     type: BasicBulletType
-    knockback: 16
+    knockback: 18
     drag: 0.05
     hitSize: 14
     height: 12
     width: 26
-    damage: 40
+    damage: 60
     lifetime: 60
-    speed: 8
+    speed: 9
     inaccuracy: 30
     pierce: true
-    pierceCap: 5
+    pierceCap: 6
     pierceArmor: false
     pierceDamageFactor: 0.8
     ammoMultiplier: 1
     status: paralyze
-    statusDuration: 90
+    statusDuration: 100
     trailColor: abb4ce
     trailLength: 8
     trailWidth: 3
