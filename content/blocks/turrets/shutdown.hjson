@@ -2,7 +2,7 @@ type: ItemTurret
 size: 4
 health: 6550
 armor: 20
-reload: 200
+reload: 100
 rotateSpeed: 6.6
 shake: 2
 range: 146
@@ -33,7 +33,7 @@ ammoTypes: {
     pierceDamageFactor: 0.8
     ammoMultiplier: 1
     status: paralyze
-    statusDuration: 100
+    statusDuration: 60
     trailColor: abb4ce
     trailLength: 8
     trailWidth: 3
