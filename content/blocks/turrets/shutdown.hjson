@@ -14,7 +14,7 @@ consumes: {
   power: 550
 }
 shoot: {
-  shots: 43
+  shots: 47
   shotDelay: 0
 }
 shootSound: shotgun
