@@ -1,0 +1,4 @@
+type: ItemTurret
+size: 4
+health: 6550
+armor: 20
