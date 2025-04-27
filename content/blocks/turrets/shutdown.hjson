@@ -10,9 +10,6 @@ maxAmmo: 10
 ammoPerShot: 1
 inaccuracy: 30
 liquidCapacity: 30
-consumes: {
-  power: 550
-}
 shoot: {
   shots: 47
   shotDelay: 0
