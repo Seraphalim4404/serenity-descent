@@ -6,6 +6,7 @@ reload: 0.6
 rotateSpeed: 5.5
 shake: 1
 range: 1276
+trackingRange: 1400
 maxAmmo: 1000
 ammoPerShot: 1
 inaccuracy: 0.19
