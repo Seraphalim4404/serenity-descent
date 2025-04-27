@@ -8,26 +8,27 @@ shake: 2
 range: 146
 maxAmmo: 10
 ammoPerShot: 1
-inaccuracy: 22.5
+inaccuracy: 30
 liquidCapacity: 30
 consumes: {
   power: 550
 }
 shoot: {
-  shots: 40
+  shots: 43
   shotDelay: 0
 }
 shootSound: shotgun
 ammoTypes: {
   thorium: {
     type: BasicBulletType
+    drag: 0.05
     hitSize: 12
     height: 16
     width: 8
     damage: 40
     lifetime: 60
     speed: 2
-    inaccuracy: 22.5
+    inaccuracy: 30
     pierce: true
     pierceCap: 3
     pierceArmor: false
