@@ -19,7 +19,7 @@ shoot: {
 }
 shootSound: shotgun
 ammoTypes: {
-  thorium: {
+  moonlit-core: {
     type: BasicBulletType
     knockback: 14
     drag: 0.05
