@@ -1,0 +1,59 @@
+type: ItemTurret
+squareSprite: false
+size: 5
+health: 8250
+armor: 10
+range: 800
+reload: 300
+recoil: 64
+rotateSpeed: 5
+shake: 3
+maxAmmo: 50
+ammoPerShot: 1
+liquidCapacity: 200
+consumes: {
+  power: 75
+}
+ammoTypes: {
+  serenite: {
+    type: RailBulletType
+    length: 800
+    ammoMultiplier: 5
+    damage: 2500
+    pierce: false
+    pierceBuildings: false
+    pierceArmor: true
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
+    lineEffect: steam
+  }
+  surge-alloy: {
+    height: 32
+    width: 16
+    ammoMultiplier: 2
+    damage: 675
+    lifetime: 15
+    speed: 500
+    pierce: true
+    pierceArmor: false
+    pierceCap: 2
+    pierceDamageFactor: 0.5
+    pierceEffect: scatheSlash
+    smokeEffect: none
+    shootEffect: none
+    trailColor: ebc767
+    trailLength: 12
+    trailWidth: 6
+  }
+}
+category: turret
+research: foreshadow
+requirements: [
+  serenite/250
+  serenite-dust/1100
+  surge-alloy/1350
+  titanium/700
+  metaglass/600
+  silicon/2000
+]
