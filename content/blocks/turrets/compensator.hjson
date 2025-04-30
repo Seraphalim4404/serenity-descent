@@ -21,11 +21,8 @@ consumes: {
 shootSound: railgun
 ammoTypes: {
   serenite: {
-    type: BasicBulletType
-    height: 24
-    width: 16
-    speed: 50
-    lifetime: 60
+    type: RailBulletType
+    length: 888
     hitSize: 16
     ammoMultiplier: 5
     damage: 1350
