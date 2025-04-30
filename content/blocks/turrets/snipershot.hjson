@@ -17,8 +17,12 @@ consumes: {
 shootSound: titanExplosion
 ammoTypes: {
   serenite: {
-    type: RailBulletType
-    length: 800
+    type: BasicBulletType
+    height: 24
+    width: 16
+    speed: 50
+    lifetime: 30
+    hitSize: 16
     ammoMultiplier: 5
     damage: 2500
     pierce: false
