@@ -1,0 +1,19 @@
+type: TractorBeamTurret
+size: 3
+health: 1200
+armor: 5
+range: 340
+rotateSpeed: 4
+consumes: {
+  power: 25
+}
+damage: 3
+status: overlocked
+statusDuration: 60
+category: turret
+research: parallax
+requirements: [
+  serenite/550
+  serenite-dust/640
+  plastanium/230
+]
