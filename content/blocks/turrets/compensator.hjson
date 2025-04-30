@@ -1,8 +1,8 @@
 type: itemTurret
 squareSprite: false
 size: 4
-health: 10500
-armor: 55
+health: 4450
+armor: 10
 range: 888
 reload: 180
 recoil: 64
