@@ -4,6 +4,7 @@ health: 1200
 armor: 5
 range: 340
 rotateSpeed: 4
+targetGround: true
 consumes: {
   power: 25
 }
