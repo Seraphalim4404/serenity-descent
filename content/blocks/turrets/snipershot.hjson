@@ -3,7 +3,7 @@ squareSprite: false
 size: 5
 health: 8250
 armor: 10
-range: 1200
+range: 1024
 reload: 300
 recoil: 64
 rotateSpeed: 5
