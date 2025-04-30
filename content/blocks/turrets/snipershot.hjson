@@ -20,8 +20,8 @@ ammoTypes: {
     type: BasicBulletType
     height: 24
     width: 16
-    speed: 75
-    lifetime: 15
+    speed: 100
+    lifetime: 7.5
     hitSize: 16
     ammoMultiplier: 5
     damage: 2500
