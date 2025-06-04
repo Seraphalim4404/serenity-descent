@@ -24,7 +24,7 @@ ammoTypes: {
     type: RailBulletType
     length: 888
     hitSize: 16
-    ammoMultiplier: 5
+    ammoMultiplier: 1
     damage: 1350
     pierce: true
     pierceBuildings: true
@@ -40,7 +40,7 @@ ammoTypes: {
   surge-alloy: {
     height: 32
     width: 16
-    ammoMultiplier: 2
+    ammoMultiplier: 1
     damage: 675
     lifetime: 15
     speed: 500
