@@ -1,4 +1,4 @@
-reload: 19
+reload: 32
 inaccuracy: 2
 shoot: {
   type: shootAlternate
