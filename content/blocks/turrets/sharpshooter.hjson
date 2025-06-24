@@ -28,7 +28,7 @@ ammoTypes: {
     pierceCap: 2
     pierceArmor: true
     pierceDamageFactor: 0.7
-    ammoMultiplier: -4
+    ammoMultiplier: 0
     trailColor: b786c8
     trailLength: 7
     trailWidth: 6
