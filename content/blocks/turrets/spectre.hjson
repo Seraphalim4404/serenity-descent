@@ -3,5 +3,7 @@ inaccuracy: 2
 shoot: {
   type: shootAlternate
   barrels: 2
-  space: 8
+  spread: 8
+  shots: 2
+  shotDelay: 0
 }
