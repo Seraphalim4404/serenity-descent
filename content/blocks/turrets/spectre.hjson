@@ -1,0 +1,7 @@
+reload: 8
+inaccuracy: 2
+shoot: {
+  type: shootAlternate
+  barrels: 2
+  space: 8
+}
