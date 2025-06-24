@@ -9,7 +9,8 @@ consumes: {
   power: 25
 }
 damage: 4
-knockback: -30
+force: 88
+scaledForce: 16
 status: overlocked
 statusDuration: 90
 category: turret
