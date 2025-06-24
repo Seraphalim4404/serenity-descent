@@ -4,5 +4,5 @@ heatCapacity: 1.5
 viscosity: 0.95
 explosiveness: 0
 flammability: 0
-status: freezing
+status: deep-freeze
 boilPoint: 0.13
