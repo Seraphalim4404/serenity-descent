@@ -10,7 +10,8 @@ consumes: {
 }
 damage: 3
 status: overlocked
-statusDuration: 60
+statusDuration: 90
+drag: 2
 category: turret
 research: parallax
 requirements: [
