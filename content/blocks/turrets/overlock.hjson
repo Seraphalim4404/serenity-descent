@@ -8,10 +8,10 @@ targetGround: true
 consumes: {
   power: 25
 }
-damage: 3
+damage: 4
+knockback: -30
 status: overlocked
 statusDuration: 90
-drag: 2
 category: turret
 research: parallax
 requirements: [
