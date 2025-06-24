@@ -1,0 +1,15 @@
+ammoTypes: {
+  absolute-zero: {
+    type: liquidBulletType
+    lifetime: 49
+    speed: 4
+    knockback: 0
+    puddleSize: 12
+    orbSize: 5
+    damage: 6
+    drag: 0.001
+    ammoMultiplier: 4
+    status: freezing
+    statusDuration: 240
+   }
+}
