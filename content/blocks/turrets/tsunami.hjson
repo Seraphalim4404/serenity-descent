@@ -10,5 +10,5 @@ ammoTypes: [
     drag: 0.001
     ammoMultiplier: 0.4
     statusDuration: 360
-   }
+  }
 ]
