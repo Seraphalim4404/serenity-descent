@@ -1,4 +1,4 @@
-ammoTypes: {
+ammoTypes: [
   absolute-zero: {
     type: liquidBulletType
     lifetime: 49
@@ -11,4 +11,4 @@ ammoTypes: {
     ammoMultiplier: 0.4
     statusDuration: 360
    }
-}
+]
