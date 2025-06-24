@@ -1,9 +1,9 @@
-reload: 8
+reload: 4
 inaccuracy: 2
 shoot: {
   type: shootAlternate
   barrels: 2
   spread: 8
-  shots: 2
-  shotDelay: 0
+  shots: 6
+  shotDelay: 1
 }
