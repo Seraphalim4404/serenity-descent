@@ -31,6 +31,7 @@ ammoTypes: {
     trailColor: b4c3d0
     trailLength: 6
     trailWidth: 4
+    ammoMultiplier: -2
   }
 }
 category: turret
