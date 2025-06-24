@@ -11,6 +11,7 @@ maxAmmo: 1000
 ammoPerShot: 1
 inaccuracy: 0.33
 liquidCapacity: 1000
+targetGround: false
 consumes: {
   power: 370
 }
