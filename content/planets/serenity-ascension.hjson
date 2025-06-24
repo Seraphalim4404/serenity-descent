@@ -1,14 +1,13 @@
 generator: PlanetGenerator
 solarSystem: sun
 parent: sun
-orbitRadius: 23.3
-// 74.5
+orbitRadius: 74.5
 minZoom: 0.5
 drawOrbit: true
-startSector: 1
+startSector: 0
 sectorSize: 4
 
-bloom: false
+bloom: true
 lightColor: 78acb1
 
 mesh: [
