@@ -8,8 +8,7 @@ ammoTypes: {
     orbSize: 5
     damage: 6
     drag: 0.001
-    ammoMultiplier: 4
-    status: freezing
-    statusDuration: 240
+    ammoMultiplier: 0.4
+    statusDuration: 360
    }
 }
