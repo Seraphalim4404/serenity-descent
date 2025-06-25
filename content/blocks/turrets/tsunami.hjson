@@ -1,6 +1,6 @@
 ammoTypes: {
   absolute-zero: {
-    type: liquidBulletType
+    type: LiquidBulletType
     lifetime: 49
     speed: 4
     knockback: 0
