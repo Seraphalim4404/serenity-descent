@@ -1,5 +1,5 @@
-reload: 14.5
+reload: 10
 shoot: {
   shots: 3
-  shotDelay: 1.5
+  shotDelay: 1
 }
