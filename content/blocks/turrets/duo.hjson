@@ -1,7 +1,8 @@
+reload: 15
 shoot: {
   type: shootAlternate
   barrels: 2
   spread: 3.5
+  shots: 2
   shotDelay: 0
 }
-reload: 15
