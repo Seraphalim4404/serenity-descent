@@ -1,7 +1,7 @@
 type: ItemTurret
 health: 860
 size: 3
-ammoCapacity: 120
+maxAmmo: 120
 ammoPerShot: 120
 range: 440
 shootSound: bang
@@ -64,7 +64,19 @@ ammoTypes: {
       lifetime: 45
       }
     }
+   silicon: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 250
+    speed: 5.5
+    lifetime: 200
+    inaccuracy: 0
+    pierce: false
+    reloadMultiplier: 2
   }
+}
 category: turret
 requirements: [
   copper/625
