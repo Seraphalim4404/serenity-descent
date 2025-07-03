@@ -19,6 +19,9 @@ ammoTypes: {
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
+    frontColor: copperAmmoFront
+    backColor: copperAmmoBack
+    hitColor: copperAmmoBack
   }
   lead: {
     type: BasicBulletType
@@ -30,6 +33,20 @@ ammoTypes: {
     lifetime: 180
     inaccuracy: 0
   }
+  scrap: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 350
+    speed: 5.5
+    lifetime: 90
+    inaccuracy: 0
+    reloadMultiplier: 0.5
+    frontColor: scrapAmmoFront
+    backColor: scrapAmmoBack
+    hitColor: scrapAmmoBack
+  }
   graphite: {
     type: BasicBulletType
     hitSize: 12
@@ -39,6 +56,9 @@ ammoTypes: {
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
+    frontColor: graphiteAmmoFront
+    backColor: graphiteAmmoBack
+    hitColor: graphiteAmmoBack
   }
   metaglass: {
     type: BasicBulletType
@@ -49,17 +69,24 @@ ammoTypes: {
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
-    fragBullets: 4
+    fragBullets: 9
     fragBullet: {
       type: BasicBulletType
       height: 7
       width: 7
       hitSize: 7
-      damage: 25
+      damage: 20
       speed: 1
       lifetime: 45
+      frontColor: glassAmmoFront
+      backColor: glassAmmoBack
+      hitColor: glassAmmoBack
+      trailColor: glassAmmoBack
       }
-    }
+    frontColor: glassAmmoFront
+    backColor: glassAmmoBack
+    hitColor: glassAmmoBack
+   }
    silicon: {
     type: BasicBulletType
     hitSize: 12
@@ -72,6 +99,27 @@ ammoTypes: {
     reloadMultiplier: 2
     homingPower: 0.068
     homingRange: 140
+    frontColor: siliconAmmoFront
+    backColor: siliconAmmoBack
+    hitColor: siliconAmmoBack
+    trailColor: siliconAmmoBack
+  }
+  pyratite: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    status: burning
+    damage: 100
+    splashDamage: 125
+    splashDamageRadius: 24
+    speed: 5.5
+    lifetime: 90
+    inaccuracy: 0
+    makeFire: true
+    hitEffect: MultiEffect[hitBulletSmall, fireHit]
+    frontColor: lightishOrange
+    backColor: lightOrange
   }
   titanium: {
     type: BasicBulletType
@@ -82,10 +130,14 @@ ammoTypes: {
     speed: 5.5
     lifetime: 90
     pierce: true
-    pierceCap: 3
-    pierceDamageFactor: 0.75
+    pierceBuilding: true
+    pierceCap: 2
+    pierceDamageFactor: 0.5
     inaccuracy: 0
     reloadMultiplier: 1.5
+    frontColor: a9d8ff
+    backColor: a9d8ff
+    hitColor: a9d8ff
   }
   thorium: {
     type: BasicBulletType
@@ -97,9 +149,13 @@ ammoTypes: {
     lifetime: 100
     inaccuracy: 0
     pierce: true
+    pierceBuilding: true
     pierceCap: 4
     pierceDamageFactor: 0.25
-    trailColor: e6cceb
+    frontColor: thoriumAmmoFront
+    backColor: thoriumAmmoBack
+    hitColor: thoriumAmmoBack
+    trailColor: thoriumAmmoBack
     trailHeight: 32
     trailWidth: 16
 }
