@@ -1,10 +1,10 @@
 type: ItemTurret
 health: 860
 size: 3
-maxAmmo: 120
+maxAmmo: 600
 ammoPerShot: 120
 range: 440
-shootSound: bang
+shootSound: shootBig
 consumes: {
   power: 1.75
 }
@@ -71,8 +71,8 @@ ammoTypes: {
     lifetime: 100
     inaccuracy: 0
     reloadMultiplier: 2
-    homingPower: 0.088
-    homingRange: 220
+    homingPower: 0.068
+    homingRange: 140
   }
 }
 category: turret
