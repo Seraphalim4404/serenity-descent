@@ -103,6 +103,8 @@ ammoTypes: {
     backColor: 999ba0
     hitColor: 999ba0
     trailColor: 999ba0
+    trailLength: 12
+    trailWidth: 8
   }
   pyratite: {
     type: BasicBulletType
@@ -157,8 +159,8 @@ ammoTypes: {
     backColor: ffffff
     hitColor: ffffff
     trailColor: f595be
-    trailHeight: 32
-    trailWidth: 16
+    trailLength: 24
+    trailWidth: 8
   }
 }
 category: turret
