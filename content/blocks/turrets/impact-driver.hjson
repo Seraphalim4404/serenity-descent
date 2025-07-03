@@ -1,5 +1,5 @@
 type: ammoTurret
-health: 430
+health: 860
 size: 3
 ammoCapacity: 120
 ammoPerShot: 120
