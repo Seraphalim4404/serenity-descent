@@ -75,6 +75,8 @@ ammoTypes: {
     inaccuracy: 0
     pierce: false
     reloadMultiplier: 2
+    homingPower: 0.1
+    homingRange: 440
   }
 }
 category: turret
