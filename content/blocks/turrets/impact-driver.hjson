@@ -1,9 +1,13 @@
+type: AmmoTurret
 health: 430
 size: 3
 ammoCapacity: 120
 ammoPerShot: 120
 range: 440
-consumes: [
+shootSound: bang
+consumes: {
   power: 1.75
-]
+}
 ammoTypes: [
+  copper: {
+   
