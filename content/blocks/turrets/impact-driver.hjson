@@ -1,0 +1,9 @@
+health: 430
+size: 3
+ammoCapacity: 120
+ammoPerShot: 120
+range: 440
+consumes: [
+  power: 1.75
+]
+ammoTypes: [
