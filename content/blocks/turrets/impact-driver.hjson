@@ -19,9 +19,9 @@ ammoTypes: {
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
-    frontColor: copperAmmoFront
-    backColor: copperAmmoBack
-    hitColor: copperAmmoBack
+    frontColor: eac1a8
+    backColor:  d39169
+    hitColor: d39169
   }
   lead: {
     type: BasicBulletType
@@ -43,9 +43,9 @@ ammoTypes: {
     lifetime: 90
     inaccuracy: 0
     reloadMultiplier: 0.5
-    frontColor: scrapAmmoFront
-    backColor: scrapAmmoBack
-    hitColor: scrapAmmoBack
+    frontColor: f5e0cc
+    backColor: d8887e
+    hitColor: d8887e
   }
   graphite: {
     type: BasicBulletType
@@ -56,9 +56,9 @@ ammoTypes: {
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
-    frontColor: graphiteAmmoFront
-    backColor: graphiteAmmoBack
-    hitColor: graphiteAmmoBack
+    frontColor: 7d89d8
+    backColor: dae1ee
+    hitColor: dae1ee
   }
   metaglass: {
     type: BasicBulletType
@@ -78,14 +78,14 @@ ammoTypes: {
       damage: 20
       speed: 1
       lifetime: 45
-      frontColor: glassAmmoFront
-      backColor: glassAmmoBack
-      hitColor: glassAmmoBack
-      trailColor: glassAmmoBack
+      frontColor: b9c9df
+      backColor: ffffff
+      hitColor: ffffff
+      trailColor: ffffff
       }
-    frontColor: glassAmmoFront
-    backColor: glassAmmoBack
-    hitColor: glassAmmoBack
+    frontColor: b9c9df
+    backColor: ffffff
+    hitColor: ffffff
    }
    silicon: {
     type: BasicBulletType
@@ -99,10 +99,10 @@ ammoTypes: {
     reloadMultiplier: 2
     homingPower: 0.068
     homingRange: 140
-    frontColor: siliconAmmoFront
-    backColor: siliconAmmoBack
-    hitColor: siliconAmmoBack
-    trailColor: siliconAmmoBack
+    frontColor: 707594
+    backColor: 999ba0
+    hitColor: 999ba0
+    trailColor: 999ba0
   }
   pyratite: {
     type: BasicBulletType
@@ -118,8 +118,9 @@ ammoTypes: {
     inaccuracy: 0
     makeFire: true
     hitEffect: fireHit
-    frontColor: lightishOrange
-    backColor: lightOrange
+    frontColor: f8ad42
+    backColor: f68021
+    hitColor: f68021
   }
   titanium: {
     type: BasicBulletType
@@ -152,10 +153,10 @@ ammoTypes: {
     pierceBuilding: true
     pierceCap: 4
     pierceDamageFactor: 0.25
-    frontColor: thoriumAmmoFront
-    backColor: thoriumAmmoBack
-    hitColor: thoriumAmmoBack
-    trailColor: thoriumAmmoBack
+    frontColor: f595be
+    backColor: ffffff
+    hitColor: ffffff
+    trailColor: f595be
     trailHeight: 32
     trailWidth: 16
   }
