@@ -1,4 +1,4 @@
-type: ammoTurret
+type: ItemTurret
 health: 860
 size: 3
 ammoCapacity: 120
