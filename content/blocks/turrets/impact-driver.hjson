@@ -158,6 +158,7 @@ ammoTypes: {
     trailColor: thoriumAmmoBack
     trailHeight: 32
     trailWidth: 16
+  }
 }
 category: turret
 requirements: [
