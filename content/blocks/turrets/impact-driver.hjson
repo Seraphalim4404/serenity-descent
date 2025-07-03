@@ -17,9 +17,8 @@ ammoTypes: {
     width: 16
     damage: 300
     speed: 5.5
-    lifetime: 100
+    lifetime: 90
     inaccuracy: 0
-    pierce: false
   }
   lead: {
     type: BasicBulletType
@@ -28,7 +27,7 @@ ammoTypes: {
     width: 16
     damage: 350
     speed: 2.75
-    lifetime: 200
+    lifetime: 180
     inaccuracy: 0
   }
   graphite: {
@@ -36,9 +35,9 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 500
+    damage: 400
     speed: 5.5
-    lifetime: 100
+    lifetime: 90
     inaccuracy: 0
   }
   metaglass: {
@@ -48,7 +47,7 @@ ammoTypes: {
     width: 16
     damage: 350
     speed: 5.5
-    lifetime: 100
+    lifetime: 90
     inaccuracy: 0
     fragBullets: 4
     fragBullet: {
@@ -68,12 +67,41 @@ ammoTypes: {
     width: 16
     damage: 250
     speed: 5.5
-    lifetime: 100
+    lifetime: 90
     inaccuracy: 0
     reloadMultiplier: 2
     homingPower: 0.068
     homingRange: 140
   }
+  titanium: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 275
+    speed: 5.5
+    lifetime: 90
+    pierce: true
+    pierceCap: 3
+    pierceDamageFactor: 0.75
+    inaccuracy: 0
+    reloadMultiplier: 1.5
+  }
+  thorium: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 650
+    speed: 5.5
+    lifetime: 100
+    inaccuracy: 0
+    pierce: true
+    pierceCap: 4
+    pierceDamageFactor: 0.25
+    trailColor: e6cceb
+    trailHeight: 32
+    trailWidth: 16
 }
 category: turret
 requirements: [
