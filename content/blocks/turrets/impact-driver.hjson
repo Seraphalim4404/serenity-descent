@@ -117,7 +117,7 @@ ammoTypes: {
     lifetime: 90
     inaccuracy: 0
     makeFire: true
-    hitEffect: MultiEffect[hitBulletSmall, fireHit]
+    hitEffect: MultiEffect [ hitBulletSmall, fireHit ]
     frontColor: lightishOrange
     backColor: lightOrange
   }
