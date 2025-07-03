@@ -9,8 +9,6 @@ consumes: {
   power: 1.75
 }
 reload: 200
-shoot: {
-  type: 
 ammoTypes: {
   copper: {
     type: BasicBulletType
