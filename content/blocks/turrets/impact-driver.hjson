@@ -17,7 +17,7 @@ ammoTypes: {
     width: 16
     damage: 300
     speed: 5.5
-    lifetime: 200
+    lifetime: 100
     inaccuracy: 0
     pierce: false
   }
@@ -28,9 +28,8 @@ ammoTypes: {
     width: 16
     damage: 350
     speed: 2.75
-    lifetime: 400
+    lifetime: 200
     inaccuracy: 0
-    pierce: false
   }
   graphite: {
     type: BasicBulletType
@@ -39,9 +38,8 @@ ammoTypes: {
     width: 16
     damage: 500
     speed: 5.5
-    lifetime: 200
+    lifetime: 100
     inaccuracy: 0
-    pierce: false
   }
   metaglass: {
     type: BasicBulletType
@@ -50,9 +48,8 @@ ammoTypes: {
     width: 16
     damage: 350
     speed: 5.5
-    lifetime: 200
+    lifetime: 100
     inaccuracy: 0
-    pierce: false
     fragBullets: 4
     fragBullet: {
       type: BasicBulletType
@@ -71,12 +68,11 @@ ammoTypes: {
     width: 16
     damage: 250
     speed: 5.5
-    lifetime: 200
+    lifetime: 100
     inaccuracy: 0
-    pierce: false
     reloadMultiplier: 2
-    homingPower: 0.1
-    homingRange: 440
+    homingPower: 0.088
+    homingRange: 220
   }
 }
 category: turret
