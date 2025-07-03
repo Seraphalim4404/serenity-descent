@@ -1,4 +1,4 @@
-type: AmmoTurret
+type: ammoTurret
 health: 430
 size: 3
 ammoCapacity: 120
@@ -8,6 +8,70 @@ shootSound: bang
 consumes: {
   power: 1.75
 }
-ammoTypes: [
+reload: 200
+shoot: {
+  type: 
+ammoTypes: {
   copper: {
-   
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 300
+    speed: 5.5
+    lifetime: 200
+    inaccuracy: 0
+    pierce: false
+  }
+  lead: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 350
+    speed: 2.75
+    lifetime: 400
+    inaccuracy: 0
+    pierce: false
+  }
+  graphite: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 500
+    speed: 5.5
+    lifetime: 200
+    inaccuracy: 0
+    pierce: false
+  }
+  metaglass: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 350
+    speed: 5.5
+    lifetime: 200
+    inaccuracy: 0
+    pierce: false
+    fragBullets: 4
+    fragBullet: {
+      type: BasicBulletType
+      height: 7
+      width: 7
+      hitSize: 7
+      damage: 25
+      speed: 1
+      lifetime: 45
+      }
+    }
+  }
+category: turret
+requirements: [
+  copper/625
+  lead/625
+  thorium/250
+  silicon/325
+] 
+      
