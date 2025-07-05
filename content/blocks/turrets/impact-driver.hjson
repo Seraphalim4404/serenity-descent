@@ -244,7 +244,7 @@ ammoTypes: {
 category: turret
 requirements: [
   copper/625
-  lead/
+  lead/625
   thorium/250
   silicon/325
 ] 
