@@ -163,6 +163,55 @@ ammoTypes: {
     trailLength: 16
     trailWidth: 4
   }
+  plastanium: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 250
+    splashDamage: 250
+    splashDamageRadius: 20
+    speed: 5.5
+    lifetime: 100
+    inaccuracy: 0
+    frontColor: fffac6
+    backColor: d8d97f
+    hitColor: d8d97f
+    fragBullets: 9
+    fragBullet: {
+      type: BasicBulletType
+      height: 8
+      width: 8
+      hitSize: 8
+      damage: 45
+      splashDmaage: 20
+      splashDamageRadius: 9
+      speed: 2.5
+      lifetime: 15
+      frontColor: fffac6
+      backColor: d8d97f
+      hitColor: d8d97f
+      trailColor: d8d97f
+      trailLength: 6
+      }
+    }
+    blast-compound: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    status: blasted
+    statusDuration: 720
+    damage: 275
+    splashDamage: 425
+    splashDamageRadius: 32
+    speed: 1.8333333333
+    lifetime: 300
+    inaccuracy: 0
+    frontColor: eeab89
+    backColor: e9665b
+    hitColor: e9665b
+  }
 }
 category: turret
 requirements: [
