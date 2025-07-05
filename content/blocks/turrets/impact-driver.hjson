@@ -229,9 +229,8 @@ ammoTypes: {
     pierce: true
     pierceBuilding: true
     pierceCap: 100
-    pierceDamageFactor: 0.99
+    pierceDamageFactor: 0.01
     buildingDamageMultiplier: 1.25
-    unitDamageMultiplier: 0.75
     frontColor: edc39c
     backColor: ddae82
     hitColor: ddae82
