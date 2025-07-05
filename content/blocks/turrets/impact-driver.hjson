@@ -177,6 +177,7 @@ ammoTypes: {
     frontColor: fffac6
     backColor: d8d97f
     hitColor: d8d97f
+    hitEffect: plasticExplosion
     fragBullets: 9
     fragBullet: {
       type: BasicBulletType
@@ -185,7 +186,7 @@ ammoTypes: {
       hitSize: 8
       damage: 45
       splashDmaage: 20
-      splashDamageRadius: 9
+      splashDamageRadius: 11
       speed: 2.5
       lifetime: 15
       frontColor: fffac6
@@ -193,6 +194,7 @@ ammoTypes: {
       hitColor: d8d97f
       trailColor: d8d97f
       trailLength: 6
+      hitEffect: plasticExplosion
       }
     }
     blast-compound: {
@@ -204,19 +206,43 @@ ammoTypes: {
     statusDuration: 720
     damage: 275
     splashDamage: 425
-    splashDamageRadius: 32
-    speed: 1.8333333333
-    lifetime: 300
+    splashDamageRadius: 46
+    speed: 4.4
+    lifetime: 125
     inaccuracy: 0
     frontColor: eeab89
     backColor: e9665b
     hitColor: e9665b
+    hitEffect: blastExplosion
   }
+  phase-fabric: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 400
+    splashDamage: 300
+    splashDamageRadius: 24
+    speed: 11
+    lifetime: 50
+    inaccuracy: 0
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 100
+    pierceDamageFactor: 0.99
+    buildingDamageMultiplier: 1.25
+    unitDamageMultiplier: 0.75
+    frontColor: edc39c
+    backColor: ddae82
+    hitColor: ddae82
+    trailLength: 22
+    trailWidth: 4
+    hitEffect: explosion
 }
 category: turret
 requirements: [
   copper/625
-  lead/625
+  lead/
   thorium/250
   silicon/325
 ] 
