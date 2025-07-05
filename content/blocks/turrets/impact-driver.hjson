@@ -235,9 +235,11 @@ ammoTypes: {
     frontColor: edc39c
     backColor: ddae82
     hitColor: ddae82
+    trailColor: ddae82
     trailLength: 22
     trailWidth: 4
     hitEffect: explosion
+  }
 }
 category: turret
 requirements: [
