@@ -296,10 +296,11 @@ ammoTypes: {
       height: 5
       width: 10
       hitSize: 10
+      shrinY: 0
       damage: 125
       speed: 11
       drag: 0.12
-      lifetime: 1000000000000000
+      lifetime: 18000
       lightning: 5
       lightningDamage: 12
       lightningLength: 10
