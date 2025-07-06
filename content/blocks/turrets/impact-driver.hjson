@@ -49,11 +49,22 @@ ammoTypes: {
       height: 6
       width: 6
       hitSize: 6
+      shrinkY: 0.75
       damage: 2
       lifetime: 40
       despawnEffect: none
-      }
     }
+  }
+  coal: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 200
+    speed: 5.5
+    lifetime: 90
+    inaccuracy: 0
+  }
   scrap: {
     type: BasicBulletType
     hitSize: 12
@@ -98,13 +109,13 @@ ammoTypes: {
       hitSize: 7
       shrinkY: 1
       damage: 20
-      speed: 1
+      speed: 2
       lifetime: 45
       frontColor: b9c9df
       backColor: ffffff
       hitColor: ffffff
       despawnEffect: none
-      }
+    }
     frontColor: b9c9df
     backColor: ffffff
     hitColor: ffffff
@@ -287,7 +298,7 @@ ammoTypes: {
       damage: 125
       speed: 10
       drag: 0.1
-      lifetime: 150
+      lifetime: 240
       lightning: 5
       lightningDamage: 9
       lightningLength: 10
