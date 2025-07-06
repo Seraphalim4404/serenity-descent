@@ -284,15 +284,12 @@ ammoTypes: {
       hitSize: 10
       damage: 70
       speed: 9
-      drag: 0.2
+      drag: 0.1
       lifetime: 60
       lightning: 5
       lightningDamage: 8
       lightningLength: 8
       }
-    frontColor: pal.surgeAmmoFront
-    backColor: pal.surgeAmmoBack
-    hitColor: pal.surgeAmmoBack
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
     }
