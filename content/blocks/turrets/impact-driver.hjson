@@ -15,7 +15,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 300
+    damage: 150
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
@@ -28,7 +28,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 350
+    damage: 175
     speed: 2.75
     lifetime: 180
     inaccuracy: 0
@@ -38,19 +38,19 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 50
+    damage: 25
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
     reloadMultiplier: 3
-    fragBullets: 60
+    fragBullets: 120
     fragBullet: {
       type: BasicBulletType
       height: 6
       width: 6
       hitSize: 6
       shrinkY: 1
-      damage: 2
+      damage: 1
       speed: 2.5
       lifetime: 40
       despawnEffect: none
@@ -61,7 +61,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 200
+    damage: 100
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
@@ -71,7 +71,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 350
+    damage: 175
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
@@ -85,7 +85,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 400
+    damage: 200
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
@@ -98,7 +98,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 350
+    damage: 175
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
@@ -109,7 +109,7 @@ ammoTypes: {
       width: 7
       hitSize: 7
       shrinkY: 1
-      damage: 20
+      damage: 16
       speed: 2
       lifetime: 45
       frontColor: b9c9df
@@ -127,7 +127,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 250
+    damage: 125
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
@@ -148,9 +148,9 @@ ammoTypes: {
     width: 16
     status: burning
     statusDuration: 600
-    damage: 200
-    splashDamage: 125
-    splashDamageRadius: 50
+    damage: 125
+    splashDamage: 75
+    splashDamageRadius: 42
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
@@ -165,7 +165,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 275
+    damage: 200
     speed: 5.5
     lifetime: 90
     pierce: true
@@ -183,7 +183,7 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 650
+    damage: 450
     speed: 5.5
     lifetime: 100
     inaccuracy: 0
@@ -203,9 +203,9 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 350
-    splashDamage: 250
-    splashDamageRadius: 48
+    damage: 175
+    splashDamage: 100
+    splashDamageRadius: 38
     speed: 5.5
     lifetime: 100
     inaccuracy: 0
@@ -242,9 +242,9 @@ ammoTypes: {
     width: 16
     status: blasted
     statusDuration: 720
-    damage: 400
-    splashDamage: 225
-    splashDamageRadius: 52
+    damage: 200
+    splashDamage: 125
+    splashDamageRadius: 48
     speed: 4.4
     lifetime: 125
     inaccuracy: 0
@@ -259,9 +259,9 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 225
-    splashDamage: 125
-    splashDamageRadius: 20
+    damage: 150
+    splashDamage: 75
+    splashDamageRadius: 16
     speed: 11
     lifetime: 50
     inaccuracy: 0
@@ -284,9 +284,9 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 450
+    damage: 325
     lightning: 8
-    lightningDamage: 12
+    lightningDamage: 11
     lightningLength: 9
     speed: 5.5
     lifetime: 90
@@ -304,7 +304,7 @@ ammoTypes: {
       drag: 0.12
       lifetime: 18000
       lightning: 5
-      lightningDamage: 9
+      lightningDamage: 8
       lightningLength: 10
       buildingDamageMultiplier: 0.4
       }
