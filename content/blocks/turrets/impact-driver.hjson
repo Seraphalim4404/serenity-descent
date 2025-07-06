@@ -6,7 +6,7 @@ ammoPerShot: 120
 range: 440
 shootSound: shootBig
 consumes: {
-  power: 1.75
+  power: 3.5
 }
 reload: 200
 ammoTypes: {
@@ -38,10 +38,11 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 75
+    damage: 50
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
+    reloadMultiplier: 3
     fragBullets: 60
     fragBullet: {
       type: BasicBulletType
