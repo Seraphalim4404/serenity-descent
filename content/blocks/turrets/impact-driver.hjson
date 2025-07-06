@@ -96,6 +96,7 @@ ammoTypes: {
       height: 7
       width: 7
       hitSize: 7
+      shrinkY: 1
       damage: 20
       speed: 1
       lifetime: 45
@@ -201,6 +202,7 @@ ammoTypes: {
       height: 8
       width: 8
       hitSize: 8
+      shrinkY: 1
       damage: 55
       splashDamage: 25
       splashDamageRadius: 11
@@ -282,13 +284,13 @@ ammoTypes: {
       height: 10
       width: 10
       hitSize: 10
-      damage: 70
-      speed: 9
+      damage: 125
+      speed: 10
       drag: 0.1
-      lifetime: 60
+      lifetime: 150
       lightning: 5
-      lightningDamage: 8
-      lightningLength: 8
+      lightningDamage: 9
+      lightningLength: 10
       }
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
