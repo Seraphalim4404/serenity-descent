@@ -283,6 +283,9 @@ ammoTypes: {
       width: 10
       hitSize: 10
       damage: 70
+      speed: 9
+      drag: 0.1
+      lifetime: 60
       lightning: 5
       lightningDamage: 8
       lightningLength: 8
