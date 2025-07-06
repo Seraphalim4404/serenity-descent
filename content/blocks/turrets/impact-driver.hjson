@@ -51,6 +51,7 @@ ammoTypes: {
       hitSize: 6
       damage: 2
       lifetime: 40
+      despawnEffect: none
       }
     }
   scrap: {
@@ -101,8 +102,6 @@ ammoTypes: {
       frontColor: b9c9df
       backColor: ffffff
       hitColor: ffffff
-      trailColor: ffffff
-      trailLength: 4
       despawnEffect: none
       }
     frontColor: b9c9df
