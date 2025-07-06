@@ -285,7 +285,7 @@ ammoTypes: {
     width: 16
     damage: 450
     lightning: 8
-    lightningDamage: 10
+    lightningDamage: 14
     lightningLength: 9
     speed: 5.5
     lifetime: 90
@@ -293,15 +293,15 @@ ammoTypes: {
     fragBullets: 4
     fragBullet: {
       type: BasicBulletType
-      height: 10
+      height: 5
       width: 10
       hitSize: 10
       damage: 125
-      speed: 10
-      drag: 0.1
-      lifetime: 240
+      speed: 11
+      drag: 0.12
+      lifetime: 1000000000000000
       lightning: 5
-      lightningDamage: 9
+      lightningDamage: 12
       lightningLength: 10
       }
     hitEffect: blastExplosion
