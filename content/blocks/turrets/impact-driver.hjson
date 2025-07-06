@@ -258,8 +258,8 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 250
-    splashDamage: 275
+    damage: 225
+    splashDamage: 125
     splashDamageRadius: 20
     speed: 11
     lifetime: 50
@@ -285,7 +285,7 @@ ammoTypes: {
     width: 16
     damage: 450
     lightning: 8
-    lightningDamage: 14
+    lightningDamage: 12
     lightningLength: 9
     speed: 5.5
     lifetime: 90
@@ -302,7 +302,7 @@ ammoTypes: {
       drag: 0.12
       lifetime: 18000
       lightning: 5
-      lightningDamage: 12
+      lightningDamage: 9
       lightningLength: 10
       }
     hitEffect: blastExplosion
