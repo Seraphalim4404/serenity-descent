@@ -49,8 +49,9 @@ ammoTypes: {
       height: 6
       width: 6
       hitSize: 6
-      shrinkY: 0.75
+      shrinkY: 1
       damage: 2
+      speed: 2.5
       lifetime: 40
       despawnEffect: none
     }
