@@ -33,6 +33,25 @@ ammoTypes: {
     lifetime: 180
     inaccuracy: 0
   }
+  sand: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 75
+    speed: 5.5
+    lifetime: 90
+    inaccuracy: 0
+    fragBullets: 60
+    fragBullet: {
+      type: BasicBulletType
+      height: 6
+      width: 6
+      hitSize: 6
+      damage: 2
+      lifetime: 40
+      }
+    }
   scrap: {
     type: BasicBulletType
     hitSize: 12
@@ -83,10 +102,12 @@ ammoTypes: {
       hitColor: ffffff
       trailColor: ffffff
       trailLength: 4
+      despawnEffect: none
       }
     frontColor: b9c9df
     backColor: ffffff
     hitColor: ffffff
+    hitEffect: flakExplosion
    }
    silicon: {
     type: BasicBulletType
@@ -168,34 +189,36 @@ ammoTypes: {
     hitSize: 12
     height: 32
     width: 16
-    damage: 250
+    damage: 350
     splashDamage: 250
-    splashDamageRadius: 20
+    splashDamageRadius: 48
     speed: 5.5
     lifetime: 100
     inaccuracy: 0
-    frontColor: fffac6
-    backColor: d8d97f
-    hitColor: d8d97f
-    hitEffect: plasticExplosion
-    fragBullets: 9
+    fragBullets: 7
     fragBullet: {
       type: BasicBulletType
       height: 8
       width: 8
       hitSize: 8
-      damage: 45
-      splashDmaage: 20
+      damage: 55
+      splashDamage: 25
       splashDamageRadius: 11
       speed: 2.5
-      lifetime: 15
+      lifetime: 30
       frontColor: fffac6
       backColor: d8d97f
       hitColor: d8d97f
       trailColor: d8d97f
       trailLength: 6
       hitEffect: plasticExplosion
+      despawnEffect: none
       }
+    frontColor: fffac6
+    backColor: d8d97f
+    hitColor: d8d97f
+    hitEffect: plasticExplosion
+    despawnEffect: hitBulletColor
     }
     blast-compound: {
     type: BasicBulletType
@@ -204,9 +227,9 @@ ammoTypes: {
     width: 16
     status: blasted
     statusDuration: 720
-    damage: 275
-    splashDamage: 425
-    splashDamageRadius: 46
+    damage: 400
+    splashDamage: 225
+    splashDamageRadius: 52
     speed: 4.4
     lifetime: 125
     inaccuracy: 0
@@ -214,6 +237,7 @@ ammoTypes: {
     backColor: e9665b
     hitColor: e9665b
     hitEffect: blastExplosion
+    despawnEffect: hitBulletColor
   }
   phase-fabric: {
     type: BasicBulletType
@@ -238,11 +262,41 @@ ammoTypes: {
     trailLength: 22
     trailWidth: 4
     hitEffect: explosion
+    despawnEffect: hitBulletColor
   }
+  surge-alloy: {
+    type: BasicBulletType
+    hitSize: 12
+    height: 32
+    width: 16
+    damage: 450
+    lightning: 8
+    lightningDamage: 10
+    lightningLength: 9
+    speed: 5.5
+    lifetime: 90
+    inaccuracy: 0
+    fragBullets: 4
+    fragBullet: {
+      type: BasicBulletType
+      height: 10
+      width: 10
+      hitSize: 10
+      damage: 70
+      lightning: 5
+      lightningDamage: 8
+      lightningLength: 8
+      }
+    frontColor: pal.surgeAmmoFront
+    backColor: pal.surgeAmmoBack
+    hitColor: pal.surgeAmmoBack
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    }
 }
 category: turret
 requirements: [
-  copper/625
+  titanium/625
   lead/625
   thorium/250
   silicon/325
