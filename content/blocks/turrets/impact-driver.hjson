@@ -43,7 +43,7 @@ ammoTypes: {
     lifetime: 90
     inaccuracy: 0
     status: disarmed
-    statusDuration: 60
+    statusDuration: 75
     reloadMultiplier: 3
     fragBullets: 120
     fragBullet: {
@@ -56,7 +56,7 @@ ammoTypes: {
       speed: 2.5
       lifetime: 40
       status: unmoving
-      statusDuration: 20
+      statusDuration: 10
       despawnEffect: none
     }
   }
