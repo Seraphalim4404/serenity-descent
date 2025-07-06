@@ -291,6 +291,7 @@ ammoTypes: {
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
+    buildingDamageMultiplier: 0.4
     fragBullets: 4
     fragBullet: {
       type: BasicBulletType
@@ -305,6 +306,7 @@ ammoTypes: {
       lightning: 5
       lightningDamage: 9
       lightningLength: 10
+      buildingDamageMultiplier: 0.4
       }
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
