@@ -147,9 +147,10 @@ ammoTypes: {
     height: 32
     width: 16
     status: burning
-    damage: 100
+    statusDuration: 600
+    damage: 200
     splashDamage: 125
-    splashDamageRadius: 24
+    splashDamageRadius: 50
     speed: 5.5
     lifetime: 90
     inaccuracy: 0
