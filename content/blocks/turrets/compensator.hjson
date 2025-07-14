@@ -38,6 +38,7 @@ ammoTypes: {
     lineEffect: chainLightning
   }
   surge-alloy: {
+    type: MortarBulletType
     height: 32
     width: 16
     ammoMultiplier: 1
