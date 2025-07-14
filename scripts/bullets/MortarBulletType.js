@@ -5,4 +5,5 @@ const MortarBulletType = extend(ArtilleryBulletType, {
   testCollision(bullet, build) {
 });
 
-return this.super$testCollision(bullet, build) && bullet.fin() > minRange / bullet.type.range
+return
+this.super$testCollision(bullet, build) && bullet.fin() > minRange / bullet.type.range
