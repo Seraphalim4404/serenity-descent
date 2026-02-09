@@ -5,7 +5,6 @@ unit: {
     speed: 0.590625
     weapons: [
       {
-        sprite: "quell-weapon"
         x: 5
         y: -8
         mirror: false
@@ -14,62 +13,68 @@ unit: {
           shots: 9
           shotDelay: 3
         }
-        recoil: 0.9
+        rotate: true
         rotateSpeed: 1.75
-        shootSound: shootMissileLarge
+        recoil: 0.9
+        shootCone: 3
         bullet: {
-          type: MissileUnitType
+          type: BulletType
           shootEffect: sparkShoot
           smokeEffect: shootSmokeTitan
           hitColor: ff6b69
-          shake: 2.666
-          spawnUnit: "quell-missile"
+          speed: 0
           keepVelocity: false
-          speed: 5
-          maxRange: 200
-          outlineColor: ff6b69
-          health: 50
-          homingPower: 0
-          homingDelay: 0
-          lowAltitude: true
-          engineSize: 1.75
-          engineColor: ff6b69
-          trailColor: ff6b69
-          engineLayer: effect
-          deathExplosionEffect: none
-          loopSoundVolume: 0.1
-          weapons: [
-            {
-              shootCone: 360
-              mirror: false
-              reload: 1
-              shootOnDeath: true
-              bullet: {
-                type: ExplosionBulletType
-                damage: 140
-                splashRadius: 25
-                shootEffect: [
-                  {
-                    type: ExplosionEffect
-                    lifetime: 50
-                    waveStroke: 5
-                    waveLife: 8
-                    waveColor: ff6b69
-                    sparkColor: ff6b69
-                    smokeColor: ff6b69
-                    waveRad: 40
-                    smokeSize: 2
-                    smokes: 5
-                    smokeSizeBase: 1
-                    sparks: 13
-                    sparksRad: 33
-                    sparksLen: 9
-                    sparkStroke: 3
-                  }
-                ]
+          spawnUnit: {
+            type: MissileUnitType
+            name: "quell-missile"
+            health: 75
+            speed: 5
+            maxRange: 5
+            outlineColor: ff6b69
+            homingPower: 0
+            homingDelay: 0
+            engineSize: 2
+            engineColor: ff6b69
+            trailColor: ff6b69 
+            engineLayer: effect
+            deathExplosionEffect: none
+            recoil: 0.9
+            rotateSpeed: 1.75
+            shootSound: shootMissileLarge
+            loopSoundVolume: 0.1
+            weapons: [
+              {
+                shootCone: 360
+                mirror: false
+                reload: 1
+                shootOndeath: true
+                bullet: {
+                  type: ExplosionBulletType
+                  damage: 140
+                  splashRadius: 25
+                  shootEffect: [
+                    {
+                      type: ExplosionEffect
+                      lifetime: 50
+                      waveStroke: 5
+                      waveLife: 8
+                      waveColor: ff6b69
+                      sparkColor: ff6b69 
+                      smokeColor: ff6b69
+                      waveRad: 40
+                      smokeSize: 4
+                      smokes: 5
+                      smokeSizeBase: 1
+                      sparks: 13
+                      sparksRad: 33
+                      sparksLen: 9
+                      sparkStroke: 3
+                    }
+                  ]
+                }
               }
-            }
-          ]
+            ]
+          }
         }
       }
     ]
